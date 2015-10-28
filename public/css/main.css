@@ -1,0 +1,206 @@
+.satisfy {
+  font-family: 'Satisfy', cursive;
+}
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+.cafe {
+  color: #572f0b;
+}
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+body .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+body .navbar-default .navbar-toggle {
+  border: none;
+}
+body .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+body .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 35px;
+}
+body .navbar-default .navbar-brand {
+  color: transparent;
+}
+body .row.wood {
+  background: transparent url("../../images/madera-mobile-01.jpg") repeat-x center top;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 130px;
+}
+body .logo-top.icon-garraf {
+  font-size: 10em;
+  color: #fff;
+  line-height: 0.9em;
+}
+body .slogan.oswald {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 1.8em;
+}
+body .slogan.oswald .satisfy {
+  font-size: 1.2em;
+}
+body .helados-mobile {
+  width: 300px;
+  margin: -150px auto 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+  display: block;
+  text-align: center;
+}
+body .helados-mobile img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  display: block;
+}
+body .helados-mobile img.img-left,
+body .helados-mobile img.img-right {
+  width: 120px;
+  z-index: 1;
+}
+body .helados-mobile img.img-left {
+  left: 20px;
+}
+body .helados-mobile img.img-right {
+  right: 20px;
+  width: 110px;
+}
+body .helados-mobile img.img-center {
+  width: 226px;
+  z-index: 2;
+  left: 50%;
+  margin-left: -113px;
+}
+body .home-prod {
+  text-align: center;
+  margin-bottom: 40px;
+  display: block;
+}
+body .home-prod p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+body .home-prod p.oswald.cafe {
+  font-size: 2em;
+}
+body .home-prod a.cafe {
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+body .home-prod a.cafe span {
+  vertical-align: middle;
+}
+body .m-top-65 {
+  margin-top: -65px;
+}
+body .m-top-230 {
+  margin-top: -230px;
+}
+body .fresh-img {
+  width: 190px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+body .shadow-img {
+  width: 120px;
+  height: auto;
+  display: inline-block;
+}
+body .bricks {
+  background: transparent url("../../images/brick_wall_mobile.jpg") repeat-x center top;
+  height: 360px;
+  display: block;
+  padding-top: 40px;
+}
+body .bricks .icon-garrafon {
+  font-size: 8em;
+  text-align: center;
+}
+body .b-top {
+  border-top: 2px solid #572f0b;
+}
+body .b-bottom {
+  border-bottom: 2px solid #572f0b;
+}
+body p.oswald.cafe.b-top.b-bottom {
+  line-height: 0.9em;
+}
+body .branches {
+  background: transparent url("../../images/paper_texture.jpg") repeat-x center top;
+  height: auto;
+  display: block;
+  padding: 60px 0;
+}
+body .branches .container {
+  width: 90%;
+  margin: 0 auto;
+}
+body .branches h2.title {
+  border-top: 2px solid #572f0b;
+  border-bottom: 2px solid #572f0b;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+body .branches .address {
+  margin-top: 15px;
+}
+body .branches .address .title {
+  font-size: 1.1em;
+}
+body .branches .address .info {
+  padding-left: 20px;
+  line-height: 1.2em;
+}
+body .branches .address a {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+body footer {
+  padding-bottom: 40px;
+}
+body footer .container p.oswald.cafe {
+  border-top: 2px solid #572f0b;
+  border-bottom: 2px solid #572f0b;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2.6em;
+  line-height: 0.9em;
+}
+body footer .social {
+  padding: 0;
+  text-align: center;
+}
+body footer .social li {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0 5px;
+}
+body footer .social a {
+  color: #572f0b;
+  text-decoration: none;
+}
+body footer .logo {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 8em;
+  line-height: 0.9em;
+}
+
+/*# sourceMappingURL=main.css.map */
