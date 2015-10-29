@@ -14,6 +14,12 @@ body {
 body .navbar-default {
   background-color: transparent;
   border: none;
+  transition: background-color 0.8s ease;
+}
+body .navbar-default.active,
+body .navbar-default.active_ {
+  background-color: rgba(0,0,0,0.8);
+  transition: all 0.8s ease;
 }
 body .navbar-default .navbar-toggle {
   border: none;
@@ -28,6 +34,13 @@ body .navbar-default .navbar-toggle .icon-bar {
 }
 body .navbar-default .navbar-brand {
   color: transparent;
+  font-size: 2.6em;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+body .navbar-default .navbar-brand.active {
+  color: #fff;
+  transition: all 1.5s ease;
 }
 body .row.wood {
   background: transparent url("../../images/madera-mobile-01.jpg") repeat-x center top;
@@ -145,6 +158,7 @@ body .branches {
   height: auto;
   display: block;
   padding: 60px 0;
+  overflow: hidden;
 }
 body .branches .container {
   width: 90%;
@@ -201,6 +215,322 @@ body footer .logo {
   text-align: center;
   font-size: 8em;
   line-height: 0.9em;
+}
+@media screen and (min-width: 480px) {
+  body .slogan.oswald {
+    width: 400px;
+    font-size: 2.2em;
+  }
+  body .slogan.oswald .satisfy {
+    font-size: 1.4em;
+  }
+  body .helados-mobile {
+    width: 400px;
+    margin: -150px auto 0 auto;
+    height: 350px;
+  }
+  body .helados-mobile img {
+    width: 100px;
+  }
+  body .helados-mobile img.img-left,
+  body .helados-mobile img.img-right {
+    width: 150px;
+    z-index: 1;
+  }
+  body .helados-mobile img.img-left {
+    left: 10px;
+  }
+  body .helados-mobile img.img-right {
+    right: 10px;
+    width: 140px;
+  }
+  body .helados-mobile img.img-center {
+    width: 300px;
+    margin-left: -150px;
+  }
+  body .home-prod.m-top-65 {
+    margin-top: -15px;
+  }
+  body .home-prod.m-top-65 p.oswald.cafe {
+    font-size: 2.4em;
+  }
+  body .home-prod.m-top-65 a.cafe {
+    font-size: 1em;
+  }
+  body .fresh-img {
+    width: 270px;
+  }
+  body .shadow-img {
+    width: 200px;
+  }
+  body .bricks .icon-garrafon {
+    font-size: 10em;
+  }
+  body .b-top {
+    border-top: 2px solid #572f0b;
+  }
+  body .b-bottom {
+    border-bottom: 2px solid #572f0b;
+  }
+  body p.oswald.cafe.b-top.b-bottom {
+    line-height: 0.9em;
+  }
+  body .branches {
+    padding: 100px 0;
+    text-align: center;
+  }
+  body .branches h2.title {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+  body .branches .address {
+    margin-top: 15px;
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+  }
+  body .branches .address .title {
+    font-size: 1.1em;
+  }
+  body .branches .address .info {
+    padding-left: 15px;
+    line-height: 1.1em;
+  }
+  body .branches .address a {
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .navbar-default {
+    padding-top: 10px;
+  }
+  body .navbar-default .navbar-brand.active {
+    color: transparent;
+  }
+  body .navbar-default .navbar-header {
+    width: 0;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li {
+    display: inline-block;
+    float: none;
+    font-size: 0.85em;
+    position: relative;
+    vertical-align: middle;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.icon {
+    width: 60px;
+    margin: 0 25px 0 65px;
+    text-left: left;
+    padding-left: 0;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.icon a {
+    color: transparent;
+    float: left;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.icon.active a {
+    color: #fff;
+    font-size: 4em;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 0;
+    margin-top: -10px;
+    transition: color 3s ease;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.icon.active a:after {
+    content: '';
+    background-color: transparent;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.active a {
+    background-color: transparent;
+    position: relative;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav li.active a:after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    clear: both;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 10px;
+  }
+  body .navbar-default .navbar-collapse .navbar-nav a {
+    color: #fff;
+  }
+  body .row.wood {
+    background-image: url("../../images/madera.jpg");
+    padding-bottom: 320px;
+  }
+  body .slogan.oswald {
+    width: 500px;
+    font-size: 2.8em;
+    line-height: 1.4em;
+  }
+  body .slogan.oswald .satisfy {
+    font-size: 1.8em;
+  }
+  body .helados-mobile {
+    width: 550px;
+    margin: -340px auto 0 auto;
+    height: 470px;
+  }
+  body .helados-mobile img {
+    width: 100px;
+  }
+  body .helados-mobile img.img-left,
+  body .helados-mobile img.img-right {
+    width: 250px;
+  }
+  body .helados-mobile img.img-left {
+    left: 0;
+  }
+  body .helados-mobile img.img-right {
+    right: 0;
+    width: 240px;
+  }
+  body .helados-mobile img.img-center {
+    width: 450px;
+    margin-left: -225px;
+  }
+  body .home-prod {
+    margin-bottom: 40px;
+    display: block;
+    margin-bottom: 100px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  body .home-prod.alternativa {
+    margin-top: -70px;
+  }
+  body .home-prod .info {
+    display: inline-block;
+    width: 350px;
+    vertical-align: middle;
+  }
+  body .home-prod .info p {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    display: block;
+  }
+  body .home-prod .info p.alternativa {
+    float: left;
+  }
+  body .home-prod .info p.oswald.cafe {
+    font-size: 3em;
+    display: block;
+  }
+  body .fresh-img {
+    width: 290px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  body .shadow-img {
+    width: 220px;
+    height: auto;
+    display: inline-block;
+  }
+  body .images {
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 10px;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 40px;
+  }
+  body .images.alternativa {
+    float: right;
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+  body .images.alternativa .fresh-img {
+    width: 350px;
+  }
+  body .bricks {
+    background-image: url("../../images/brick_wall.jpg");
+    height: 700px;
+    display: block;
+    padding-top: 80px;
+  }
+  body .bricks .icon-garrafon {
+    font-size: 14em;
+    text-align: center;
+  }
+  body .home-prod.m-top-230.garrafon {
+    margin-top: -450px;
+    margin-bottom: 50px;
+  }
+  body .home-prod.m-top-230.garrafon .fresh-img {
+    width: 450px;
+  }
+  body p.oswald.cafe.b-top.b-bottom {
+    line-height: 0.9em;
+    font-size: 4em;
+    width: 450px;
+    margin: 20px auto 0 auto;
+  }
+  body .branches {
+    padding: 100px 0;
+    text-align: center;
+  }
+  body .branches h2.title {
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 4em;
+  }
+  body .branches .address {
+    margin-top: 15px;
+    width: 36%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+  }
+  body .branches .address .title {
+    font-size: 1.3em;
+  }
+  body .branches .address .info {
+    padding-left: 15px;
+    line-height: 1.2em;
+  }
+  body .branches .address a {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  body footer .container p.oswald.cafe {
+    font-size: 3.6em;
+    width: 450px;
+    margin: 0 auto 20px auto;
+  }
+  body footer .social {
+    padding: 0;
+    text-align: center;
+  }
+  body footer .social li {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0 5px;
+  }
+  body footer .social a {
+    color: #572f0b;
+    text-decoration: none;
+  }
+  body footer .logo {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 8em;
+    line-height: 0.9em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

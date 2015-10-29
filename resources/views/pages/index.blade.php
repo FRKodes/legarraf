@@ -20,29 +20,45 @@
 		</div>
 
 		<div class="home-prod m-top-65">
-			<p class="oswald cafe">
+			<p class="oswald cafe hidden-sm hidden-md hidden-lg">
 				FRESCO, ORIGINAL <br>
 				<span class="satisfy">y divertido</span>
 			</p>
-			<img src="/images/fresco-original-divertido.png" alt="fresco-original-divertido" class="fresh-img magic"> <br>
-			<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
-			</p>
-			<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+			<div class="images">
+				<img src="/images/fresco-original-divertido.png" alt="fresco-original-divertido" class="fresh-img magic"> <br>
+				<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
+			</div>
+			<div class="info">
+				<p class="oswald cafe hidden-xs">
+					FRESCO, ORIGINAL <br>
+					<span class="satisfy">y divertido</span>
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
+				</p>
+				<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+			</div>
 		</div>
 
-		<div class="home-prod">
-			<p class="oswald cafe">
+		<div class="home-prod alternativa">
+			<p class="oswald cafe  hidden-sm hidden-md hidden-lg hidden-xl">
 				UNA ALTERNATIVA <br>
 				<span class="satisfy">saludable</span>
 			</p>
-			<img src="/images/endulzada-con-splenda.png" alt="Nieve endulzada con Splenda" class="fresh-img magic"> <br>
-			<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
-			</p>
-			<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+			<div class="images alternativa">
+				<img src="/images/endulzada-con-splenda.png" alt="Nieve endulzada con Splenda" class="fresh-img magic"> <br>
+				<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
+			</div>
+			<div class="info">
+				<p class="oswald cafe hidden-xs">
+					UNA ALTERNATIVA <br>
+					<span class="satisfy">saludable</span>
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
+				</p>
+				<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+			</div>
 		</div>
 
 	</div>
@@ -51,12 +67,12 @@
 	</div>
 
 	<div class="container">
-		<div class="home-prod m-top-230">
+		<div class="home-prod m-top-230 garrafon">
 			<img src="/images/garrafon.png" alt="producto garrafon" class="fresh-img magic"> <br>
 			<img src="/images/shadow.png" alt="garrafón shadow" class="shadow-img magic">
 			<p class="oswald cafe b-top b-bottom">
-				UNA ALTERNATIVA <br>
-				<span class="satisfy">saludable</span>
+				FRESCO, FRUTAL<br>
+				<span class="satisfy">y natural</span>
 			</p>
 			<p>
 				<a href="#" class="cafe"><b>CONOCE GARRAFÓN</b> <span class="icon-arrow"></span></a>

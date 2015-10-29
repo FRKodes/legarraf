@@ -7,15 +7,19 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Le Garraf</a>
+			<a class="navbar-brand icon-garrafa" href="/"></a>
 		</div>
 
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class="active"><a href="/">Inicio</a></li>
+				<li><a href="acerca-de">Acerca de</a></li>
+				<li><a href="productos">Productos</a></li>
+				<li class="icon"><a href="/" class="icon-garrafa"></a></li>
+				<li><a href="garrafon">Garrafon</a></li>
+				<li><a href="eventos">Eventos</a></li>
+				<li><a href="sucursales">Sucursales</a></li>
 			</ul>
-		</div><!--/.nav-collapse -->
+		</div>
 	</div>
 </nav>
