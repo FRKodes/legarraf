@@ -59,6 +59,7 @@ body
 		height 300px
 		display block
 		text-align center
+		opacity 0
 		img
 			width 100px
 			height auto
@@ -78,6 +79,14 @@ body
 				z-index 2
 				left 50%
 				margin-left -113px
+			&.img-garrafa
+				width 160px
+				display inline-block
+				position relative
+	.m-top-55
+		margin-top -55px
+		position relative
+		z-index 1
 	.home-prod
 		text-align center
 		margin-bottom 40px
@@ -88,6 +97,8 @@ body
 			padding 20px 0
 		p.oswald.cafe
 			font-size 2em
+			position relative
+			z-index 2
 		a.cafe
 			font-size .9em
 			vertical-align middle
@@ -102,10 +113,17 @@ body
 		height auto
 		display inline-block
 		text-align center
+		opacity 0
+		position relative
+		z-index 1
 	.shadow-img
 		width 120px
 		height auto
 		display inline-block
+		opacity 0
+		&.magictime
+			opacity 1
+			transition all 1s ease
 	.bricks
 		background transparent url(../../images/brick_wall_mobile.jpg) repeat-x center top
 		height 360px
@@ -114,6 +132,8 @@ body
 		.icon-garrafon
 			font-size 8em
 			text-align center
+			position relative
+			z-index 2
 	.b-top
 		border-top 2px solid cafe
 	.b-bottom
@@ -124,7 +144,7 @@ body
 		background transparent url(../../images/paper_texture.jpg) repeat-x center top
 		height auto
 		display block
-		padding 60px 0
+		padding 30px 0
 		overflow hidden
 		.container
 			width 90%
@@ -145,6 +165,8 @@ body
 			a
 				font-size .9em
 				margin-top 5px
+				&:hover
+					color cafe
 	footer
 		padding-bottom 40px
 		.container
@@ -196,6 +218,8 @@ body
 				&.img-center
 					width 300px
 					margin-left -150px
+				&.img-garrafa
+					width 240px
 		.home-prod.m-top-65
 			margin-top -15px
 			p.oswald.cafe
@@ -320,16 +344,26 @@ body
 				&.img-center
 					width 450px
 					margin-left -225px
+				&.img-garrafa
+					width 320px
+		.m-top-55
+			margin-top 100px
+		.m-top0
+			margin-top -50px
 		.home-prod
 			margin-bottom 40px
 			display block
 			margin-bottom 100px
 			height auto
-			overflow hidden
 			text-align center
+			display table
+			margin-left auto
+			margin-right auto
+			float none
 			&.alternativa
 				margin-top -70px
 			.info
+				display table-header-group
 				display inline-block
 				width 350px
 				vertical-align middle
@@ -354,7 +388,6 @@ body
 			display inline-block
 		.images
 			display inline-block
-			overflow hidden
 			margin-right 10px
 			height auto
 			vertical-align middle
@@ -363,6 +396,9 @@ body
 				float right
 				padding-bottom 0
 				padding-top 20px
+				margin-right 0
+				margin-left 10px
+				display table-footer-group
 				.fresh-img
 					width 350px
 		.bricks
@@ -427,3 +463,71 @@ body
 				text-align center
 				font-size 8em 
 				line-height .9em
+@media screen and (min-width:1000px)
+	body
+		.navbar-default
+			padding-top 20px
+			.navbar-collapse
+				.navbar-nav
+					text-align center
+					li
+						font-size 1em
+						margin 0 12px
+						&.icon
+							width 70px
+							&.active
+								a
+									padding-left 0
+									padding-top 0
+									padding-bottom 20px
+		.images
+			margin-right 40px
+			&.alternativa
+				margin-left 40px
+		.branches
+			padding 120px 0
+			.address
+				margin-top 15px
+				width 24.5%
+				.title
+					font-size 1.6em
+					.icon-garrafa
+						font-size 1.1em
+						margin-right 10px
+				.info
+					padding-left 35px
+					line-height 1.4em
+				a
+					margin-top 15px
+					font-weight bold
+@media screen and (min-width:1280px)
+	body
+		.navbar-default
+			.navbar-collapse
+				.navbar-nav
+					li
+						font-size 1.2em
+						margin 0 20px
+						&.icon
+							width 90px
+							&.active
+								a
+									padding-left 0
+									padding-top 0
+									padding-bottom 20px
+		.home-prod
+			.info
+				width 550px
+		.images
+			margin-right 80px
+			&.alternativa
+				margin-left 80px
+		.fresh-img.m-top-55
+			width 400px
+		.branches
+			h2.title
+				width 450px
+			.address
+				width 20%
+				&:first-of-type
+					margin-left 10%

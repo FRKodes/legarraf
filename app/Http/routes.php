@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('acerca-de', 'PagesController@acercade');
 
 // Route::get('home', 'HomeController@index');
 

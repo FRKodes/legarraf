@@ -25,8 +25,8 @@
 				<span class="satisfy">y divertido</span>
 			</p>
 			<div class="images">
-				<img src="/images/fresco-original-divertido.png" alt="fresco-original-divertido" class="fresh-img magic"> <br>
-				<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
+				<img id="nieve-normal" src="/images/fresco-original-divertido.png" alt="fresco-original-divertido" class="fresh-img"> <br>
+				<img id="nieve-normal-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">
@@ -46,8 +46,8 @@
 				<span class="satisfy">saludable</span>
 			</p>
 			<div class="images alternativa">
-				<img src="/images/endulzada-con-splenda.png" alt="Nieve endulzada con Splenda" class="fresh-img magic"> <br>
-				<img src="/images/shadow.png" alt="ice cream shadow" class="shadow-img magic">
+				<img id="nieve-splenda" src="/images/endulzada-con-splenda.png" alt="Nieve endulzada con Splenda" class="fresh-img"> <br>
+				<img id="nieve-splenda-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">
@@ -68,8 +68,8 @@
 
 	<div class="container">
 		<div class="home-prod m-top-230 garrafon">
-			<img src="/images/garrafon.png" alt="producto garrafon" class="fresh-img magic"> <br>
-			<img src="/images/shadow.png" alt="garrafón shadow" class="shadow-img magic">
+			<img id="agua" src="/images/garrafon_agua.png" alt="producto garrafon" class="fresh-img"> <br>
+			<img id="agua-shadow" src="/images/shadow.png" alt="garrafón shadow" class="shadow-img">
 			<p class="oswald cafe b-top b-bottom">
 				FRESCO, FRUTAL<br>
 				<span class="satisfy">y natural</span>
@@ -79,57 +79,5 @@
 			</p>
 		</div>
 
-	</div>
-	
-	<div class="container-fluid branches">
-		<div class="row">
-			<div class="container">
-				<h2 class="title oswald cafe">SUCURSALES</h2>
-				
-				<div class="address">
-					<div class="title oswald cafe"><span class="icon-garrafa"></span> PABLO NERUDA</div>
-					<div class="info">
-						<p>
-							Av. Pablo Neruda 3158 <br>
-							Col. Providencia <br>
-							<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
-						</p>
-					</div>
-				</div>
-
-				<div class="address">
-					<div class="title oswald cafe"><span class="icon-garrafa"></span>Chapalita</div>
-					<div class="info">
-						<p>
-							Niño Obrero # 1466 esq. Guadalupe <br>
-							Colonia Chapalita<br>
-							<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
-						</p>
-					</div>
-				</div>
-
-				<div class="address">
-					<div class="title oswald cafe"><span class="icon-garrafa"></span>Andares</div>
-					<div class="info">
-						<p>
-							Plaza Andares <br>
-							Planta baja <br>
-							<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
-						</p>
-					</div>
-				</div>
-
-				<div class="address">
-					<div class="title oswald cafe"><span class="icon-garrafa"></span>Toscana</div>
-					<div class="info">
-						<p>
-							Próximamente.<br>
-							<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
 	</div>
 @stop
