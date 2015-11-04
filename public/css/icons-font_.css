@@ -38,28 +38,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow:before {
-  content: "a";
+.icon-d-1:before {
+  content: "H";
 }
-.icon-fb:before {
-  content: "b";
+.icon-f-1:before {
+  content: "J";
 }
 .icon-garraf:before {
-  content: "c";
+  content: "b";
 }
 .icon-garrafa:before {
-  content: "d";
+  content: "c";
 }
 .icon-garrafon:before {
+  content: "d";
+}
+.icon-d:before {
   content: "e";
 }
-.icon-garrafoncito:before {
+.icon-arrow:before {
   content: "f";
 }
-.icon-ice-cream:before {
-  content: "g";
+.icon-fb:before {
+  content: "a";
 }
 .icon-ig:before {
+  content: "g";
+}
+.icon-f:before {
   content: "h";
 }
 .icon-mail:before {

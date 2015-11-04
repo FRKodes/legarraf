@@ -25,4 +25,8 @@ class PagesController extends Controller {
 		return view('pages.sucursales');	
 	}
 
+	public function productos(){
+		return view('pages.productos');	
+	}
+
 }

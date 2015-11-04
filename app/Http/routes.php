@@ -14,6 +14,7 @@
 Route::get('/', 'PagesController@index');
 Route::get('acerca-de', 'PagesController@acercade');
 Route::get('sucursales', 'PagesController@sucursales');
+Route::get('productos', 'PagesController@productos');
 
 // Route::get('home', 'HomeController@index');
 

@@ -18,12 +18,12 @@ $( window ).scroll(function() {
 	};
 
 	/*
-	 Animations about page
+	 Animations home page
 	 */
-	if ($('#lunetas')) {
+	if ($('#nieve-normal')) {
 
-		var lunetas = $('#nieve-normal').offset().top-650;
-		if (scroll > lunetas) {
+		var nieve = $('#nieve-normal').offset().top-650;
+		if (scroll > nieve) {
 			setTimeout(function(){
 			    $('#nieve-normal').addClass('magictime vanishIn');
 			}, 200);
@@ -79,17 +79,21 @@ $( window ).scroll(function() {
 		};
 	};
 
-
 });
 
 $('.navbar-toggle').on('click', function (){
 	$('.navbar-default').toggleClass('active_');
 });
 
-// $('.helados-mobile').on('click', function () {
-//   $(this).addClass('magictime puffIn');
-// });
+$('.products-menu a').on('click', function(){
+	var _current_ = $(this).attr('href').substr(1);
+	$('.products-menu a').removeClass('active');
+	$(this).addClass('active');
+	$('.col-xs-6').addClass('hidden');
+	$('.' + _current_).removeClass('hidden').addClass('magictime vanishIn');
+});
+
 setTimeout(function(){
     $('.helados-mobile').addClass('magictime puffIn');
-}, 100);
+}, 200);
 //# sourceMappingURL=custom-scripts.min.js.map

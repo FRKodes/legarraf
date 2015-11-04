@@ -7,9 +7,13 @@
 .cafe {
   color: #572f0b;
 }
+.blanco {
+  color: #fff;
+}
 body {
   background-color: #fff;
   font-family: 'Lato', sans-serif;
+/*Products*/
 }
 body .navbar-default {
   background-color: transparent;
@@ -100,6 +104,11 @@ body .helados-mobile img.img-center {
 }
 body .helados-mobile img.img-garrafa {
   width: 160px;
+  display: inline-block;
+  position: relative;
+}
+body .helados-mobile img.img-productos {
+  width: 260px;
   display: inline-block;
   position: relative;
 }
@@ -243,29 +252,88 @@ body .sucursal .images img {
   height: auto;
   display: block;
 }
-body .row.mapa {
+body .row.all-long {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-body .row.mapa .top,
-body .row.mapa .bottom {
+body .row.all-long .top,
+body .row.all-long .bottom {
   width: 100%;
   height: 60px;
   background: transparent url("../../images/rasgadura-top-mobile.png") repeat-x center top;
   position: relative;
   z-index: 2;
 }
-body .row.mapa .bottom {
+body .row.all-long .bottom {
   background-image: url("../../images/rasgadura-bottom-mobile.png");
   margin-top: -60px;
 }
-body .row.mapa img {
+body .row.all-long img {
   width: 100%;
   height: auto;
   display: block;
   margin-top: -60px;
   position: relative;
   z-index: 1;
+}
+body h2.oswald.cafe.text-center {
+  margin-top: -90px;
+}
+body h3.title {
+  font-size: 1.1em;
+}
+body .productos {
+  line-height: 0.9em;
+}
+body .icon-ice-cream {
+  font-size: 2.8em;
+}
+body .row.products img {
+  margin-top: 0;
+}
+body .products-menu {
+  padding: 0 0 40px 0;
+  text-align: center;
+}
+body .products-menu li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 1.4em;
+  border-right: 1px solid #fff;
+}
+body .products-menu li:last-of-type {
+  border: none;
+}
+body .products-menu a {
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 1.5s ease;
+}
+body .products-menu a.active {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+body .products-menu a.visited,
+body .products-menu a.hover,
+body .products-menu a.active {
+  text-decoration: none;
+}
+body .row.all-long.products {
+  background: transparent url("../../images/pizarra.jpg") repeat center top;
+  margin-top: -58px;
+  padding: 80px 0;
+}
+body .row.all-long.top {
+  margin-bottom: 0;
+}
+body .row.all-long.bottom {
+  margin-top: -40px;
+}
+body .row.all-long .col-xs-6 {
+  margin-bottom: 30px;
+}
+body .satisfy.text-center.blanco {
+  font-size: 1.4em;
 }
 body footer {
   padding-bottom: 40px;
