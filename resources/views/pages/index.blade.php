@@ -25,7 +25,7 @@
 				<span class="satisfy">y divertido</span>
 			</p>
 			<div class="images">
-				<img id="nieve-normal" src="/images/fresco-original-divertido.png" alt="fresco-original-divertido" class="fresh-img"> <br>
+				<img id="nieve-normal" src="/images/scone-especial.png" alt="scone especial fresco original divertido" class="fresh-img"> <br>
 				<img id="nieve-normal-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">

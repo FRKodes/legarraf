@@ -78,7 +78,7 @@ $('.products-menu a').on('click', function(){
 	var _current_ = $(this).attr('href').substr(1);
 	$('.products-menu a').removeClass('active');
 	$(this).addClass('active');
-	$('.col-xs-6').addClass('hidden');
+	$('.col-xs-6.flavors').addClass('hidden');
 	$('.' + _current_).removeClass('hidden').addClass('magictime vanishIn');
 });
 

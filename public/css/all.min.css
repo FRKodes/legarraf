@@ -353,6 +353,9 @@ body .row.all-long img {
 body h2.oswald.cafe.text-center {
   margin-top: -90px;
 }
+body h2.oswald.cafe.text-center.m-top0 {
+  margin-top: 0;
+}
 body h3.title {
   font-size: 1.1em;
 }
@@ -408,6 +411,20 @@ body .row.all-long .col-xs-6 {
 }
 body .satisfy.text-center.blanco {
   font-size: 1.4em;
+}
+body .especialidad {
+  text-align: center;
+  margin: 20px 0 10px 0;
+  float: left;
+  vertical-align: top;
+}
+body .especialidad img {
+  width: 90%;
+  height: auto;
+  display: inline-block;
+}
+body .especialidad p.satisfy.text-center {
+  font-size: 1.3em;
 }
 body footer {
   padding-bottom: 40px;
@@ -475,6 +492,9 @@ body footer .logo {
   body .helados-mobile img.img-garrafa {
     width: 240px;
   }
+  body .helados-mobile img.img-productos {
+    width: 400px;
+  }
   body .home-prod.m-top-65 {
     margin-top: -15px;
   }
@@ -527,6 +547,37 @@ body footer .logo {
   body .branches .address a {
     font-size: 0.9em;
     margin-top: 5px;
+  }
+  body h2.oswald.cafe.text-center {
+    margin-top: -20px;
+  }
+  body .icon-ice-cream {
+    font-size: 3.2em;
+  }
+  body .products-menu li {
+    padding: 0 30px;
+    font-size: 1.8em;
+  }
+  body .row.all-long.products img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body .satisfy.text-center.blanco {
+    font-size: 1.8em;
+  }
+  body .especialidad {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    float: left;
+    vertical-align: top;
+  }
+  body .especialidad img {
+    width: 90%;
+    height: auto;
+    display: inline-block;
+  }
+  body .especialidad p.satisfy.text-center {
+    font-size: 1.6em;
   }
 }
 @media screen and (min-width: 768px) {
@@ -630,6 +681,9 @@ body footer .logo {
   }
   body .helados-mobile img.img-garrafa {
     width: 320px;
+  }
+  body .helados-mobile img.img-productos {
+    width: 550px;
   }
   body .m-top-55 {
     margin-top: 100px;
@@ -749,6 +803,28 @@ body footer .logo {
     font-size: 1em;
     margin-top: 5px;
   }
+  body h2.oswald.cafe.text-center {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+  body .m-top0 {
+    margin-top: 0;
+  }
+  body .icon-ice-cream {
+    font-size: 2.6em;
+  }
+  body .products-menu li {
+    font-size: 2.2em;
+  }
+  body .especialidad {
+    margin: 25px 0 15px 0;
+  }
+  body .especialidad img {
+    width: 70%;
+  }
+  body .row.all-long.bottom {
+    margin-top: -49px;
+  }
   body footer .container p.oswald.cafe {
     font-size: 3.6em;
     width: 450px;
@@ -821,6 +897,15 @@ body footer .logo {
     margin-top: 15px;
     font-weight: bold;
   }
+  body .icon-ice-cream {
+    font-size: 3em;
+  }
+  body .products-menu li {
+    font-size: 2.2em;
+  }
+  body .especialidad img {
+    width: 75%;
+  }
 }
 @media screen and (min-width: 1280px) {
   body .navbar-default .navbar-collapse .navbar-nav li {
@@ -855,6 +940,9 @@ body footer .logo {
   }
   body .branches .address:first-of-type {
     margin-left: 10%;
+  }
+  body .row.all-long.products img {
+    width: 250px;
   }
 }
 
