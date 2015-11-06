@@ -29,4 +29,8 @@ class PagesController extends Controller {
 		return view('pages.productos');	
 	}
 
+	public function garrafon(){
+		return view('pages.garrafon');	
+	}
+
 }

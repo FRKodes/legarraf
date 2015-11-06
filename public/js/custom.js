@@ -9,7 +9,8 @@ $( window ).scroll(function() {
 	/*
 	 Animations home page
 	 */
-	if ($('#nieve-normal')) {
+	var nieve_normal = $('#nieve-normal');
+	if (nieve_normal) {
 
 		var nieve = $('#nieve-normal').offset().top-650;
 		if (scroll > nieve) {
@@ -64,6 +65,43 @@ $( window ).scroll(function() {
 			}, 200);
 			setTimeout(function(){
 			    $('#vaso-shadow').addClass('magictime slideDownRetourn');
+			}, 1000);
+		};
+	};
+
+	/*
+	 Animations garrafon page
+	 */
+	console.log(scroll);
+	if ($('#paletas')) {
+		// console.log('paletas');
+		var paletas = $('#paletas').offset().top-650;
+		if (scroll > paletas) {
+			setTimeout(function(){
+			    $('#paletas').addClass('magictime vanishIn');
+			}, 200);
+			setTimeout(function(){
+			    $('#paletas-shadow').addClass('magictime slideDownRetourn');
+			}, 1000);
+		};
+		
+		var garrafon_topping_mix = $('#garrafon-topping-mix').offset().top-650;
+		if (scroll > garrafon_topping_mix) {
+			setTimeout(function(){
+			    $('#garrafon-topping-mix').addClass('magictime vanishIn');
+			}, 200);
+			setTimeout(function(){
+			    $('#garrafon-topping-mix-shadow').addClass('magictime slideDownRetourn');
+			}, 1000);
+		};
+
+		var coco = $('#coco').offset().top-650;
+		if (scroll > coco) {
+			setTimeout(function(){
+			    $('#coco').addClass('magictime vanishIn');
+			}, 200);
+			setTimeout(function(){
+			    $('#coco-shadow').addClass('magictime slideDownRetourn');
 			}, 1000);
 		};
 	};

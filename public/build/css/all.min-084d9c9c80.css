@@ -126,9 +126,17 @@ body .row.wood {
   color: #fff;
   padding-bottom: 130px;
 }
+body .row.wood.bricks {
+  background: transparent url("../../images/brick_wall_mobile.jpg") repeat-x center -30px;
+}
 body .logo-top.icon-garraf {
   font-size: 10em;
   color: #fff;
+  line-height: 0.9em;
+}
+body .logo-top.icon-garrafon {
+  font-size: 10em;
+  color: #000;
   line-height: 0.9em;
 }
 body .slogan.oswald {
@@ -141,6 +149,13 @@ body .slogan.oswald {
 }
 body .slogan.oswald .satisfy {
   font-size: 1.2em;
+  z-index: 2;
+  position: relative;
+}
+body .slogan.oswald.garrafon {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  color: #000;
 }
 body .helados-mobile {
   width: 300px;
@@ -186,6 +201,9 @@ body .helados-mobile img.img-productos {
   display: inline-block;
   position: relative;
 }
+body .helados-mobile.garrafon {
+  z-index: 1;
+}
 body .m-top-55 {
   margin-top: -55px;
   position: relative;
@@ -195,6 +213,7 @@ body .home-prod {
   text-align: center;
   margin-bottom: 40px;
   display: block;
+  overflow: hidden;
 }
 body .home-prod p {
   width: 90%;
@@ -206,12 +225,23 @@ body .home-prod p.oswald.cafe {
   position: relative;
   z-index: 2;
 }
+body .home-prod p.oswald.cafe.garrafon {
+  font-size: 1.6em;
+  line-height: 1em;
+}
 body .home-prod a.cafe {
   font-size: 0.9em;
   vertical-align: middle;
 }
 body .home-prod a.cafe span {
   vertical-align: middle;
+}
+body .home-prod .info .text-left {
+  line-height: 1.2em;
+}
+body .home-prod .info .text-left .satisfy.cafe {
+  font-size: 1.6em;
+  line-height: 1.4em;
 }
 body .m-top-65 {
   margin-top: -65px;
@@ -425,6 +455,14 @@ body .especialidad img {
 }
 body .especialidad p.satisfy.text-center {
   font-size: 1.3em;
+}
+body h2.text-center.oswald.aguas {
+  font-size: 1.4em;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width: 260px;
+  margin: 0 auto 20px auto;
+  padding: 5px 0;
 }
 body footer {
   padding-bottom: 40px;
