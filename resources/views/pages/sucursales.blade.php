@@ -12,8 +12,8 @@
 	</div>
 	
 	<div class="container">
-		<div class="helados-mobile">
-			<img class="img-garrafa" src="/images/garrafa.png" alt="garrafa">
+		<div class="helados-mobile map-branches">
+			<img class="img-mapa" src="/images/mapa-sucursales-le-garraf.png" alt="mapa sucursales le garraf">
 		</div>
 
 		<div class="sucursal col-xs-12 col-sm-6">

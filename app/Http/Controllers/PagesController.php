@@ -33,4 +33,8 @@ class PagesController extends Controller {
 		return view('pages.garrafon');	
 	}
 
+	public function eventos(){
+		return view('pages.eventos');	
+	}
+
 }

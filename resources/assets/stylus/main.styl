@@ -4,7 +4,9 @@
 	font-family 'Oswald', sans-serif
 cafe = #572F0B
 blanco = #fff
-
+gris = #F1F1F1
+gris2 = #A0A1A3
+azul = #00ADEF
 .cafe
 	color cafe
 .blanco
@@ -102,12 +104,19 @@ body
 				width 260px
 				display inline-block
 				position relative
+			&.img-mapa
+				width 300px
 		&.garrafon
 			z-index 1
+		&.eventos
+		&.map-branches
+			margin-top -160px
 	.m-top-55
 		margin-top -55px
 		position relative
 		z-index 1
+	.text-center.eventos
+		margin-top -100px
 	.home-prod
 		text-align center
 		margin-bottom 40px
@@ -307,6 +316,126 @@ body
 		width 260px
 		margin 0 auto 20px auto
 		padding 5px 0
+	/*events*/
+	.text-center.eventos
+		line-height 1.4em
+	.quotation
+		margin-top 40px
+		.people
+			background-color gris
+			color #999
+			padding 15px
+			height 40px
+			position relative
+			p
+				margin-bottom 0
+			button
+				position absolute
+				background-color azul
+				display inline-block
+				right 0
+				top 0
+				border none
+				height 100%
+				width 40px
+				transform rotate(90deg)
+		.disclaimer
+			padding 25px 20px 40px 20px
+			line-height 1.4em
+			color gris2
+		.form-group
+			vertical-align middle
+			span
+				float left
+				display inline-block
+				vertical-align middle
+				color gris2
+				padding 8px 0
+			checkbox
+				display inline-block
+				vertical-align middle
+		.form-control
+			background-color gris
+			border-radius 0
+			border none
+			&:focus
+				outline none
+		.price
+			color azul
+			font-size 2.6em
+			padding 30px 0
+			&:before
+				content '$'
+		
+
+		/* SQUARED TWO */
+		.checkside
+			display inline-block
+			vertical-align middle
+		.squaredTwo
+			width 28px
+			height 28px
+			background azul
+			margin 0 auto
+			position relative
+			text-align center
+			display inline-block
+			vertical-align middle
+		.squaredTwo label
+			cursor pointer
+			position absolute
+			width 20px
+			height 20px
+			left 4px
+			top 4px
+			background white
+		.squaredTwo label:after
+			-ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+			opacity 0
+			content ''
+			position absolute
+			width 14px
+			height 7px
+			background transparent
+			top 5px
+			left 3px
+			border 4px solid azul
+			border-top none
+			border-right none
+			-webkit-transform rotate(-45deg)
+			-moz-transform rotate(-45deg)
+			-o-transform rotate(-45deg)
+			-ms-transform rotate(-45deg)
+			transform rotate(-45deg)
+
+		.squaredTwo label:hover::after
+			-ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"
+			opacity 0.3
+
+		.squaredTwo input[type=checkbox]:checked + label:after
+			-ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+			opacity 1
+		.margin-left
+			margin-left 15px
+
+		.btn.btn-primary
+			background-color azul
+			color blanco
+			border-radius 0
+			border 1px solid azul
+			width 100%
+			font-size 1.4em
+			margin-top 10px
+	.faq
+		padding-top 40px
+		padding-bottom 40px
+		p
+			line-height 1.2em
+		.question
+			color azul
+		.answer
+			padding-bottom 10px
+
 	footer
 		padding-bottom 40px
 		.container
@@ -362,6 +491,10 @@ body
 					width 240px
 				&.img-productos
 					width 400px
+				&.img-mapa
+					width 420px
+			&.garrafon
+				margin-top -110px
 		.home-prod.m-top-65
 			margin-top -15px
 			p.oswald.cafe
@@ -430,6 +563,12 @@ body
 				display inline-block
 			p.satisfy.text-center
 				font-size 1.6em
+		/*events 480*/
+		.quotation
+		.faq
+			width 420px
+			margin-left auto
+			margin-right auto
 @media screen and (min-width:768px)
 	body
 		.navbar-default
@@ -490,12 +629,16 @@ body
 		.row.wood
 			background-image url(../../images/madera.jpg)
 			padding-bottom 320px
+			&.bricks
+				background-image url(../../images/brick_wall.jpg)
 		.slogan.oswald
 			width 500px
 			font-size 2.8em
 			line-height 1.4em
 			.satisfy
 				font-size 1.8em
+			&.garrafon
+				line-height 2em
 		.helados-mobile
 			width 550px
 			margin -340px auto 0 auto
@@ -517,6 +660,14 @@ body
 					width 320px
 				&.img-productos
 					width 550px
+				&.img-mapa
+					width 580px
+			&.garrafon
+				margin-top -330px
+			&.eventos
+				margin-top -350px
+			&.map-branches
+				margin-top -330px
 		.m-top-55
 			margin-top 100px
 		.m-top0
@@ -548,6 +699,8 @@ body
 				p.oswald.cafe
 					font-size 3em
 					display block
+					&.garrafon
+						font-size 2em
 		.fresh-img
 			width 290px
 			height auto
@@ -630,6 +783,13 @@ body
 		.row.all-long
 			&.bottom
 				margin-top -49px
+			h2.text-center.oswald.aguas.blanco
+				font-size 1.8em
+				width 360px
+		/*events 768*/
+		.quotation
+		.faq
+			width 600px
 		/*768*/
 		footer
 			.container
@@ -698,6 +858,12 @@ body
 		.especialidad
 			img
 				width 75%
+		/*events 1000*/
+		p.text-center.eventos
+			margin-top -60px
+			margin-bottom 60px
+		.faq
+			width 880px
 @media screen and (min-width:1280px)
 	body
 		.navbar-default
@@ -733,3 +899,5 @@ body
 			&.products
 				img
 					width 250px
+		.faq
+			width 1200px

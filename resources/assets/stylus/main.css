@@ -14,7 +14,6 @@ body {
   background-color: #fff;
   font-family: 'Lato', sans-serif;
 /*Products*/
-/*events*/
 }
 body .navbar-default {
   background-color: transparent;
@@ -128,23 +127,13 @@ body .helados-mobile img.img-productos {
   display: inline-block;
   position: relative;
 }
-body .helados-mobile img.img-mapa {
-  width: 300px;
-}
 body .helados-mobile.garrafon {
   z-index: 1;
-}
-body .helados-mobile.eventos,
-body .helados-mobile.map-branches {
-  margin-top: -160px;
 }
 body .m-top-55 {
   margin-top: -55px;
   position: relative;
   z-index: 1;
-}
-body .text-center.eventos {
-  margin-top: -100px;
 }
 body .home-prod {
   text-align: center;
@@ -401,142 +390,6 @@ body h2.text-center.oswald.aguas {
   margin: 0 auto 20px auto;
   padding: 5px 0;
 }
-body .text-center.eventos {
-  line-height: 1.4em;
-}
-body .quotation {
-  margin-top: 40px;
-/* SQUARED TWO */
-}
-body .quotation .people {
-  background-color: #f1f1f1;
-  color: #999;
-  padding: 15px;
-  height: 40px;
-  position: relative;
-}
-body .quotation .people p {
-  margin-bottom: 0;
-}
-body .quotation .people button {
-  position: absolute;
-  background-color: #00adef;
-  display: inline-block;
-  right: 0;
-  top: 0;
-  border: none;
-  height: 100%;
-  width: 40px;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-body .quotation .disclaimer {
-  padding: 25px 20px 40px 20px;
-  line-height: 1.4em;
-  color: #a0a1a3;
-}
-body .quotation .form-group {
-  vertical-align: middle;
-}
-body .quotation .form-group span {
-  float: left;
-  display: inline-block;
-  vertical-align: middle;
-  color: #a0a1a3;
-  padding: 8px 0;
-}
-body .quotation .form-group checkbox {
-  display: inline-block;
-  vertical-align: middle;
-}
-body .quotation .form-control {
-  background-color: #f1f1f1;
-  border-radius: 0;
-  border: none;
-}
-body .quotation .form-control:focus {
-  outline: none;
-}
-body .quotation .price {
-  color: #00adef;
-  font-size: 2.6em;
-  padding: 30px 0;
-}
-body .quotation .price:before {
-  content: '$';
-}
-body .quotation .checkside {
-  display: inline-block;
-  vertical-align: middle;
-}
-body .quotation .squaredTwo {
-  width: 28px;
-  height: 28px;
-  background: #00adef;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-}
-body .quotation .squaredTwo label {
-  cursor: pointer;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 4px;
-  top: 4px;
-  background: #fff;
-}
-body .quotation .squaredTwo label:after {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  opacity: 0;
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 7px;
-  background: transparent;
-  top: 5px;
-  left: 3px;
-  border: 4px solid #00adef;
-  border-top: none;
-  border-right: none;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-body .quotation .squaredTwo label:hover::after {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-  opacity: 0.3;
-}
-body .quotation .squaredTwo input[type=checkbox]:checked + label:after {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  opacity: 1;
-}
-body .quotation .margin-left {
-  margin-left: 15px;
-}
-body .quotation .btn.btn-primary {
-  background-color: #00adef;
-  color: #fff;
-  border-radius: 0;
-  border: 1px solid #00adef;
-  width: 100%;
-  font-size: 1.4em;
-  margin-top: 10px;
-}
-body .faq {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-body .faq p {
-  line-height: 1.2em;
-}
-body .faq .question {
-  color: #00adef;
-}
-body .faq .answer {
-  padding-bottom: 10px;
-}
 body footer {
   padding-bottom: 40px;
 }
@@ -568,7 +421,7 @@ body footer .logo {
   font-size: 8em;
   line-height: 0.9em;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width:480px) {
   body .slogan.oswald {
     width: 400px;
     font-size: 2.2em;
@@ -605,9 +458,6 @@ body footer .logo {
   }
   body .helados-mobile img.img-productos {
     width: 400px;
-  }
-  body .helados-mobile img.img-mapa {
-    width: 420px;
   }
   body .helados-mobile.garrafon {
     margin-top: -110px;
@@ -696,14 +546,8 @@ body footer .logo {
   body .especialidad p.satisfy.text-center {
     font-size: 1.6em;
   }
-  body .quotation,
-  body .faq {
-    width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   body .navbar-default {
     padding-top: 10px;
   }
@@ -814,16 +658,7 @@ body footer .logo {
   body .helados-mobile img.img-productos {
     width: 550px;
   }
-  body .helados-mobile img.img-mapa {
-    width: 580px;
-  }
   body .helados-mobile.garrafon {
-    margin-top: -330px;
-  }
-  body .helados-mobile.eventos {
-    margin-top: -350px;
-  }
-  body .helados-mobile.map-branches {
     margin-top: -330px;
   }
   body .m-top-55 {
@@ -973,10 +808,6 @@ body footer .logo {
     font-size: 1.8em;
     width: 360px;
   }
-  body .quotation,
-  body .faq {
-    width: 600px;
-  }
   body footer .container p.oswald.cafe {
     font-size: 3.6em;
     width: 450px;
@@ -1002,7 +833,7 @@ body footer .logo {
     line-height: 0.9em;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width:1000px) {
   body .navbar-default {
     padding-top: 20px;
   }
@@ -1058,15 +889,8 @@ body footer .logo {
   body .especialidad img {
     width: 75%;
   }
-  body p.text-center.eventos {
-    margin-top: -60px;
-    margin-bottom: 60px;
-  }
-  body .faq {
-    width: 880px;
-  }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width:1280px) {
   body .navbar-default .navbar-collapse .navbar-nav li {
     font-size: 1.2em;
     margin: 0 20px;
@@ -1103,9 +927,4 @@ body footer .logo {
   body .row.all-long.products img {
     width: 250px;
   }
-  body .faq {
-    width: 1200px;
-  }
 }
-
-/*# sourceMappingURL=main.css.map */

@@ -10,7 +10,7 @@ $( window ).scroll(function() {
 	 Animations home page
 	 */
 	var nieve_normal = $('#nieve-normal');
-	if (nieve_normal) {
+	if (nieve_normal.length) {
 
 		var nieve = $('#nieve-normal').offset().top-650;
 		if (scroll > nieve) {
@@ -46,7 +46,7 @@ $( window ).scroll(function() {
 	/*
 	 Animations about page
 	 */
-	if ($('#lunetas')) {
+	if ($('#lunetas').length) {
 
 		var lunetas = $('#lunetas').offset().top-650;
 		if (scroll > lunetas) {
@@ -72,8 +72,7 @@ $( window ).scroll(function() {
 	/*
 	 Animations garrafon page
 	 */
-	console.log(scroll);
-	if ($('#paletas')) {
+	if ($('#paletas').length) {
 		// console.log('paletas');
 		var paletas = $('#paletas').offset().top-650;
 		if (scroll > paletas) {
