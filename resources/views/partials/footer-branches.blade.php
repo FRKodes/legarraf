@@ -9,7 +9,7 @@
 					<p>
 						Av. Pablo Neruda 3158 <br>
 						Col. Providencia <br><br>
-						<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 					<p>
 						Niño Obrero # 1466 esq. Guadalupe <br>
 						Colonia Chapalita<br><br>
-						<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 					<p>
 						Plaza Andares <br>
 						Planta baja <br><br>
-						<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 				<div class="info">
 					<p>
 						Próximamente.<br><br>
-						<a href="#" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>
 			</div>
