@@ -464,6 +464,10 @@ body .especialidad img {
   height: auto;
   display: inline-block;
 }
+body .especialidad img.scone,
+body .especialidad img.papas {
+  width: 75%;
+}
 body .especialidad p.satisfy.text-center {
   font-size: 1.3em;
 }
@@ -1038,7 +1042,13 @@ body footer .logo {
     margin: 25px 0 15px 0;
   }
   body .especialidad img {
-    width: 70%;
+    width: 60%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  body .especialidad img.scone,
+  body .especialidad img.papas {
+    width: 45%;
   }
   body .row.all-long.bottom {
     margin-top: -49px;
@@ -1074,6 +1084,18 @@ body footer .logo {
     text-align: center;
     font-size: 8em;
     line-height: 0.9em;
+  }
+}
+@media screen and (min-width: 992px) {
+  body .especialidad img.flanke {
+    width: 70%;
+  }
+  body .especialidad img.scone,
+  body .especialidad img.papas {
+    width: 45%;
+  }
+  body .especialidad img.tresleches {
+    width: 50%;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -1130,7 +1152,19 @@ body footer .logo {
     font-size: 2.2em;
   }
   body .especialidad img {
-    width: 75%;
+    width: 65%;
+  }
+  body .especialidad img.flanke {
+    width: 70%;
+  }
+  body .especialidad img.scone {
+    width: 50%;
+  }
+  body .especialidad img.papas {
+    width: 55%;
+  }
+  body .especialidad img.tresleches {
+    width: 50%;
   }
   body p.text-center.eventos {
     margin-top: -60px;

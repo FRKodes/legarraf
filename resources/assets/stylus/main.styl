@@ -307,6 +307,9 @@ body
 			width 90%
 			height auto
 			display inline-block
+			&.scone
+			&.papas
+				width 75%
 		p.satisfy.text-center
 			font-size 1.3em
 	h2.text-center.oswald.aguas
@@ -779,7 +782,12 @@ body
 		.especialidad
 			margin 25px 0 15px 0
 			img
-				width 70%
+				width 60%
+				vertical-align middle
+				display inline-block
+				&.scone
+				&.papas
+					width 45%
 		.row.all-long
 			&.bottom
 				margin-top -49px
@@ -812,6 +820,17 @@ body
 				text-align center
 				font-size 8em 
 				line-height .9em
+@media screen and (min-width:992px)
+	body
+		.especialidad
+			img
+				&.flanke
+					width 70%
+				&.scone
+				&.papas
+					width 45%
+				&.tresleches
+					width 50%
 @media screen and (min-width:1000px)
 	body
 		.navbar-default
@@ -857,7 +876,15 @@ body
 				font-size 2.2em
 		.especialidad
 			img
-				width 75%
+				width 65%
+				&.flanke
+					width 70%
+				&.scone
+					width 50%
+				&.papas
+					width 55%
+				&.tresleches
+					width 50%
 		/*events 1000*/
 		p.text-center.eventos
 			margin-top -60px

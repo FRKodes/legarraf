@@ -95,11 +95,11 @@
 
 		<div class="container cafe">
 			<h2 class="oswald text-center m-top0">ESTAS SON NUESTRAS<br><span class="satisfy">especialidades</span></h2>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cazuelita chamoi</p><img src="/images/scone-especial.png" alt="czuelite de chamoi LE GARRAF"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img src="/images/scone-especial.png" alt="scone especial LE GARRAF"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/scone-especial.png" alt="coockie sandwich LE GARRAF"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">flanke</p><img src="/images/scone-especial.png" alt="flanke LE GARRAF"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">pastel de 3 leches</p><img src="/images/scone-especial.png" alt="pastel de tres leches LE GARRAF"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img src="/images/garrafon.png" alt="papas cuerdas garrafón"><br><img src="/images/shadow.png" alt="sombra producto LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cazuelita chamoi</p><img src="/images/cazuelita.png" alt="czuelita de chamoi LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">pastel de 3 leches</p><img class="tresleches" src="/images/pastel.png" alt="pastel de tres leches LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">flanke</p><img class="flanke" src="/images/flanke.png" alt="flanke LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich.png" alt="coockie sandwich LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial.png" alt="scone especial LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="papas" src="/images/garrafon.png" alt="papas cuerdas garrafón"></div>
 		</div>
 @stop
