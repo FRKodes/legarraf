@@ -391,6 +391,15 @@ body .row.all-long img {
   position: relative;
   z-index: 1;
 }
+body .row.all-long iframe {
+  width: 100% !important;
+  margin-top: -60px;
+}
+body .row.all-long #map {
+  height: 550px;
+  display: block;
+  margin-top: -60px;
+}
 body h2.oswald.cafe.text-center {
   margin-top: -90px;
 }
