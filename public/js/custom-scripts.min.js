@@ -122,7 +122,7 @@ $( window ).scroll(function() {
 	var andares = new google.maps.LatLng(20.665309,-103.408640);
 	var toscana = new google.maps.LatLng(20.729280,-103.435140);
 	var mapOptions = {
-	  zoom: 14,
+	  zoom: 12,
 	  center: myLatlng
 	}
 	var map = new google.maps.Map(document.getElementById("map"), mapOptions);

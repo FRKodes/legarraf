@@ -69,7 +69,7 @@
 		<div class="row all-long">
 			<div class="top"></div>
 			<img class="hidden-md hidden-lg hidden-xl" src="http://maps.googleapis.com/maps/api/staticmap?center=20.699776,-103.417528&size=860x400&style=feature:landscape|element:geometry|saturation:-500&markers=20.697196,-103.390865|20.708532,-103.411972|20.665309,-103.408640|20.729280,-103.435140&zoom=12&key=AIzaSyA5T-k23n9ncuGYzXtd7ayCWkJEdXduzBc" alt="Mapa de sucursales LE GARRAF">
-			<div id="map"></div>
+			<div id="map" class="hidden-xs hidden-sm"></div>
 			<div class="bottom"></div>
 		</div>
 	</div>
