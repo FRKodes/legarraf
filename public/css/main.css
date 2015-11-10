@@ -996,6 +996,9 @@ body footer .logo {
     font-size: 1.8em;
     width: 360px;
   }
+  body .row.all-long.products p.satisfy.text-center.blanco {
+    font-size: 1.1em;
+  }
   body .quotation,
   body .faq {
     width: 600px;
@@ -1090,6 +1093,9 @@ body footer .logo {
   body .products-menu li {
     font-size: 2.2em;
   }
+  body .row.all-long.products p.satisfy.text-center.blanco {
+    font-size: 1.4em;
+  }
   body .especialidad img {
     width: 65%;
   }
@@ -1147,8 +1153,11 @@ body footer .logo {
   body .branches .address:first-of-type {
     margin-left: 10%;
   }
+  body .row.all-long.products p.satisfy.text-center.blanco {
+    font-size: 1.8em;
+  }
   body .row.all-long.products img {
-    width: 50%;
+    width: 60%;
   }
   body .faq {
     width: 1200px;

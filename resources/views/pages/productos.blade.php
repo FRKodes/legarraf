@@ -85,7 +85,7 @@
 					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">vainilla</p><img src="/images/vainilla.png" alt="sabor vainilla"></div>
 
 					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">jamaica</p><img src="/images/jamaica.png" alt="sabor jamaica splenda"></div>
-					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">limon con chía</p><img src="/images/limon_chia.png" alt="sabor limón con chía"></div>
+					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">limón con chía</p><img src="/images/limon_chia.png" alt="sabor limón con chía"></div>
 
 				</div>
 
