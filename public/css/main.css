@@ -322,7 +322,8 @@ body .row.all-long iframe {
   margin-top: -60px;
 }
 body .row.all-long #map {
-  height: 550px;
+  width: 100%;
+  height: 500px;
   display: block;
   margin-top: -60px;
 }
@@ -688,8 +689,11 @@ body footer .logo {
     padding: 0 30px;
     font-size: 1.8em;
   }
+  body .row.all-long.products p.satisfy.text-center.blanco {
+    font-size: 1.6em;
+  }
   body .row.all-long.products img {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
   body .satisfy.text-center.blanco {
@@ -1144,7 +1148,7 @@ body footer .logo {
     margin-left: 10%;
   }
   body .row.all-long.products img {
-    width: 250px;
+    width: 50%;
   }
   body .faq {
     width: 1200px;

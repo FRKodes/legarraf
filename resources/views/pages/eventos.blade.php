@@ -77,9 +77,9 @@
 			<p class="question">Si quiero toppings, ¿Cuánto me incrementa?</p>
 			<p class="answer">Si quieres toppings en tu evento te incrementa $3 por persona</p>
 			<p class="question">¿Cómo van vestidos las personas que sirven el evento?</p>
-			<p class="answer">Las personas van vestidas con polos blancas de le garraf, mandil y cachucha.</p>
+			<p class="answer">Las personas van uniformadas de LE GARRAF.</p>
 			<p class="question">¿Si me sobra nieve?</p>
-			<p class="answer">Si te sobre nieve te la envasan en litros y te dejan.</p>
+			<p class="answer">Si te sobra nieve se te envasa en medios y litros, pero no te preocupes seguro no te va a sobrar.</p>
 		</div>
 
 	</div>

@@ -14,9 +14,9 @@
 	</div>
 	<div class="container">
 		<div class="helados-mobile">
-			<img class="img-left" src="/images/nieve_izquierda.png" alt="Nieve izq">
-			<img class="img-center" src="/images/nieve_centro.png" alt="Nieve con rielitos">
-			<img class="img-right" src="/images/nieve_derecha.png" alt="Nieve der">
+			<img class="img-left" src="/images/nieve_izquierda.png" width="250" height="253" alt="Nieve izq">
+			<img class="img-center" src="/images/nieve_centro.png" width="449" height="479" alt="Nieve con rielitos">
+			<img class="img-right" src="/images/nieve_derecha.png" width="240" height="279" alt="Nieve der">
 		</div>
 
 		<div class="home-prod m-top-65">
@@ -25,8 +25,8 @@
 				<span class="satisfy">y divertido</span>
 			</p>
 			<div class="images">
-				<img id="nieve-normal" src="/images/scone-especial.png" alt="scone especial fresco original divertido" class="fresh-img"> <br>
-				<img id="nieve-normal-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
+				<img id="nieve-normal" src="/images/scone-especial.png" width="290" height="405" alt="scone especial fresco original divertido" class="fresh-img"> <br>
+				<img id="nieve-normal-shadow" src="/images/shadow.png" width="220" height="47" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">
@@ -46,8 +46,8 @@
 				<span class="satisfy">saludable</span>
 			</p>
 			<div class="images alternativa">
-				<img id="nieve-splenda" src="/images/endulzada-con-splenda.png" alt="Nieve endulzada con Splenda" class="fresh-img"> <br>
-				<img id="nieve-splenda-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
+				<img id="nieve-splenda" src="/images/endulzada-con-splenda.png" width="350" height="267" alt="Nieve endulzada con Splenda" class="fresh-img"> <br>
+				<img id="nieve-splenda-shadow" src="/images/shadow.png" alt="ice cream shadow" width="220" height="47" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">
@@ -68,8 +68,8 @@
 
 	<div class="container">
 		<div class="home-prod m-top-230 garrafon">
-			<img id="agua" src="/images/garrafon_agua.png" alt="producto garrafon" class="fresh-img"> <br>
-			<img id="agua-shadow" src="/images/shadow.png" alt="garrafón shadow" class="shadow-img">
+			<img id="agua" src="/images/garrafon_agua.png" width="450" height="789" alt="producto garrafon" class="fresh-img"> <br>
+			<img id="agua-shadow" src="/images/shadow.png" width="220" height="47" alt="garrafón shadow" class="shadow-img">
 			<p class="oswald cafe b-top b-bottom">
 				FRESCO, FRUTAL<br>
 				<span class="satisfy">y natural</span>

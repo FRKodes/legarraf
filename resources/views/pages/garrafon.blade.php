@@ -74,17 +74,17 @@
 			
 			<div class="container">
 				
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">coco normal</p><img src="/images/agua-coconatural.png" alt="sabor agua coconatural"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">mamey</p><img src="/images/agua-mamey.png" alt="sabor agua mamey"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">mango</p><img src="/images/agua-mango.png" alt="sabor agua mango"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">guanabana</p><img src="/images/agua-guanabana.png" alt="sabor agua guanabana"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">ciruela</p><img src="/images/agua-ciruela-amarilla.png" alt="sabor agua ciruela amarilla"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">crema de coco</p><img src="/images/agua-crema-de-coco.png" alt="sabor agua crema de coco"></div>
-				<div class="col-xs-6 col-sm-4 flavors normal"><p class="satisfy text-center blanco">pepino con limón</p><img src="/images/agua-pepino-con-limon.png" alt="sabor agua pepino con limon"></div>
-				<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">horchata</p><img src="/images/agua-splenda-horchata.png" alt="sabor agua splenda horchata"></div>
-				<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">alfalfa con limón</p><img src="/images/agua-splenda-alfalfa-con-limon.png" alt="sabor agua splenda alfalfa con limon"></div>
-				<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">limón con chía</p><img src="/images/agua-splenda-limon-con-chia.png" alt="sabor agua splenda limon con chia"></div>
-				<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">yerba buena limón</p><img src="/images/agua-splenda-yerba-buena-limon.png" alt="sabor agua splenda yerba buena limon"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">coco normal</p><img src="/images/agua-coconatural.png" alt="sabor agua coconatural"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">mamey</p><img src="/images/agua-mamey.png" alt="sabor agua mamey"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">mango</p><img src="/images/agua-mango.png" alt="sabor agua mango"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">guanabana</p><img src="/images/agua-guanabana.png" alt="sabor agua guanabana"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">ciruela</p><img src="/images/agua-ciruela-amarilla.png" alt="sabor agua ciruela amarilla"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">crema de coco</p><img src="/images/agua-crema-de-coco.png" alt="sabor agua crema de coco"></div>
+				<div class="col-xs-3 col-sm-2 flavors normal"><p class="satisfy text-center blanco">pepino con limón</p><img src="/images/agua-pepino-con-limon.png" alt="sabor agua pepino con limon"></div>
+				<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">horchata</p><img src="/images/agua-splenda-horchata.png" alt="sabor agua splenda horchata"></div>
+				<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">alfalfa con limón</p><img src="/images/agua-splenda-alfalfa-con-limon.png" alt="sabor agua splenda alfalfa con limon"></div>
+				<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">limón con chía</p><img src="/images/agua-splenda-limon-con-chia.png" alt="sabor agua splenda limon con chia"></div>
+				<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">yerba buena limón</p><img src="/images/agua-splenda-yerba-buena-limon.png" alt="sabor agua splenda yerba buena limon"></div>
 
 			</div>
 

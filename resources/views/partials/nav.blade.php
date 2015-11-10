@@ -13,7 +13,7 @@
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="/">Inicio</a></li>
-				<li><a href="acerca-de">Acerca de</a></li>
+				<li><a href="nosotros">Nosotros</a></li>
 				<li><a href="productos">Productos</a></li>
 				<li class="icon hidden-xs"><a href="/" class="icon-garrafa"></a></li>
 				<li><a href="garrafon">Garrafón</a></li>

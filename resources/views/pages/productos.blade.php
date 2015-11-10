@@ -64,25 +64,28 @@
 				
 				<div class="container">
 					
-					<div class="col-xs-6 col-sm-4 flavors agua splenda"><p class="satisfy text-center blanco">ciruela</p><img src="/images/ciruela.png" alt="sabor ciruela"></div>
-					<div class="col-xs-6 col-sm-4 flavors agua splenda"><p class="satisfy text-center blanco">fresa</p><img src="/images/fresa.png" alt="sabor fresa"></div>
-					<div class="col-xs-6 col-sm-4 flavors agua"><p class="satisfy text-center blanco">guanabana</p><img src="/images/guanabana.png" alt="sabor guanabana"></div>
-					<div class="col-xs-6 col-sm-4 flavors agua splenda"><p class="satisfy text-center blanco">limón</p><img src="/images/limon.png" alt="sabor limon"></div>
-					<div class="col-xs-6 col-sm-4 flavors agua"><p class="satisfy text-center blanco">mandarina</p><img src="/images/mandarina.png" alt="sabor mandarina"></div>
-					<div class="col-xs-6 col-sm-4 flavors agua splenda"><p class="satisfy text-center blanco">mango</p><img src="/images/mango.png" alt="sabor mango"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">ciruela</p><img src="/images/ciruela.png" alt="sabor ciruela"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">fresa</p><img src="/images/fresa.png" alt="sabor fresa"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">guanabana</p><img class="guanabana" src="/images/guanabana.png" alt="sabor guanabana"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">limón</p><img class="limon" src="/images/limon.png" alt="sabor limon"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">mandarina</p><img src="/images/mandarina.png" alt="sabor mandarina"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">mango</p><img class="mango" src="/images/mango.png" alt="sabor mango"></div>
 					
-					<div class="col-xs-6 col-sm-4 flavors crema hidden"><p class="satisfy text-center blanco">cajeta</p><img src="/images/cajeta.png" alt="sabor cajeta"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema hidden"><p class="satisfy text-center blanco">chocolate</p><img src="/images/chocolate.png" alt="sabor chocolate"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema splenda hidden"><p class="satisfy text-center blanco">coco</p><img src="/images/coco.png" alt="sabor coco"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema splenda hidden"><p class="satisfy text-center blanco">mamey</p><img src="/images/mamey.png" alt="sabor mamey"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema splenda hidden"><p class="satisfy text-center blanco">nuez</p><img src="/images/nuez.png" alt="sabor nuez"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema hidden"><p class="satisfy text-center blanco">nutella</p><img src="/images/nutella.png" alt="sabor nutella"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema hidden"><p class="satisfy text-center blanco">platano</p><img src="/images/platano.png" alt="sabor platano"></div>
-					<div class="col-xs-6 col-sm-4 flavors crema splenda hidden"><p class="satisfy text-center blanco">vainilla</p><img src="/images/vainilla.png" alt="sabor vainilla"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">berries</p><img src="/images/berries.png" alt="sabor berries"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">cajeta</p><img src="/images/cajeta.png" alt="sabor cajeta"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">chocolate</p><img src="/images/chocolate.png" alt="sabor chocolate"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">chongos</p><img src="/images/chongos.png" alt="sabor chongos"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">coco</p><img src="/images/coco.png" alt="sabor coco"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">danonino</p><img src="/images/danonino.png" alt="sabor danonino"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">mamey</p><img src="/images/mamey.png" alt="sabor mamey"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">mazapan</p><img src="/images/mazapan.png" alt="sabor mazapan"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">nuez</p><img src="/images/nuez.png" alt="sabor nuez"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">nutella</p><img src="/images/nutella.png" alt="sabor nutella"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">platano</p><img src="/images/platano.png" alt="sabor platano"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema splenda hidden"><p class="satisfy text-center blanco">vainilla</p><img src="/images/vainilla.png" alt="sabor vainilla"></div>
 
-					<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">jamaica</p><img src="/images/jamaica.png" alt="sabor jamaica splenda"></div>
-					<div class="col-xs-6 col-sm-4 flavors splenda hidden"><p class="satisfy text-center blanco">limon con chía</p><img src="/images/limon_chia.png" alt="sabor limón con chía"></div>
-
+					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">jamaica</p><img src="/images/jamaica.png" alt="sabor jamaica splenda"></div>
+					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">limon con chía</p><img src="/images/limon_chia.png" alt="sabor limón con chía"></div>
 
 				</div>
 

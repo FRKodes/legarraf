@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('current_section_title', 'acerca de ')
+@section('current_section_title', 'Acerca de LE GARRAF')
 
 @section('content')
 	<div class="container-fluid">
@@ -14,7 +14,7 @@
 	</div>
 	<div class="container">
 		<div class="helados-mobile">
-			<img class="img-garrafa" src="/images/garrafa.png" alt="garrafa">
+			<img class="img-garrafa" src="/images/garrafa.png" width="320" height="469" alt="garrafa">
 		</div>
 
 		<div class="home-prod m-top-65">
@@ -23,8 +23,8 @@
 				<span class="satisfy">historia</span>
 			</p>
 			<div class="images">
-				<img id="lunetas" src="/images/nieve_lunetas.png" alt="nieve lunetas" class="fresh-img m-top-55"> <br>
-				<img id="lunetas-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
+				<img id="lunetas" src="/images/nieve_lunetas.png" width="400" height="410" alt="nieve lunetas" class="fresh-img m-top-55"> <br>
+				<img id="lunetas-shadow" src="/images/shadow.png" width="220" height="47" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">
@@ -45,8 +45,8 @@
 				<span class="satisfy">y algo más</span>
 			</p>
 			<div class="images alternativa">
-				<img id="vaso" src="/images/garrafon.png" alt="garrafon" class="fresh-img m-top-55 m-top0"> <br>
-				<img id="vaso-shadow" src="/images/shadow.png" alt="ice cream shadow" class="shadow-img">
+				<img id="vaso" src="/images/garrafon.png" width="350" height="471" alt="garrafon" class="fresh-img m-top-55 m-top0"> <br>
+				<img id="vaso-shadow" src="/images/shadow.png" width="220" height="47" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">

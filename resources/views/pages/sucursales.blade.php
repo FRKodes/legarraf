@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="sucursal col-xs-12 col-sm-6">
-			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> PABLO NERUDA</h2>
+			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> PROVIDENCIA</h2>
 			<p class="address">
 				Av. Pablo Neruda 3158 <br>
 				Col. Providencia <br>
