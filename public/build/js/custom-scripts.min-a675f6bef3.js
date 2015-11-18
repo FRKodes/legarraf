@@ -197,5 +197,10 @@ $(document).ready(function(){
 		autoplaySpeed: 3500,
 		dots: true
 	});
+	$('.helados-mobile.home').slick({
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: true
+	});
 });
 //# sourceMappingURL=custom-scripts.min.js.map

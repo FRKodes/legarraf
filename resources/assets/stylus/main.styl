@@ -39,7 +39,7 @@ body
 				color white
 				transition all 1.5s ease
 	.row.wood
-		background transparent url(../../images/madera-mobile-01.jpg) repeat-x center top
+		background transparent url(../../images/madera-vertical-mobile.jpg) repeat-x center -40px
 		text-align center
 		color white
 		padding-bottom 130px
@@ -76,7 +76,7 @@ body
 		height 300px
 		display block
 		text-align center
-		opacity 0
+		opacity 1
 		img
 			width 100px
 			height auto
@@ -111,6 +111,40 @@ body
 		&.eventos
 		&.map-branches
 			margin-top -160px
+	.slick-slider.helados-mobile
+		margin-bottom 60px
+		overflow visible
+		.slick-arrow
+			display none !important
+			position absolute
+			top 100px
+			z-index 10
+		.slick-slide
+			display inline-block
+			float left
+			height 300px
+			img
+				display block
+				height auto
+				opacity 1
+				width 300px
+		.slick-dots
+			padding 0
+			bottom 30px
+			position relative
+			li
+				display inline-block
+				background rgba(cafe,.6)
+				border-radius 50%
+				width 20px
+				height 20px
+				margin 0 5px
+				&.slick-active
+					background cafe
+				button
+					background transparent
+					color transparent
+					border none
 	.m-top-55
 		margin-top -55px
 		position relative
@@ -118,14 +152,14 @@ body
 	.text-center.eventos
 		margin-top -100px
 	.home-prod
-		text-align center
-		margin-bottom 40px
 		display block
+		margin-bottom 40px
 		overflow hidden
+		text-align center
 		p
-			width 90%
 			margin 0 auto
 			padding 20px 0
+			width 90%
 		p.oswald.cafe
 			font-size 2em
 			position relative
@@ -200,9 +234,11 @@ body
 		border-bottom 2px solid cafe
 	p.oswald.cafe.b-top.b-bottom
 		line-height .9em
-	.slick-slider
+	.slick-slider.paletas
 		.slick-arrow
-			display none !important
+			background transparent
+			border none
+			color transparent
 		.slick-dots
 			padding 0
 			li
@@ -550,6 +586,14 @@ body
 					width 420px
 			&.garrafon
 				margin-top -110px
+		.slick-slider.helados-mobile
+			margin-bottom 100px
+			.slick-slide
+				height 440px
+				img
+					width 400px
+			.slick-dots
+				bottom 60px
 		.home-prod.m-top-65
 			margin-top -15px
 			p.oswald.cafe
@@ -686,7 +730,8 @@ body
 					a
 						color white
 		.row.wood
-			background-image url(../../images/madera.jpg)
+			background-image url(../../images/wood.jpg)
+			background-position center -40px
 			padding-bottom 320px
 			&.bricks
 				background-image url(../../images/brick_wall.jpg)
@@ -727,6 +772,18 @@ body
 				margin-top -350px
 			&.map-branches
 				margin-top -330px
+		.slick-slider.helados-mobile
+			margin-bottom 100px
+			margin-left auto
+			margin-right auto
+			width 100%
+			.slick-slide
+				height 560px
+				text-align center
+				img
+					width 550px
+					margin 0 auto
+					position relative
 		.m-top-55
 			margin-top 100px
 		.m-top0

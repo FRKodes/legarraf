@@ -48,7 +48,7 @@ body .navbar-default .navbar-brand.active {
   transition: all 1.5s ease;
 }
 body .row.wood {
-  background: transparent url("../../images/madera-mobile-01.jpg") repeat-x center top;
+  background: transparent url("../../images/madera-vertical-mobile.jpg") repeat-x center -40px;
   text-align: center;
   color: #fff;
   padding-bottom: 130px;
@@ -92,7 +92,7 @@ body .helados-mobile {
   height: 300px;
   display: block;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
 }
 body .helados-mobile img {
   width: 100px;
@@ -138,6 +138,48 @@ body .helados-mobile.eventos,
 body .helados-mobile.map-branches {
   margin-top: -160px;
 }
+body .slick-slider.helados-mobile {
+  margin-bottom: 60px;
+  overflow: visible;
+}
+body .slick-slider.helados-mobile .slick-arrow {
+  display: none !important;
+  position: absolute;
+  top: 100px;
+  z-index: 10;
+}
+body .slick-slider.helados-mobile .slick-slide {
+  display: inline-block;
+  float: left;
+  height: 300px;
+}
+body .slick-slider.helados-mobile .slick-slide img {
+  display: block;
+  height: auto;
+  opacity: 1;
+  width: 300px;
+}
+body .slick-slider.helados-mobile .slick-dots {
+  padding: 0;
+  bottom: 30px;
+  position: relative;
+}
+body .slick-slider.helados-mobile .slick-dots li {
+  display: inline-block;
+  background: rgba(87,47,11,0.6);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+body .slick-slider.helados-mobile .slick-dots li.slick-active {
+  background: #572f0b;
+}
+body .slick-slider.helados-mobile .slick-dots li button {
+  background: transparent;
+  color: transparent;
+  border: none;
+}
 body .m-top-55 {
   margin-top: -55px;
   position: relative;
@@ -147,15 +189,15 @@ body .text-center.eventos {
   margin-top: -100px;
 }
 body .home-prod {
-  text-align: center;
-  margin-bottom: 40px;
   display: block;
+  margin-bottom: 40px;
   overflow: hidden;
+  text-align: center;
 }
 body .home-prod p {
-  width: 90%;
   margin: 0 auto;
   padding: 20px 0;
+  width: 90%;
 }
 body .home-prod p.oswald.cafe {
   font-size: 2em;
@@ -254,13 +296,15 @@ body .b-bottom {
 body p.oswald.cafe.b-top.b-bottom {
   line-height: 0.9em;
 }
-body .slick-slider .slick-arrow {
-  display: none !important;
+body .slick-slider.paletas .slick-arrow {
+  background: transparent;
+  border: none;
+  color: transparent;
 }
-body .slick-slider .slick-dots {
+body .slick-slider.paletas .slick-dots {
   padding: 0;
 }
-body .slick-slider .slick-dots li {
+body .slick-slider.paletas .slick-dots li {
   display: inline-block;
   margin: 0 5px;
   width: 20px;
@@ -269,10 +313,10 @@ body .slick-slider .slick-dots li {
   overflow: hidden;
   background-color: rgba(87,47,11,0.5);
 }
-body .slick-slider .slick-dots li.slick-active {
+body .slick-slider.paletas .slick-dots li.slick-active {
   background-color: #572f0b;
 }
-body .slick-slider .slick-dots li button {
+body .slick-slider.paletas .slick-dots li button {
   background: transparent;
   color: transparent;
   border: none;
@@ -683,6 +727,18 @@ body footer .logo {
   body .helados-mobile.garrafon {
     margin-top: -110px;
   }
+  body .slick-slider.helados-mobile {
+    margin-bottom: 100px;
+  }
+  body .slick-slider.helados-mobile .slick-slide {
+    height: 440px;
+  }
+  body .slick-slider.helados-mobile .slick-slide img {
+    width: 400px;
+  }
+  body .slick-slider.helados-mobile .slick-dots {
+    bottom: 60px;
+  }
   body .home-prod.m-top-65 {
     margin-top: -15px;
   }
@@ -845,7 +901,8 @@ body footer .logo {
     color: #fff;
   }
   body .row.wood {
-    background-image: url("../../images/madera.jpg");
+    background-image: url("../../images/wood.jpg");
+    background-position: center -40px;
     padding-bottom: 320px;
   }
   body .row.wood.bricks {
@@ -902,6 +959,21 @@ body footer .logo {
   }
   body .helados-mobile.map-branches {
     margin-top: -330px;
+  }
+  body .slick-slider.helados-mobile {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  body .slick-slider.helados-mobile .slick-slide {
+    height: 560px;
+    text-align: center;
+  }
+  body .slick-slider.helados-mobile .slick-slide img {
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
   }
   body .m-top-55 {
     margin-top: 100px;
