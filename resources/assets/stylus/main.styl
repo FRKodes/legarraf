@@ -155,6 +155,8 @@ body
 		opacity 0
 		position relative
 		z-index 1
+		&.garrafon
+			width 280px
 	.shadow-img
 		width 120px
 		height auto
@@ -173,12 +175,54 @@ body
 			text-align center
 			position relative
 			z-index 2
+	.toppings
+		display block
+		width 100%
+		margin 40px auto 50px auto
+		overflow hidden
+		position relative
+		padding-top 100px
+		.col-xs-6
+			margin 15px 0
+		img
+			width 100%
+			height auto
+			display block
+	.opacity-1
+		opacity 1
+	.font14
+		font-size 22px
+	.sabores
+		line-height 1.4em
 	.b-top
 		border-top 2px solid cafe
 	.b-bottom
 		border-bottom 2px solid cafe
 	p.oswald.cafe.b-top.b-bottom
 		line-height .9em
+	.slick-slider
+		.slick-arrow
+			display none !important
+		.slick-dots
+			padding 0
+			li
+				display inline-block
+				margin 0 5px
+				width 20px
+				height 20px
+				border-radius 50%
+				overflow hidden
+				background-color rgba(cafe, .5)
+				&.slick-active
+					background-color cafe
+				button
+					background transparent
+					color transparent
+					border none
+	.slick-slide
+		display inline-block
+		img
+			opacity 1
 	.branches
 		background transparent url(../../images/paper_texture.jpg) repeat-x center top
 		height auto
@@ -305,7 +349,7 @@ body
 		.col-xs-6
 			margin-bottom 30px
 	.satisfy.text-center.blanco
-		font-size 1.4em
+		font-size 1em
 	.especialidad
 		text-align center
 		margin 20px 0 10px 0
@@ -514,6 +558,8 @@ body
 				font-size 1em
 		.fresh-img
 			width 270px
+			&.garrafon
+				width 400px
 		.shadow-img
 			width 200px
 		/*480px*/
@@ -719,6 +765,11 @@ body
 			height auto
 			display inline-block
 			text-align center
+			&.garrafon
+				width 100%
+			&.alternativa
+				&.garrafon
+					width 500px
 		.shadow-img
 			width 220px
 			height auto
@@ -738,6 +789,10 @@ body
 				display table-footer-group
 				.fresh-img
 					width 350px
+		.toppings
+			margin-top 0
+			padding-top 30px
+			margin-bottom 160px
 		.bricks
 			background-image url(../../images/brick_wall.jpg)
 			height 700px
@@ -756,6 +811,13 @@ body
 			font-size 4em
 			width 450px
 			margin 20px auto 0 auto
+		.home-prod.m-top-65
+			width 100%
+			display block
+		.slick-slider
+			width 49%
+			display inline-block
+			overflow hidden
 		/*768px*/
 		.branches
 			padding 100px 0
@@ -926,10 +988,17 @@ body
 		.home-prod
 			.info
 				width 550px
+			&.m-top-65
+				.images
+					width 44%
 		.images
 			margin-right 80px
 			&.alternativa
 				margin-left 80px
+		.slick-slider
+			width 44%
+			display inline-block
+			overflow hidden
 		.fresh-img.m-top-55
 			width 400px
 		.branches

@@ -72,17 +72,17 @@ $( window ).scroll(function() {
 	/*
 	 Animations garrafon page
 	 */
-	if ($('#paletas').length) {
+	if ($('#garrafon-topping-mix').length) {
 		// console.log('paletas');
-		var paletas = $('#paletas').offset().top-650;
-		if (scroll > paletas) {
-			setTimeout(function(){
-			    $('#paletas').addClass('magictime vanishIn');
-			}, 200);
-			setTimeout(function(){
-			    $('#paletas-shadow').addClass('magictime slideDownRetourn');
-			}, 1000);
-		};
+		// var paletas = $('#paletas').offset().top-650;
+		// if (scroll > paletas) {
+		// 	setTimeout(function(){
+		// 	    $('#paletas').addClass('magictime vanishIn');
+		// 	}, 200);
+		// 	setTimeout(function(){
+		// 	    $('#paletas-shadow').addClass('magictime slideDownRetourn');
+		// 	}, 1000);
+		// };
 		
 		var garrafon_topping_mix = $('#garrafon-topping-mix').offset().top-650;
 		if (scroll > garrafon_topping_mix) {
@@ -160,3 +160,12 @@ $('.products-menu a').on('click', function(){
 setTimeout(function(){
     $('.helados-mobile').addClass('magictime puffIn');
 }, 200);
+
+
+$(document).ready(function(){
+	$('.images.paletas').slick({
+		autoplay: true,
+		autoplaySpeed: 3500,
+		dots: true
+	});
+});

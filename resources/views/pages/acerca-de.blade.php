@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('current_section_title', 'Acerca de LE GARRAF')
+@section('current_section_title', 'Acerca de nosotros')
 
 @section('content')
 	<div class="container-fluid">
@@ -23,7 +23,7 @@
 				<span class="satisfy">historia</span>
 			</p>
 			<div class="images">
-				<img id="lunetas" src="/images/nieve_lunetas.png" width="400" height="410" alt="nieve lunetas" class="fresh-img m-top-55"> <br>
+				<img id="lunetas" src="/images/nosotros_sinlunetas.jpg" width="400" height="410" alt="nieve nosotros, conoce nuestra historia" class="fresh-img m-top-55"> <br>
 				<img id="lunetas-shadow" src="/images/shadow.png" width="220" height="47" alt="ice cream shadow" class="shadow-img">
 			</div>
 			<div class="info">

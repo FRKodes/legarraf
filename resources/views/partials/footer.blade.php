@@ -3,6 +3,8 @@
 @endif
 
 <footer>
+	<div class="fb-follow"></div>
+
 	<div class="container">
 		<p class="oswald cafe">
 			SÍGUENOS Y <br> <span class="satisfy">ponte en contacto</span>

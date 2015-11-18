@@ -195,6 +195,9 @@ body .fresh-img {
   position: relative;
   z-index: 1;
 }
+body .fresh-img.garrafon {
+  width: 280px;
+}
 body .shadow-img {
   width: 120px;
   height: auto;
@@ -217,6 +220,31 @@ body .bricks .icon-garrafon {
   position: relative;
   z-index: 2;
 }
+body .toppings {
+  display: block;
+  width: 100%;
+  margin: 40px auto 50px auto;
+  overflow: hidden;
+  position: relative;
+  padding-top: 100px;
+}
+body .toppings .col-xs-6 {
+  margin: 15px 0;
+}
+body .toppings img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body .opacity-1 {
+  opacity: 1;
+}
+body .font14 {
+  font-size: 22px;
+}
+body .sabores {
+  line-height: 1.4em;
+}
 body .b-top {
   border-top: 2px solid #572f0b;
 }
@@ -225,6 +253,35 @@ body .b-bottom {
 }
 body p.oswald.cafe.b-top.b-bottom {
   line-height: 0.9em;
+}
+body .slick-slider .slick-arrow {
+  display: none !important;
+}
+body .slick-slider .slick-dots {
+  padding: 0;
+}
+body .slick-slider .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(87,47,11,0.5);
+}
+body .slick-slider .slick-dots li.slick-active {
+  background-color: #572f0b;
+}
+body .slick-slider .slick-dots li button {
+  background: transparent;
+  color: transparent;
+  border: none;
+}
+body .slick-slide {
+  display: inline-block;
+}
+body .slick-slide img {
+  opacity: 1;
 }
 body .branches {
   background: transparent url("../../images/paper_texture.jpg") repeat-x center top;
@@ -387,7 +444,7 @@ body .row.all-long .col-xs-6 {
   margin-bottom: 30px;
 }
 body .satisfy.text-center.blanco {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 body .especialidad {
   text-align: center;
@@ -637,6 +694,9 @@ body footer .logo {
   }
   body .fresh-img {
     width: 270px;
+  }
+  body .fresh-img.garrafon {
+    width: 400px;
   }
   body .shadow-img {
     width: 200px;
@@ -891,6 +951,12 @@ body footer .logo {
     display: inline-block;
     text-align: center;
   }
+  body .fresh-img.garrafon {
+    width: 100%;
+  }
+  body .fresh-img.alternativa.garrafon {
+    width: 500px;
+  }
   body .shadow-img {
     width: 220px;
     height: auto;
@@ -914,6 +980,11 @@ body footer .logo {
   body .images.alternativa .fresh-img {
     width: 350px;
   }
+  body .toppings {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 160px;
+  }
   body .bricks {
     background-image: url("../../images/brick_wall.jpg");
     height: 700px;
@@ -936,6 +1007,15 @@ body footer .logo {
     font-size: 4em;
     width: 450px;
     margin: 20px auto 0 auto;
+  }
+  body .home-prod.m-top-65 {
+    width: 100%;
+    display: block;
+  }
+  body .slick-slider {
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
   }
   body .branches {
     padding: 100px 0;
@@ -1135,11 +1215,19 @@ body footer .logo {
   body .home-prod .info {
     width: 550px;
   }
+  body .home-prod.m-top-65 .images {
+    width: 44%;
+  }
   body .images {
     margin-right: 80px;
   }
   body .images.alternativa {
     margin-left: 80px;
+  }
+  body .slick-slider {
+    width: 44%;
+    display: inline-block;
+    overflow: hidden;
   }
   body .fresh-img.m-top-55 {
     width: 400px;

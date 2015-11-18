@@ -1,5 +1,5 @@
 @extends('app')
-
+@section('current_section_title', 'Encuentra tu sucural más cercana')
 @section('content')
 	<div class="container-fluid">
 		<div class="row wood">
