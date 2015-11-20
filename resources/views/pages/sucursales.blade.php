@@ -36,7 +36,7 @@
 				<a class="cafe" href="#ver mapa">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/sucursal.jpg" alt="sucursal le garraf"></figure>
+				<figure><img src="/images/fachada-chapalita.jpg" alt="fachada le garraf sucursal chapalita"></figure>
 			</div>
 		</div>
 

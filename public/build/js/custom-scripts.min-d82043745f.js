@@ -202,5 +202,46 @@ $(document).ready(function(){
 		autoplaySpeed: 3000,
 		dots: true
 	});
+	$('.quotation button, .quotation p').on('click', function (e){
+		e.preventDefault();
+		$('.people-population').toggleClass('visible');
+	});
+	$('.people-population a').on('click', function (e){
+		e.preventDefault();
+		var num_people = $(this).attr('data-value');
+		var number = $(this).attr('data-number');
+		var balls = $(this).attr('data-balls');
+		$('.people-population').removeClass('visible');
+		$('.people p').html(num_people);
+		$('#num_people').val(number);
+		$('.disclaimer p').html(balls);
+		$('span.balls').removeClass('visible');
+		$('._' + number).addClass('visible');
+
+		// console.log();
+		reference();
+	});
+
+	$('#toppings label').on('click', function(){
+		var checkBox = $('#checkbox_toppings');
+        checkBox.attr("checked", !checkBox.attr("checked"));
+        console.log(checkBox.val());
+        if (checkBox.attr("checked") === "checked") {
+        	$('#price_per_head').val();
+        	console.log('ok');
+        };
+	});
+	$('#splenda label').on('click', function(){
+		var checkBox = $('#checkbox_splenda');
+        checkBox.attr("checked", !checkBox.attr("checked"));
+        console.log(checkBox.val());
+	});
 });
+
+var reference = (function thename(){
+	var total = $('#price_per_head').val() * $('#num_people').val();
+    console.log(total);
+    return thename; //return the function itself to reference
+    $('#total_').html('total');
+}());
 //# sourceMappingURL=custom-scripts.min.js.map

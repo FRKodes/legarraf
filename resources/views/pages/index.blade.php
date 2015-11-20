@@ -14,10 +14,6 @@
 	</div>
 	<div class="container">
 		<div class="helados-mobile home">
-			{{-- <img class="img-left" src="/images/nieve_izquierda.png" width="250" height="253" alt="Nieve izq">
-			<img class="img-center" src="/images/nieve_centro.png" width="449" height="479" alt="Nieve con rielitos">
-			<img class="img-right" src="/images/nieve_derecha.png" width="240" height="279" alt="Nieve der"> --}}
-			
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-a-cazuelita.png" width="600" height="488" alt="productos le garraf cazuelita"></div>
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-b-limon-con-chia.png" width="600" height="488" alt="productos le garraf limon con chia"></div>
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-c-nieve-con-rielitos.png" width="600" height="488" alt="productos le garraf nieve con rielitos"></div>
@@ -26,7 +22,8 @@
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-f-cookie-sandwich.png" width="600" height="488" alt="productos le garraf cookie sandwich"></div>
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-g-nieve-splenda.png" width="600" height="488" alt="productos le garraf nieve splenda"></div>
 			<div class="item"><img class="slide" src="/images/productos-le-garraf-h-paletas.png" width="600" height="488" alt="productos le garraf paletas"></div>
-
+			<div class="item"><img class="slide" src="/images/productos-le-garraf-i-topping-mix.png" width="600" height="488" alt="productos le garraf topping mix"></div>
+			<div class="item"><img class="slide" src="/images/productos-le-garraf-j-agua.png" width="600" height="488" alt="productos le garraf agua"></div>
 		</div>
 
 		<div class="home-prod m-top-65">

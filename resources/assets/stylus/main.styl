@@ -11,6 +11,13 @@ azul = #00ADEF
 	color cafe
 .blanco
 	color blanco
+.floating-social
+	position fixed
+	right 10px
+	top 55px
+	z-index 10
+	text-align center
+	display none
 body
 	background-color white
 	font-family 'Lato', sans-serif
@@ -136,9 +143,9 @@ body
 				display inline-block
 				background rgba(cafe,.6)
 				border-radius 50%
-				width 20px
-				height 20px
-				margin 0 5px
+				width 14px
+				height 14px
+				margin 0 7px
 				&.slick-active
 					background cafe
 				button
@@ -407,11 +414,22 @@ body
 		width 260px
 		margin 0 auto 20px auto
 		padding 5px 0
+	h2.litros
+		padding 0
+		font-size 2em
+		position relative
+		display block
+		margin-top 50px
+	.litro-img
+		width 40%
+		height auto
+		display inline-block
 	/*events*/
 	.text-center.eventos
 		line-height 1.4em
 	.quotation
 		margin-top 40px
+		position relative
 		.people
 			background-color gris
 			color #999
@@ -420,6 +438,8 @@ body
 			position relative
 			p
 				margin-bottom 0
+				&:hover
+					cursor pointer
 			button
 				position absolute
 				background-color azul
@@ -430,10 +450,42 @@ body
 				height 100%
 				width 40px
 				transform rotate(90deg)
+				&:active
+				&:focus
+				&:visited
+				&:hover
+					outline 0
+					
+		.people-population
+			padding 15px
+			list-style none
+			background gris
+			width 100%
+			top 50px
+			position absolute
+			opacity 0
+			transition opacity .5s ease, top .5s ease
+			&.visible
+				opacity 1
+				top 40px
+				z-index 10
+				transition all .3s ease
+			li
+				font-size 1em
+				padding 5px 0
+				margin-bottom 5px
+				a
+					color gris2
 		.disclaimer
 			padding 25px 20px 40px 20px
 			line-height 1.4em
 			color gris2
+			.icon-ice-cream.balls
+				display none
+				transition all 2.5s ease
+				&.visible
+					display inline-block
+					transition all 2.5s ease
 		.form-group
 			vertical-align middle
 			span
@@ -673,6 +725,10 @@ body
 			margin-left auto
 			margin-right auto
 @media screen and (min-width:768px)
+	.floating-social
+		right 10px
+		top 100px
+		display block
 	body
 		.navbar-default
 			padding-top 10px
@@ -784,6 +840,11 @@ body
 					width 550px
 					margin 0 auto
 					position relative
+			.slick-dots
+				bottom 100px
+				li
+					width 20px
+					height 20px
 		.m-top-55
 			margin-top 100px
 		.m-top0
@@ -1010,6 +1071,10 @@ body
 			&.products
 				p.satisfy.text-center.blanco
 					font-size 1.4em
+		h2.litros
+			font-size 4em
+		.litro-img
+			width 35%
 		.especialidad
 			img
 				width 65%

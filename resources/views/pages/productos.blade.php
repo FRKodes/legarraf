@@ -18,34 +18,16 @@
 				<img class="img-productos" src="/images/productos-le-garraf.png" width="550" height="392" alt="productos le garraf">
 			</div>
 			
-			<h2 class="oswald cafe text-center">TENEMOS 3<br><span class="satisfy">tamaños</span></h2>
+		</div>
 
-			<div class="col-xs-12 col-sm-4 cafe text-center">
-				<h3 class="title">CHICO</h3>
-				<p>3 bolas + 1 topping</p>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-			</div>
-
-			<div class="col-xs-12 col-sm-4 cafe text-center">
-				<h3 class="title">MEDIANO</h3>
-				<p>4 bolas + 2 topping</p>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-			</div>
-
-			<div class="col-xs-12 col-sm-4 cafe text-center">
-				<h3 class="title">GRANDE</h3>
-				<p>5 bolas + 3 topping</p>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-				<span class="icon-ice-cream"></span>
-			</div>
+		<div class="container cafe">
+			<h2 class="oswald text-center m-top0">ESTAS SON NUESTRAS<br><span class="satisfy">especialidades</span></h2>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cazuelita chamoy</p><img src="/images/cazuelita.jpg" width="320" height="320" alt="czuelita de chamoy LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">pastel de 3 leches</p><img class="tresleches" src="/images/pastel.jpg" width="320" height="422" alt="pastel de tres leches LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">flanke</p><img class="flanke" src="/images/flanke.jpg" width="320" height="320" alt="flanke LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich.jpg" width="320" height="358" alt="coockie sandwich LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial.jpg" width="320" height="487" alt="scone especial LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="papas" src="/images/papas-cuerdas.jpg" width="320" height="467" alt="papas cuerdas garrafón"></div>
 		</div>
 
 		<div class="container-fluid">
@@ -95,14 +77,42 @@
 				<div class="bottom"></div>
 			</div>
 		</div>
+		
+		<div class="container">
+			
+			<h2 class="oswald cafe text-center">TENEMOS 3<br><span class="satisfy">tamaños</span></h2>
 
-		<div class="container cafe">
-			<h2 class="oswald text-center m-top0">ESTAS SON NUESTRAS<br><span class="satisfy">especialidades</span></h2>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cazuelita chamoy</p><img src="/images/cazuelita.jpg" width="320" height="320" alt="czuelita de chamoy LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">pastel de 3 leches</p><img class="tresleches" src="/images/pastel.jpg" width="320" height="422" alt="pastel de tres leches LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">flanke</p><img class="flanke" src="/images/flanke.jpg" width="320" height="320" alt="flanke LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich.jpg" width="320" height="358" alt="coockie sandwich LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial.jpg" width="320" height="487" alt="scone especial LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="papas" src="/images/papas-cuerdas.jpg" width="320" height="467" alt="papas cuerdas garrafón"></div>
+			<div class="col-xs-12 col-sm-4 cafe text-center">
+				<h3 class="title">CHICO</h3>
+				<p>3 bolas + 1 topping</p>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+			</div>
+
+			<div class="col-xs-12 col-sm-4 cafe text-center">
+				<h3 class="title">MEDIANO</h3>
+				<p>4 bolas + 2 topping</p>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+			</div>
+
+			<div class="col-xs-12 col-sm-4 cafe text-center">
+				<h3 class="title">GRANDE</h3>
+				<p>5 bolas + 3 topping</p>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+				<span class="icon-ice-cream"></span>
+			</div>
+			
+			<h2 class="cafe satisfy text-center litros col-xs-12">1 litro y 1/2 litro</h2>
+			<p class="text-center">
+				<img class="litro-img" src="images/litro.jpg" alt="litro y medio litro nieve LE GARRAF">
+			</p>
 		</div>
+		
 @stop

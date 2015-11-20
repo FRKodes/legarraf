@@ -25,22 +25,40 @@
 
 		<div class="quotation">
 			{!! Form::open() !!}
+				{!! Form::input('hidden', 'num_people', null, ['id'=>'num_people']) !!}
+				{!! Form::input('hidden', 'price_per_head', 12, ['id'=>'price_per_head']) !!}
 				<div class="form-group people">
 					<p>Nº de personas</p>
 					<button class="icon-arrow text-center blanco"></button>
 				</div>
+				<ul class="people-population">
+					<li><a href="#" data-balls="Hasta 2 sabores de nieve." data-number="90" data-value="Hasta 90 personas">Hasta 90 personas</a></li>
+					<li><a href="#" data-balls="Hasta 3 sabores de nieve." data-number="100" data-value="Hasta 100 personas">Hasta 100 personas</a></li>
+					<li><a href="#" data-balls="Hasta 6 sabores de nieve." data-number="200" data-value="Hasta 200 personas">Hasta 200 personas</a></li>
+					<li><a href="#" data-balls="Hasta 9 sabores de nieve." data-number="300" data-value="Hasta 300 personas">Hasta 300 personas</a></li>
+				</ul>
 				<div class="disclaimer text-center">
-					Selecciona un número aproximado de personas, el número de sabores a elegir depende del número de personas en tu evento.
+					<p>Selecciona un número aproximado de personas, el número de sabores a elegir depende del número de personas en tu evento.</p>
+					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
+					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
+					<span class="icon-ice-cream balls _100 _200 _300"></span>
+					<span class="icon-ice-cream balls _200 _300"></span>
+					<span class="icon-ice-cream balls _200 _300"></span>
+					<span class="icon-ice-cream balls _200 _300"></span>
+					<span class="icon-ice-cream balls _300"></span>
+					<span class="icon-ice-cream balls _300"></span>
+					<span class="icon-ice-cream balls _300"></span>
 				</div>
 				<div class="form-group text-right">
 					<span>Deseas agregar: </span>
-					<div class="squaredTwo">
-						{!! Form::checkbox('toppings', 'toppings', null, ['id'=>'checkbox_toppings']) !!}
+					<div class="squaredTwo" id="toppings">
+						{!! Form::checkbox('toppings', '2', null, ['id'=>'checkbox_toppings']) !!}
 						<label for="checkbox_toppings"></label>
 					</div>
 					<div class="checkside">Toppings</div>
-					<div class="squaredTwo margin-left">
-						{!! Form::checkbox('splenda', 'splenda', null, ['id'=>'checkbox_splenda']) !!}
+
+					<div class="squaredTwo margin-left" id="splenda">
+						{!! Form::checkbox('splenda', '3', null, ['id'=>'checkbox_splenda']) !!}
 						<label for="checkbox_splenda"></label>
 					</div>
 					<div class="checkside">Splenda</div>
@@ -48,7 +66,7 @@
 				{!! Form::input('hidden', 'num_people', null, []) !!}
 				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required']) !!}</div>
 				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email']) !!}</div>
-				<div class="price text-center">999.00</div>
+				<div class="price text-center" id="total_">999.00</div>
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
 			{!! Form::close() !!}
 		</div>

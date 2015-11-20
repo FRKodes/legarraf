@@ -10,6 +10,14 @@
 .blanco {
   color: #fff;
 }
+.floating-social {
+  position: fixed;
+  right: 10px;
+  top: 55px;
+  z-index: 10;
+  text-align: center;
+  display: none;
+}
 body {
   background-color: #fff;
   font-family: 'Lato', sans-serif;
@@ -168,9 +176,9 @@ body .slick-slider.helados-mobile .slick-dots li {
   display: inline-block;
   background: rgba(87,47,11,0.6);
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
+  width: 14px;
+  height: 14px;
+  margin: 0 7px;
 }
 body .slick-slider.helados-mobile .slick-dots li.slick-active {
   background: #572f0b;
@@ -516,11 +524,24 @@ body h2.text-center.oswald.aguas {
   margin: 0 auto 20px auto;
   padding: 5px 0;
 }
+body h2.litros {
+  padding: 0;
+  font-size: 2em;
+  position: relative;
+  display: block;
+  margin-top: 50px;
+}
+body .litro-img {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+}
 body .text-center.eventos {
   line-height: 1.4em;
 }
 body .quotation {
   margin-top: 40px;
+  position: relative;
 /* SQUARED TWO */
 }
 body .quotation .people {
@@ -532,6 +553,9 @@ body .quotation .people {
 }
 body .quotation .people p {
   margin-bottom: 0;
+}
+body .quotation .people p:hover {
+  cursor: pointer;
 }
 body .quotation .people button {
   position: absolute;
@@ -545,10 +569,48 @@ body .quotation .people button {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+body .quotation .people button:active,
+body .quotation .people button:focus,
+body .quotation .people button:visited,
+body .quotation .people button:hover {
+  outline: 0;
+}
+body .quotation .people-population {
+  padding: 15px;
+  list-style: none;
+  background: #f1f1f1;
+  width: 100%;
+  top: 50px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+}
+body .quotation .people-population.visible {
+  opacity: 1;
+  top: 40px;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+body .quotation .people-population li {
+  font-size: 1em;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+body .quotation .people-population li a {
+  color: #a0a1a3;
+}
 body .quotation .disclaimer {
   padding: 25px 20px 40px 20px;
   line-height: 1.4em;
   color: #a0a1a3;
+}
+body .quotation .disclaimer .icon-ice-cream.balls {
+  display: none;
+  transition: all 2.5s ease;
+}
+body .quotation .disclaimer .icon-ice-cream.balls.visible {
+  display: inline-block;
+  transition: all 2.5s ease;
 }
 body .quotation .form-group {
   vertical-align: middle;
@@ -837,6 +899,11 @@ body footer .logo {
   }
 }
 @media screen and (min-width: 768px) {
+  .floating-social {
+    right: 10px;
+    top: 100px;
+    display: block;
+  }
   body .navbar-default {
     padding-top: 10px;
   }
@@ -974,6 +1041,13 @@ body footer .logo {
     width: 550px;
     margin: 0 auto;
     position: relative;
+  }
+  body .slick-slider.helados-mobile .slick-dots {
+    bottom: 100px;
+  }
+  body .slick-slider.helados-mobile .slick-dots li {
+    width: 20px;
+    height: 20px;
   }
   body .m-top-55 {
     margin-top: 100px;
@@ -1247,6 +1321,12 @@ body footer .logo {
   }
   body .row.all-long.products p.satisfy.text-center.blanco {
     font-size: 1.4em;
+  }
+  body h2.litros {
+    font-size: 4em;
+  }
+  body .litro-img {
+    width: 35%;
   }
   body .especialidad img {
     width: 65%;
