@@ -18,17 +18,24 @@
 		<div class="helados-mobile eventos">
 			<img class="img-productos" src="/images/eventos-productos-le-garraf.png" alt="eventos productos le garraf">
 		</div>
-		
-		<p class="text-center eventos">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eveniet. Libero qui deserunt, harum sed incidunt quia accusamus quidem fugit quasi quod quisquam quis consequatur nobis veritatis ex ab molestiae!
-		</p>
+	</div>
 
+	<div class="row all-long top">
+		<div class="top"></div>
+	</div>
+	<div class="row all-long products">
 		<div class="quotation">
+			<p class="text-center eventos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eveniet.</p>
 			{!! Form::open() !!}
 				{!! Form::input('hidden', 'num_people', null, ['id'=>'num_people']) !!}
 				{!! Form::input('hidden', 'price_per_head', 12, ['id'=>'price_per_head']) !!}
+				
+				<div class="form-group date">
+					{!! Form::input('text', 'date', null, ['class'=>'form-control', 'id'=>'datepicker', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
+				</div>
+
 				<div class="form-group people">
-					<p>Nº de personas</p>
+					<p class="people_click">Nº de personas</p>
 					<button class="icon-arrow text-center blanco"></button>
 				</div>
 				<ul class="people-population">
@@ -49,57 +56,125 @@
 					<span class="icon-ice-cream balls _300"></span>
 					<span class="icon-ice-cream balls _300"></span>
 				</div>
-				<div class="form-group text-right">
-					<span>Deseas agregar: </span>
-					<div class="squaredTwo" id="toppings">
-						{!! Form::checkbox('toppings', '2', null, ['id'=>'checkbox_toppings']) !!}
-						<label for="checkbox_toppings"></label>
-					</div>
-					<div class="checkside">Toppings</div>
+				
+				<div class="col-xs-12 col-sm-6">
+					<p class="satisfy title">agua</p>
+					<ul class="flavors">
+						<li>Limón</li>
+						<li>Limón con chía</li>
+						<li>Ciruela</li>
+						<li>Fresa</li>
+						<li>Guanabana</li>
+						<li>Mandarina</li>
+						<li>Mango</li>
+						<li>Pulparindo</li>
+					</ul>
+				</div>
 
-					<div class="squaredTwo margin-left" id="splenda">
-						{!! Form::checkbox('splenda', '3', null, ['id'=>'checkbox_splenda']) !!}
-						<label for="checkbox_splenda"></label>
-					</div>
-					<div class="checkside">Splenda</div>
+				<div class="col-xs-12 col-sm-6">
+					<p class="satisfy title">crema</p>
+					<ul class="flavors">
+						<li>Cajeta</li>
+						<li>Chocolate</li>
+						<li>Coco</li>
+						<li>Mamey</li>
+						<li>Nuez</li>
+						<li>Plátano</li>
+						<li>Vainilla</li>
+					</ul>
+				</div>
+				
+				<div class="text-center">*No es necesario que elijas los sabores en este momento.</div>
+				
+				<div class="form-group">
+					<span class="add">Deseas agregar: </span> &nbsp;
+					{!! Form::checkbox('toppings', '2', null, ['id'=>'checkbox_toppings']) !!}
+					<div class="checkside satisfy"> &nbsp; Toppings </div> + $2 por persona
+				</div>
+
+				<p>Aquí están algunos de los toppings que puedes agregar:</p>
+
+				<div class="col-xs-12 col-sm-6">
+					<p class="satisfy title">para nieves de agua:</p>
+					<ul class="flavors">
+						<li>Pica piñas</li>
+						<li>Pulparindo</li>
+						<li>Mango con chile</li>
+						<li>Rielitos</li>
+						<li>Chamoy</li>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+					<p class="satisfy title">para nieves de crema:</p>
+					<ul class="flavors">
+						<li>Granola</li>
+						<li>Coco tostado</li>
+						<li>Lunetas</li>
+						<li>Mazapán</li>
+						<li>Cereal</li>
+						<li>Chocolate</li>
+					</ul>
+				</div>
+				
+				<p>Deseas que tu nieve sea endulzada con:</p>
+
+				<div class="form-group">
+					{!! Form::checkbox('splenda', '3', null, ['id'=>'checkbox_splenda']) !!}
+					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
 				</div>
 				{!! Form::input('hidden', 'num_people', null, []) !!}
-				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required']) !!}</div>
-				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email']) !!}</div>
+				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required', 'maxlength'=>'50']) !!}</div>
+				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email', 'maxlength'=>'70']) !!}</div>
+				<p class="text-center white">*Al cotizar NO se está resrvando tu evento. A la brevedad nos pondremos en contacto contigo para ponernos a tus órdenes sin compromiso.</p>
 				<div class="price text-center" id="total_">999.00</div>
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
 			{!! Form::close() !!}
+			<div class="fruits left">
+				<img src="images/fresa.png" alt="frutas, sabor fresa">
+				<img src="images/limon.png" alt="frutas, sabor limon">
+				<img src="images/mango.png" alt="frutas, sabor mango">
+			</div>
+			<div class="fruits right">
+				<img src="images/chocolate.png" alt="sabor chocolate">
+				<img src="images/platano.png" alt="sabor platano">
+				<img src="images/vainilla.png" alt="sabor vainilla">
+			</div>
 		</div>
 
-		<div class="faq">
-			<p class="question"></p>
-			<p class="answer"></p>
-			<p class="question">¿Cuál es el mínimo de personas?</p>
-			<p class="answer">90 personas</p>
-			<p class="question">¿Cuál es el costo por persona?</p>
-			<p class="answer">El costo por persona es de $12</p>
-			<p class="question">¿Cuántos sabores?</p>
-			<p class="answer">Por cada 90 personas puedes agregar 3 sabores.</p>
-			<p class="question">¿Cuátos litros llevan para 90 personas?</p>
-			<p class="answer">Para 90 personas son 10 litros de nieve.</p>
-			<p class="question">¿Cuánto tiempo se quedan en el evento?</p>
-			<p class="answer">En el evento la personas se queda 2 horas.</p>
-			<p class="question">¿Puede ir una persona a servirme el evento?</p>
-			<p class="answer">Sí el evento lo puede servir una persona.</p>
-			<p class="question">¿Que llevan para servir? ¿Tengo que poner algo?</p>
-			<p class="answer">La persona lleva todo lo necesario para servir el evento, llevamos una mesa con mantel, una estructura de garrafas. </p>
-			<p class="question">¿En que lo sirven?</p>
-			<p class="answer">La nieve se sirve en vasitos de le garraf y en conos.</p>
-			<p class="question">¿Cuántas bolas le dan a cada persona?</p>
-			<p class="answer">Aproximadamente se sirven 2 bolas por vasito.</p>
-			<p class="question">Si quiero toppings, ¿Cuánto me incrementa?</p>
-			<p class="answer">Si quieres toppings en tu evento te incrementa $3 por persona</p>
-			<p class="question">¿Cómo van vestidos las personas que sirven el evento?</p>
-			<p class="answer">Las personas van uniformadas de LE GARRAF.</p>
-			<p class="question">¿Si me sobra nieve?</p>
-			<p class="answer">Si te sobra nieve se te envasa en medios y litros, pero no te preocupes seguro no te va a sobrar.</p>
-		</div>
 
+	</div>
+	<div class="row all-long bottom">
+		<div class="bottom"></div>
+	</div>
+
+	<div class="faq">
+		<p class="question"></p>
+		<p class="answer"></p>
+		<p class="question">¿Cuál es el mínimo de personas?</p>
+		<p class="answer">90 personas</p>
+		<p class="question">¿Cuál es el costo por persona?</p>
+		<p class="answer">El costo por persona es de $12</p>
+		<p class="question">¿Cuántos sabores?</p>
+		<p class="answer">Por cada 90 personas puedes agregar 3 sabores.</p>
+		<p class="question">¿Cuátos litros llevan para 90 personas?</p>
+		<p class="answer">Para 90 personas son 10 litros de nieve.</p>
+		<p class="question">¿Cuánto tiempo se quedan en el evento?</p>
+		<p class="answer">En el evento la personas se queda 2 horas.</p>
+		<p class="question">¿Puede ir una persona a servirme el evento?</p>
+		<p class="answer">Sí el evento lo puede servir una persona.</p>
+		<p class="question">¿Que llevan para servir? ¿Tengo que poner algo?</p>
+		<p class="answer">La persona lleva todo lo necesario para servir el evento, llevamos una mesa con mantel, una estructura de garrafas. </p>
+		<p class="question">¿En que lo sirven?</p>
+		<p class="answer">La nieve se sirve en vasitos de le garraf y en conos.</p>
+		<p class="question">¿Cuántas bolas le dan a cada persona?</p>
+		<p class="answer">Aproximadamente se sirven 2 bolas por vasito.</p>
+		<p class="question">Si quiero toppings, ¿Cuánto me incrementa?</p>
+		<p class="answer">Si quieres toppings en tu evento te incrementa $3 por persona</p>
+		<p class="question">¿Cómo van vestidos las personas que sirven el evento?</p>
+		<p class="answer">Las personas van uniformadas de LE GARRAF.</p>
+		<p class="question">¿Si me sobra nieve?</p>
+		<p class="answer">Si te sobra nieve se te envasa en medios y litros, pero no te preocupes seguro no te va a sobrar.</p>
 	</div>
 			
 @stop

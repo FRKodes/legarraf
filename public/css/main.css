@@ -142,9 +142,12 @@ body .helados-mobile img.img-mapa {
 body .helados-mobile.garrafon {
   z-index: 1;
 }
-body .helados-mobile.eventos,
 body .helados-mobile.map-branches {
   margin-top: -160px;
+}
+body .helados-mobile.eventos {
+  margin-top: -140px;
+  height: 190px;
 }
 body .slick-slider.helados-mobile {
   margin-bottom: 60px;
@@ -540,28 +543,36 @@ body .text-center.eventos {
   line-height: 1.4em;
 }
 body .quotation {
-  margin-top: 40px;
   position: relative;
+  width: 80%;
+  margin: 100px auto 0 auto;
 /* SQUARED TWO */
 }
+body .quotation p {
+  color: #fff;
+  margin-bottom: 30px;
+}
 body .quotation .people {
-  background-color: #f1f1f1;
+  background-color: transparent;
+  border: 1px solid #fff;
   color: #999;
-  padding: 15px;
+  padding: 15px 0;
   height: 40px;
   position: relative;
 }
 body .quotation .people p {
   margin-bottom: 0;
+  color: #a0a1a3;
+  padding-left: 15px;
 }
 body .quotation .people p:hover {
   cursor: pointer;
 }
 body .quotation .people button {
   position: absolute;
-  background-color: #00adef;
+  background-color: #82cec1;
   display: inline-block;
-  right: 0;
+  right: -2px;
   top: 0;
   border: none;
   height: 100%;
@@ -580,16 +591,20 @@ body .quotation .people-population {
   list-style: none;
   background: #f1f1f1;
   width: 100%;
-  top: 50px;
+  top: 170px;
   position: absolute;
   opacity: 0;
-  transition: opacity 0.5s ease, top 0.5s ease;
+  transition: opacity 0.2s ease, top 0.2s ease;
 }
 body .quotation .people-population.visible {
   opacity: 1;
-  top: 40px;
+  top: 155px;
   z-index: 10;
   transition: all 0.3s ease;
+}
+body .quotation .people-population.visible li a {
+  display: block;
+  opacity: 1;
 }
 body .quotation .people-population li {
   font-size: 1em;
@@ -598,11 +613,12 @@ body .quotation .people-population li {
 }
 body .quotation .people-population li a {
   color: #a0a1a3;
+  display: none;
 }
 body .quotation .disclaimer {
-  padding: 25px 20px 40px 20px;
+  padding: 15px 0px;
   line-height: 1.4em;
-  color: #a0a1a3;
+  color: #fff;
 }
 body .quotation .disclaimer .icon-ice-cream.balls {
   display: none;
@@ -612,30 +628,58 @@ body .quotation .disclaimer .icon-ice-cream.balls.visible {
   display: inline-block;
   transition: all 2.5s ease;
 }
+body .quotation p.satisfy.title {
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  text-align: center;
+}
+body .quotation .flavors {
+  padding: 0;
+  text-align: center;
+}
+body .quotation .flavors li {
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 10px;
+}
+body .quotation .flavors li:after {
+  content: ' · ';
+}
 body .quotation .form-group {
   vertical-align: middle;
+  color: #fff;
 }
 body .quotation .form-group span {
   float: left;
   display: inline-block;
   vertical-align: middle;
-  color: #a0a1a3;
-  padding: 8px 0;
+  color: #fff;
+  padding: 5px 0;
+}
+body .quotation .form-group span.add {
+  margin-right: 20px;
 }
 body .quotation .form-group checkbox {
   display: inline-block;
   vertical-align: middle;
 }
 body .quotation .form-control {
-  background-color: #f1f1f1;
-  border-radius: 0;
+  background-color: transparent;
   border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
 }
-body .quotation .form-control:focus {
+body .quotation .form-control:focus,
+body .quotation .form-control:active {
   outline: none;
 }
+body .quotation .checkside {
+  color: #fff;
+  margin-right: 10px;
+}
 body .quotation .price {
-  color: #00adef;
+  color: #82cec1;
   font-size: 2.6em;
   padding: 30px 0;
 }
@@ -649,7 +693,7 @@ body .quotation .checkside {
 body .quotation .squaredTwo {
   width: 28px;
   height: 28px;
-  background: #00adef;
+  background: #82cec1;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -675,7 +719,7 @@ body .quotation .squaredTwo label:after {
   background: transparent;
   top: 5px;
   left: 3px;
-  border: 4px solid #00adef;
+  border: 4px solid #82cec1;
   border-top: none;
   border-right: none;
   -webkit-transform: rotate(-45deg);
@@ -693,23 +737,40 @@ body .quotation .margin-left {
   margin-left: 15px;
 }
 body .quotation .btn.btn-primary {
-  background-color: #00adef;
+  background-color: #82cec1;
   color: #fff;
   border-radius: 0;
-  border: 1px solid #00adef;
+  border: 1px solid #82cec1;
   width: 100%;
   font-size: 1.4em;
   margin-top: 10px;
 }
+body .fruits {
+  position: absolute;
+  top: 350px;
+  overflow: hidden;
+  height: auto;
+}
+body .fruits img {
+  width: 150px !important;
+  height: auto;
+  display: block;
+  margin-bottom: 80px !important;
+}
+body .fruits.left {
+  left: -200px;
+}
+body .fruits.right {
+  right: -200px;
+}
 body .faq {
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 body .faq p {
   line-height: 1.2em;
 }
 body .faq .question {
-  color: #00adef;
+  color: #82cec1;
 }
 body .faq .answer {
   padding-bottom: 10px;
@@ -788,6 +849,10 @@ body footer .logo {
   }
   body .helados-mobile.garrafon {
     margin-top: -110px;
+  }
+  body .helados-mobile.eventos {
+    margin-top: -173px;
+    height: 290px;
   }
   body .slick-slider.helados-mobile {
     margin-bottom: 100px;
@@ -1022,7 +1087,8 @@ body footer .logo {
     margin-top: -330px;
   }
   body .helados-mobile.eventos {
-    margin-top: -350px;
+    margin-top: -375px;
+    height: 400px;
   }
   body .helados-mobile.map-branches {
     margin-top: -330px;
@@ -1228,6 +1294,31 @@ body footer .logo {
   body .quotation,
   body .faq {
     width: 600px;
+  }
+  body .quotation p.satisfy.title,
+  body .quotation .flavors {
+    text-align: left;
+  }
+  body .quotation p.satisfy.title li,
+  body .quotation .flavors li {
+    display: block;
+  }
+  body .quotation p.satisfy.title li:after,
+  body .quotation .flavors li:after {
+    content: '';
+  }
+  body .quotation .people-population {
+    top: 148px;
+  }
+  body .quotation .people-population.visible {
+    top: 138px;
+  }
+  body .quotation div.text-center {
+    color: #fff;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 40px;
   }
   body footer .container p.oswald.cafe {
     font-size: 3.6em;

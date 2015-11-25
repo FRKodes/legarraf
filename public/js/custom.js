@@ -73,17 +73,6 @@ $( window ).scroll(function() {
 	 Animations garrafon page
 	 */
 	if ($('#garrafon-topping-mix').length) {
-		// console.log('paletas');
-		// var paletas = $('#paletas').offset().top-650;
-		// if (scroll > paletas) {
-		// 	setTimeout(function(){
-		// 	    $('#paletas').addClass('magictime vanishIn');
-		// 	}, 200);
-		// 	setTimeout(function(){
-		// 	    $('#paletas-shadow').addClass('magictime slideDownRetourn');
-		// 	}, 1000);
-		// };
-		
 		var garrafon_topping_mix = $('#garrafon-topping-mix').offset().top-650;
 		if (scroll > garrafon_topping_mix) {
 			setTimeout(function(){
@@ -163,6 +152,9 @@ setTimeout(function(){
 
 
 $(document).ready(function(){
+	
+	$("#datepicker").datepicker();
+
 	$('.images.paletas').slick({
 		autoplay: true,
 		autoplaySpeed: 3500,
@@ -173,7 +165,7 @@ $(document).ready(function(){
 		autoplaySpeed: 3000,
 		dots: true
 	});
-	$('.quotation button, .quotation p').on('click', function (e){
+	$('.quotation button, .quotation p.people_click').on('click', function (e){
 		e.preventDefault();
 		$('.people-population').toggleClass('visible');
 	});

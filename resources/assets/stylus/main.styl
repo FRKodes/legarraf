@@ -6,7 +6,7 @@ cafe = #572F0B
 blanco = #fff
 gris = #F1F1F1
 gris2 = #A0A1A3
-azul = #00ADEF
+verde = #82CEC1
 .cafe
 	color cafe
 .blanco
@@ -115,9 +115,11 @@ body
 				width 300px
 		&.garrafon
 			z-index 1
-		&.eventos
 		&.map-branches
 			margin-top -160px
+		&.eventos
+			margin-top -140px
+			height 190px
 	.slick-slider.helados-mobile
 		margin-bottom 60px
 		overflow visible
@@ -428,23 +430,30 @@ body
 	.text-center.eventos
 		line-height 1.4em
 	.quotation
-		margin-top 40px
 		position relative
+		width 80%
+		margin 100px auto 0 auto
+		p
+			color white
+			margin-bottom 30px
 		.people
-			background-color gris
+			background-color transparent
+			border 1px solid white
 			color #999
-			padding 15px
+			padding 15px 0
 			height 40px
 			position relative
 			p
 				margin-bottom 0
+				color gris2
+				padding-left 15px
 				&:hover
 					cursor pointer
 			button
 				position absolute
-				background-color azul
+				background-color verde
 				display inline-block
-				right 0
+				right -2px
 				top 0
 				border none
 				height 100%
@@ -461,56 +470,80 @@ body
 			list-style none
 			background gris
 			width 100%
-			top 50px
+			top 170px
 			position absolute
 			opacity 0
-			transition opacity .5s ease, top .5s ease
+			transition opacity .2s ease, top .2s ease
 			&.visible
 				opacity 1
-				top 40px
+				top 155px
 				z-index 10
 				transition all .3s ease
+				li a
+					display block
+					opacity 1
 			li
 				font-size 1em
 				padding 5px 0
 				margin-bottom 5px
 				a
 					color gris2
+					display none
 		.disclaimer
-			padding 25px 20px 40px 20px
+			padding 15px 0px
 			line-height 1.4em
-			color gris2
+			color white
 			.icon-ice-cream.balls
 				display none
 				transition all 2.5s ease
 				&.visible
 					display inline-block
 					transition all 2.5s ease
+		p.satisfy.title
+			margin-bottom 15px
+			font-size 1.4em
+			text-align center
+		.flavors
+			padding 0
+			text-align center
+			li
+				display inline-block
+				color white
+				margin-bottom 10px
+				&:after
+					content ' · '
 		.form-group
 			vertical-align middle
+			color white
 			span
 				float left
 				display inline-block
 				vertical-align middle
-				color gris2
-				padding 8px 0
+				color white
+				padding 5px 0
+				&.add
+					margin-right 20px
 			checkbox
 				display inline-block
 				vertical-align middle
 		.form-control
-			background-color gris
-			border-radius 0
+			background-color transparent
 			border none
+			border-bottom 1px solid white
+			border-radius 0
+			color white
 			&:focus
+			&:active
 				outline none
+		.checkside
+			color white
+			margin-right 10px
 		.price
-			color azul
+			color verde
 			font-size 2.6em
 			padding 30px 0
 			&:before
 				content '$'
-		
-
 		/* SQUARED TWO */
 		.checkside
 			display inline-block
@@ -518,7 +551,7 @@ body
 		.squaredTwo
 			width 28px
 			height 28px
-			background azul
+			background verde
 			margin 0 auto
 			position relative
 			text-align center
@@ -542,7 +575,7 @@ body
 			background transparent
 			top 5px
 			left 3px
-			border 4px solid azul
+			border 4px solid verde
 			border-top none
 			border-right none
 			-webkit-transform rotate(-45deg)
@@ -562,20 +595,33 @@ body
 			margin-left 15px
 
 		.btn.btn-primary
-			background-color azul
+			background-color verde
 			color blanco
 			border-radius 0
-			border 1px solid azul
+			border 1px solid verde
 			width 100%
 			font-size 1.4em
 			margin-top 10px
+	.fruits
+		position absolute
+		top 350px
+		overflow hidden
+		height auto
+		img
+			width 150px !important
+			height auto
+			display block
+			margin-bottom 80px !important
+		&.left
+			left -200px
+		&.right
+			right -200px
 	.faq
-		padding-top 40px
 		padding-bottom 40px
 		p
 			line-height 1.2em
 		.question
-			color azul
+			color verde
 		.answer
 			padding-bottom 10px
 
@@ -638,6 +684,9 @@ body
 					width 420px
 			&.garrafon
 				margin-top -110px
+			&.eventos
+				margin-top -173px
+				height 290px
 		.slick-slider.helados-mobile
 			margin-bottom 100px
 			.slick-slide
@@ -825,7 +874,8 @@ body
 			&.garrafon
 				margin-top -330px
 			&.eventos
-				margin-top -350px
+				margin-top -375px
+				height 400px
 			&.map-branches
 				margin-top -330px
 		.slick-slider.helados-mobile
@@ -991,6 +1041,24 @@ body
 		.quotation
 		.faq
 			width 600px
+		.quotation
+			p.satisfy.title
+			.flavors
+				text-align left
+				li
+					display block
+					&:after
+						content ''
+			.people-population
+				top 148px
+				&.visible
+					top 138px
+			div.text-center
+				color white
+				width 100%
+				display block
+				overflow hidden
+				margin-bottom 40px
 		/*768*/
 		footer
 			.container
