@@ -523,6 +523,8 @@ body
 				padding 5px 0
 				&.add
 					margin-right 20px
+			&.error input
+				border-color red
 			checkbox
 				display inline-block
 				vertical-align middle
@@ -541,9 +543,17 @@ body
 		.price
 			color verde
 			font-size 2.6em
-			padding 30px 0
+			padding 10px 0
+			margin-bottom 10px
 			&:before
 				content '$'
+		.check_selector
+			width 14px
+			height 14px
+			display inline-block
+			border 1px solid verde
+			&.checked
+				background rgba(verde,.5)
 		/* SQUARED TWO */
 		.checkside
 			display inline-block
@@ -607,6 +617,7 @@ body
 		top 350px
 		overflow hidden
 		height auto
+		display none
 		img
 			width 150px !important
 			height auto
@@ -1198,6 +1209,8 @@ body
 				width 20%
 				&:first-of-type
 					margin-left 10%
+		.fruits
+			display block
 		.row.all-long
 			&.products
 				p.satisfy.text-center.blanco

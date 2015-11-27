@@ -9,5 +9,6 @@
 <meta property="og:title" content="LE GARRAF - @yield('current_section_title')">
 <meta property="og:description" content="LE GARRAF una marca cuya finalidad principal es ofrecer una opción : fresca , original , divertida a los antojos de nuestros clientes.">
 <meta property="og:site_name" content="LE GARRAF">
+<meta name="_token" content="{{ csrf_token() }}" />
 <title>LE GARRAF - @yield('current_section_title')</title>
 <link rel="icon" href="favicon.png" type="image/png" sizes="32x32">

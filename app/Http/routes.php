@@ -12,11 +12,12 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('nosotros', 'PagesController@acercade');
-Route::get('sucursales', 'PagesController@sucursales');
-Route::get('productos', 'PagesController@productos');
-Route::get('garrafon', 'PagesController@garrafon');
 Route::get('eventos', 'PagesController@eventos');
+Route::get('garrafon', 'PagesController@garrafon');
+Route::get('nosotros', 'PagesController@acercade');
+Route::get('productos', 'PagesController@productos');
+Route::get('sucursales', 'PagesController@sucursales');
+Route::post('sendmail', 'PagesController@sendmail');
 
 // Route::get('home', 'HomeController@index');
 

@@ -659,6 +659,9 @@ body .quotation .form-group span {
 body .quotation .form-group span.add {
   margin-right: 20px;
 }
+body .quotation .form-group.error input {
+  border-color: #f00;
+}
 body .quotation .form-group checkbox {
   display: inline-block;
   vertical-align: middle;
@@ -681,10 +684,20 @@ body .quotation .checkside {
 body .quotation .price {
   color: #82cec1;
   font-size: 2.6em;
-  padding: 30px 0;
+  padding: 10px 0;
+  margin-bottom: 10px;
 }
 body .quotation .price:before {
   content: '$';
+}
+body .quotation .check_selector {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border: 1px solid #82cec1;
+}
+body .quotation .check_selector.checked {
+  background: rgba(130,206,193,0.5);
 }
 body .quotation .checkside {
   display: inline-block;
@@ -750,6 +763,7 @@ body .fruits {
   top: 350px;
   overflow: hidden;
   height: auto;
+  display: none;
 }
 body .fruits img {
   width: 150px !important;
@@ -1483,6 +1497,9 @@ body footer .logo {
   }
   body .branches .address:first-of-type {
     margin-left: 10%;
+  }
+  body .fruits {
+    display: block;
   }
   body .row.all-long.products p.satisfy.text-center.blanco {
     font-size: 1.8em;

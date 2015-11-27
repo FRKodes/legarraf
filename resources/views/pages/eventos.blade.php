@@ -26,8 +26,7 @@
 	<div class="row all-long products">
 		<div class="quotation">
 			<p class="text-center eventos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eveniet.</p>
-			{!! Form::open() !!}
-				{!! Form::input('hidden', 'num_people', null, ['id'=>'num_people']) !!}
+			{!! Form::open(['url'=>'sendmail', 'id'=>'eventForm']) !!}
 				{!! Form::input('hidden', 'price_per_head', 12, ['id'=>'price_per_head']) !!}
 				
 				<div class="form-group date">
@@ -37,6 +36,7 @@
 				<div class="form-group people">
 					<p class="people_click">Nº de personas</p>
 					<button class="icon-arrow text-center blanco"></button>
+					{!! Form::input('hidden', 'num_people', null, ['id'=>'num_people', 'data-validate' => 'required']) !!}
 				</div>
 				<ul class="people-population">
 					<li><a href="#" data-balls="Hasta 2 sabores de nieve." data-number="90" data-value="Hasta 90 personas">Hasta 90 personas</a></li>
@@ -87,8 +87,9 @@
 				<div class="text-center">*No es necesario que elijas los sabores en este momento.</div>
 				
 				<div class="form-group">
+					{!! Form::input('hidden', 'toppings_price', 2, ['id'=>'toppings_price']) !!}
 					<span class="add">Deseas agregar: </span> &nbsp;
-					{!! Form::checkbox('toppings', '2', null, ['id'=>'checkbox_toppings']) !!}
+					<a href="#toppings" class="check_selector" id="check_top"></a>
 					<div class="checkside satisfy"> &nbsp; Toppings </div> + $2 por persona
 				</div>
 
@@ -120,15 +121,20 @@
 				<p>Deseas que tu nieve sea endulzada con:</p>
 
 				<div class="form-group">
-					{!! Form::checkbox('splenda', '3', null, ['id'=>'checkbox_splenda']) !!}
+					{!! Form::input('hidden', 'splenda_price', 3, ['id'=>'splenda_price']) !!}
+					<a href="#splenda" class="check_selector" id="check_spl"></a>
 					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
 				</div>
 				{!! Form::input('hidden', 'num_people', null, []) !!}
 				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required', 'maxlength'=>'50']) !!}</div>
 				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email', 'maxlength'=>'70']) !!}</div>
+				<div class="alert alert-danger hidden">
+					Por favor proporciona tu nombre y un correo electrónico válido.
+				</div>
 				<p class="text-center white">*Al cotizar NO se está resrvando tu evento. A la brevedad nos pondremos en contacto contigo para ponernos a tus órdenes sin compromiso.</p>
-				<div class="price text-center" id="total_">999.00</div>
+				<div class="price text-center verde" id="total_"></div>
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
+				<div class="sent_mail_alert text-center white hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 			{!! Form::close() !!}
 			<div class="fruits left">
 				<img src="images/fresa.png" alt="frutas, sabor fresa">
