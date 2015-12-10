@@ -263,6 +263,7 @@ $(function(){
 
 
 			var posting = $.post( 
+				
 				url, { nombre: nombre, email: email, num_people: num_people, total: total, toppings: toppings, splenda: splenda, _token: _token }
 
 				);
@@ -270,6 +271,7 @@ $(function(){
 			
 			posting.done(function( data ) {
 				console.log(data);
+				console.log('email sent!');
 				$('#eventForm')[0].reset();
 				$('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
 			});

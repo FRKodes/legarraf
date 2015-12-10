@@ -21,7 +21,7 @@
 			<p class="address">
 				Av. Pablo Neruda 3158 <br>
 				Col. Providencia <br>
-				<a class="cafe" href="#ver mapa">VER MAPA <span class="icon-arrow"></span></a>
+				<a class="cafe" href="https://www.google.com.mx/maps/place/Le+Garraf/@20.6973157,-103.3905785,19z/data=!4m2!3m1!1s0x0000000000000000:0x7f3e51e76414fd2d?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
 				<figure><img src="/images/sucursal.jpg" alt="sucursal le garraf"></figure>
@@ -33,7 +33,7 @@
 			<p class="address">
 				Niño Obrero # 1466 esq. Guadalupe <br>
 				Colonia Chapalita<br>
-				<a class="cafe" href="#ver mapa">VER MAPA <span class="icon-arrow"></span></a>
+				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.6653762,-103.4085075/@20.6652946,-103.4091365,19z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
 				<figure><img src="/images/fachada-chapalita.jpg" alt="fachada le garraf sucursal chapalita"></figure>
@@ -45,7 +45,7 @@
 			<p class="address">
 				Plaza Andares <br>
 				Planta baja <br>
-				<a class="cafe" href="#ver mapa">VER MAPA <span class="icon-arrow"></span></a>
+				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.7090166,-103.4121508/@20.7088328,-103.4130688,17.44z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
 				<figure><img src="/images/andares.jpg" alt="sucursal le garraf andares"></figure>
@@ -57,10 +57,22 @@
 			<p class="address">
 				Avenida Santa Margarita #3849.<br>
 				Plaza la Toscana<br>
-				<a class="cafe" href="#ver mapa">VER MAPA <span class="icon-arrow"></span></a>
+				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.7286718,-103.4342957/@20.7293794,-103.4339654,18.12z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/andares.jpg" alt="sucursal le garraf toscana"></figure>
+				<figure><img src="/images/sucursal-toscana.jpg" alt="sucursal le garraf toscana"></figure>
+			</div>
+		</div>
+
+		<div class="sucursal col-xs-12 col-sm-6">
+			<h2 class="title cafe oswald"><span class="icon-garrafoncito"></span> GARRAFÓN PROVIDENCIA</h2>
+			<p class="address">
+				Av. Pablo Neruda 3158 <br>
+				Col. Providencia <br>
+				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.6970416,-103.3915761/@20.6974921,-103.3918268,17.9z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
+			</p>
+			<div class="images">
+				<figure><img src="/images/sucursal-garrafon.jpg" alt="GARRAFÓN pablo neruda"></figure>
 			</div>
 		</div>
 

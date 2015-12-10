@@ -42,10 +42,10 @@ class PagesController extends Controller {
 	public function sendmail2(){
 		
 		// return $_ENV['MAIL_DRIVER']. ' ' .$_ENV['MANDRILL_KEY'];
-		// return 'okok';
+		return 'okok';
 
-		Mail::send('emails.cotizacion', [], function($message){
-			$message->to('frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
+		Mail::send('emails.cotizacion', [], function($msg){
+			$msg->to('frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
 		});
 
 	}

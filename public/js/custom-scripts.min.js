@@ -273,13 +273,13 @@ var reference = (function thename(){
 }());
 
 /* validator */
-jQuery(function(){
+$(function(){
 	var formSettings = {
 		singleError : function($field, rules){ $field.closest('.form-group').removeClass('valid').addClass('error'); $('.alert.alert-danger').removeClass('hidden');},
 		singleSuccess : function($field, rules){ $field.closest('.form-group').removeClass('error').addClass('valid'); $('.alert.alert-danger').addClass('hidden');},
 		overallSuccess : function(){
 
-			var form    	= jQuery('#eventForm'),
+			var form    	= $('#eventForm'),
 				nombre   	= form.find( "input[name='nombre']" ).val(),
 				email   	= form.find( "input[name='email']" ).val(),
 				num_people	= form.find( "input[name='num_people']" ).val(),
@@ -300,21 +300,24 @@ jQuery(function(){
 			console.log(email);
 
 
-			var posting = jQuery.post( 
-				url, { email: email , _token: _token }
+			var posting = $.post( 
+				
+				url, { nombre: nombre, email: email, num_people: num_people, total: total, toppings: toppings, splenda: splenda, _token: _token }
+
 				);
 
 			
 			posting.done(function( data ) {
 				console.log(data);
-				jQuery('#eventForm')[0].reset();
-				jQuery('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+				console.log('email sent!');
+				$('#eventForm')[0].reset();
+				$('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
 			});
 
 		},
 		overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },
 		autoDetect : true, debug : true
 	};
-	var $validate = jQuery('#eventForm').validate(formSettings).data('validate');
+	var $validate = $('#eventForm').validate(formSettings).data('validate');
 });
 //# sourceMappingURL=custom-scripts.min.js.map
