@@ -25,9 +25,10 @@
 	</div>
 	<div class="row all-long products">
 		<div class="quotation">
-			<p class="text-center eventos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eveniet.</p>
-			{!! Form::open(['url'=>'sendmail', 'id'=>'eventForm']) !!}
+			<h1 class="text-center eventos blanco oswald">¡SIMULA UNA COTIZACIÓN DE TU EVENTO!</h1>
+			{!! Form::open(['url'=>'sendmail2', 'id'=>'eventForm']) !!}
 				{!! Form::input('hidden', 'price_per_head', 12, ['id'=>'price_per_head']) !!}
+				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
 				
 				<div class="form-group date">
 					{!! Form::input('text', 'date', null, ['class'=>'form-control', 'id'=>'datepicker', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}

@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Mail;
+use Mail;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -38,13 +39,15 @@ class PagesController extends Controller {
 		return view('pages.eventos');	
 	}
 	
-	public function sendmail(){
+	public function sendmail2(){
 		
-		Mail::send('emails.cotizacion', null, function($message){
+		// return $_ENV['MAIL_DRIVER']. ' ' .$_ENV['MANDRILL_KEY'];
+		// return 'okok';
+
+		Mail::send('emails.cotizacion', [], function($message){
 			$message->to('frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
 		});
 
-		return $_ENV['MAIL_DRIVER']. ' ' .$_ENV['MANDRILL_KEY'];
 	}
 
 }

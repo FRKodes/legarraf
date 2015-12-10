@@ -266,7 +266,8 @@ $(document).ready(function(){
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
 	parseInt(total);
-    console.log('' + 'Total: ' +total);
+    console.log('' + 'Total: ' + total);
+    $('#total_price').val(total);
     $('#total_').html(total);
     return thename; //return the function itself to reference
 }());
@@ -281,24 +282,33 @@ jQuery(function(){
 			var form    	= jQuery('#eventForm'),
 				nombre   	= form.find( "input[name='nombre']" ).val(),
 				email   	= form.find( "input[name='email']" ).val(),
+				num_people	= form.find( "input[name='num_people']" ).val(),
+				total		= form.find( "input[name='total_price']" ).val(),
+				toppings	= form.find( "input[name='toppings_price']" ).val(),
+				splenda		= form.find( "input[name='splenda_price']" ).val(),
 				_token   	= form.find( "input[name='_token']" ).val(),
 				action  	= form.attr( "action"),
 				url     	= action;
 				
 			console.log(_token);
 			console.log(action);
+			console.log(num_people);
+			console.log(toppings);
+			console.log(splenda);
+			console.log('Total: '+ total);
 			console.log(nombre);
 			console.log(email);
 
 
 			var posting = jQuery.post( 
-				url, { e: email , _token: _token }
+				url, { email: email , _token: _token }
 				);
+
 			
 			posting.done(function( data ) {
 				console.log(data);
 				jQuery('#eventForm')[0].reset();
-				// jQuery('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+				jQuery('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
 			});
 
 		},

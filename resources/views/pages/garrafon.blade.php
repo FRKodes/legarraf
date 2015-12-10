@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('body_page', 'garrafon')
+
 @section('current_section_title', 'GARRAFON')
 
 @section('content')
@@ -34,7 +36,7 @@
 					<span class="satisfy">mix</span>
 				</p>
 				<p>
-					El topping mix es una mezcla personalizada de papas, frutas y toppings se mezclan con 3 tipos de salsas: salsa negra, salsa clamato, salsa negra y salsa pulparindo y se le agrega una banderilla. <br>
+					El topping mix es una mezcla personalizada de papas, frutas y toppings se mezclan con 3 tipos de salsas: salsa negra, salsa clamato, salsa negra y salsa pelon pelo rico y se le agrega una banderilla. <br>
 					Tenemos 3 tamaños : chico, mediano y grande.
 				</p>
 			</div>
@@ -62,7 +64,7 @@
 					<span class="satisfy">loco</span>
 				</p>
 				<p>
-					El topping mix es una mezcla personalizada de papas, frutas y toppings se mezclan con 3 tipos de salsas: salsa negra, salsa clamato, salsa negra y salsa pulparindo, todo sobre una base de coco, se le agrega una banderilla.
+					El coco loco es uno de los preferidos de garrafón , mezcla los ingredientes de tu agrado en el interior de medio coco , selecciona una de nuestras salsas , mézclalo y disfruta una alternativa única como nunca antes la habías visto.
 				</p>
 			</div>
 		</div>

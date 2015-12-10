@@ -876,7 +876,7 @@ body .faq p {
   line-height: 1.2em;
 }
 body .faq .question {
-  color: #82cec1;
+  color: #538982;
 }
 body .faq .answer {
   padding-bottom: 10px;
@@ -1074,6 +1074,12 @@ body footer .logo {
     right: 10px;
     top: 100px;
     display: block;
+  }
+  body.garrafon .navbar-default .navbar-collapse .navbar-nav a {
+    color: #333;
+  }
+  body.garrafon .navbar-default.active .navbar-collapse .navbar-nav a {
+    color: #fff;
   }
   body .navbar-default {
     padding-top: 10px;

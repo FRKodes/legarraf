@@ -17,7 +17,11 @@ Route::get('garrafon', 'PagesController@garrafon');
 Route::get('nosotros', 'PagesController@acercade');
 Route::get('productos', 'PagesController@productos');
 Route::get('sucursales', 'PagesController@sucursales');
-Route::post('sendmail', 'PagesController@sendmail');
+Route::post('sendmail2', 'PagesController@sendmail2');
+
+// Route::post('sendmail', function (){
+// 	return 'ok';
+// });
 
 // Route::get('home', 'HomeController@index');
 

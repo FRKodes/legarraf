@@ -30,6 +30,13 @@
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="papas" src="/images/papas-cuerdas.jpg" width="320" height="467" alt="papas cuerdas garrafón"></div>
 		</div>
 
+		<div class="container">
+			<h2 class="cafe satisfy text-center litros col-xs-12">1 litro y 1/2 litro</h2>
+			<p class="text-center">
+				<img class="litro-img" src="images/litro.jpg" alt="litro y medio litro nieve LE GARRAF">
+			</p>
+		</div>
+
 		<div class="container-fluid">
 			<div class="row all-long top">
 				<div class="top"></div>
@@ -109,10 +116,6 @@
 				<span class="icon-ice-cream"></span>
 			</div>
 			
-			<h2 class="cafe satisfy text-center litros col-xs-12">1 litro y 1/2 litro</h2>
-			<p class="text-center">
-				<img class="litro-img" src="images/litro.jpg" alt="litro y medio litro nieve LE GARRAF">
-			</p>
 		</div>
 		
 @stop

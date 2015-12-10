@@ -4,7 +4,7 @@
 	@include('partials.metas')
 	@include('partials.styles')
 </head>
-<body>
+<body class="@yield('body_page')">
 	<div id="fb-root"></div>
 	<script>
 	// (function(d, s, id) {

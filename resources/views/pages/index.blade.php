@@ -41,9 +41,9 @@
 					<span class="satisfy">y divertido</span>
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
+					Tres calificativos que incluímos en cada una de nuestras creaciones, a través de las cuales satisfacemos los antojos de nuestros consumidores. Una de las principales recetas de nuestra marca es la innovación, constantemente sacamos productos acorde a ciertas temporadas en el año, innovaciones que hacen de nuestra empresa una de las preferidas de los paladares tapatíos.
 				</p>
-				<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+				<a href="productos" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 
@@ -62,9 +62,9 @@
 					<span class="satisfy">saludable</span>
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. A laborum maxime facilis fugit asperiores porro, id, minus, hic libero corrupti voluptatem ipsam nisi nesciunt! Perferendis exercitationem cupiditate voluptas placeat fugiat.
+					En Le Garraf contamos con una amplia gama de posibilidades para nuestros clientes que buscan una línea saludable . Nieves , Paletas , Aguas entre otros que permiten seguir con la dieta ; así como una barra de toppings , frutas e ingredientes naturales a través de los cuales nos posicionamos como una marca que satisface los antojos de clientes que cuidan la figura.
 				</p>
-				<a href="#" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
+				<a href="productos" class="cafe"><b>NUESTROS PRODUCTOS</b> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 

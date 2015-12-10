@@ -19,7 +19,7 @@
                                                     <td width='10'></td>
                                                     <td style='text-align:left'>
                                                         <p>A quien corresponda:</p>
-                                                        <p><b>Email:</b>  {{ Input::get('e') }} </p>
+                                                        <p><b>Email:</b>  {{ Input::get('email') }} </p>
                                                         <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.com' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
                                                     </td>
                                                     <td width='10'></td>
