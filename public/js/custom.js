@@ -168,6 +168,9 @@ setTimeout(function(){
 $(document).ready(function(){
 	
 	$("#datepicker").datepicker();
+	$("#datepicker").blur(function(){
+		console.log('texto: ' + $(this).val());
+	});
 
 	$('.images.paletas').slick({
 		autoplay: true,
@@ -226,8 +229,10 @@ $(document).ready(function(){
 
 		if ($(this).hasClass('checked')) {
 			$('#price_per_head').val(price_per_head + toppings);
+			$('#toppings_price').attr('data-checked', 'Si');
 		}else{
 			$('#price_per_head').val(price_per_head - toppings);
+			$('#toppings_price').attr('data-checked', 'No');
 		};
 		reference();
 	});
@@ -239,8 +244,10 @@ $(document).ready(function(){
 
 		if ($(this).hasClass('checked')) {
 			$('#price_per_head').val(price_per_head + splenda);
+			$('#splenda_price').attr('data-checked', 'Si');
 		}else{
 			$('#price_per_head').val(price_per_head - splenda);
+			$('#splenda_price').attr('data-checked', 'No');
 		};
 		reference();
 	});
@@ -251,7 +258,7 @@ var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
 	var litros = parseInt($('#num_people').val()/9);
 	parseInt(total);
-    console.log('->' + 'Total: ' + total + ' // Num personas: ' + $('#num_people').val() + ' // Litros: ' + litros);
+    // console.log('->' + 'Total: ' + total + ' // Num personas: ' + $('#num_people').val() + ' // Litros: ' + litros);
     $('#total_price').val(total);
     $('#total_').html(total + ' ( ' + litros + ' litros )' );
     return thename; //return the function itself to reference
@@ -268,26 +275,27 @@ $(function(){
 				nombre   	= form.find( "input[name='nombre']" ).val(),
 				email   	= form.find( "input[name='email']" ).val(),
 				num_people	= form.find( "input[name='num_people']" ).val(),
+				toppings	= form.find( "input[name='toppings_price']" ).attr('data-checked'),
+				splenda		= form.find( "input[name='splenda_price']" ).attr('data-checked'),
+				num_people	= form.find( "input[name='num_people']" ).val(),
 				total		= form.find( "input[name='total_price']" ).val(),
-				toppings	= form.find( "input[name='toppings_price']" ).val(),
-				splenda		= form.find( "input[name='splenda_price']" ).val(),
+				fecha		= form.find( "input[name='datepicker']" ).val(),
 				_token   	= form.find( "input[name='_token']" ).val(),
 				action  	= form.attr( "action"),
 				url     	= action;
 				
-			console.log(_token);
-			console.log(action);
-			console.log(num_people);
-			console.log(toppings);
-			console.log(splenda);
-			console.log('Total: '+ total);
-			console.log(nombre);
-			console.log(email);
-
+			// console.log(_token);
+			// console.log(action);
+			// console.log(num_people);
+			// console.log(toppings);
+			// console.log(splenda);
+			// console.log('Total: '+ total);
+			// console.log(nombre);
+			// console.log(email);
 
 			var posting = $.post( 
 				
-				url, { nombre: nombre, email: email, num_people: num_people, total: total, toppings: toppings, splenda: splenda, _token: _token }
+				url, { nombre: nombre, email: email, num_people: num_people, total: total, fecha: fecha, toppings: toppings, splenda: splenda, _token: _token }
 
 				);
 

@@ -31,7 +31,7 @@
 				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
 				
 				<div class="form-group date">
-					{!! Form::input('text', 'date', null, ['class'=>'form-control', 'id'=>'datepicker', 'data-validate'=>'required', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
+					{!! Form::input('text', 'datepicker', null, ['class'=>'form-control', 'id'=>'datepicker', 'data-validate'=>'required', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
 				</div>
 
 				{{-- <div class="form-group people">
@@ -94,7 +94,7 @@
 				<div class="text-center">*No es necesario que elijas los sabores en este momento.</div>
 				
 				<div class="form-group">
-					{!! Form::input('hidden', 'toppings_price', 2, ['id'=>'toppings_price']) !!}
+					{!! Form::input('hidden', 'toppings_price', 2, ['id'=>'toppings_price', 'data-checked'=>'No']) !!}
 					<span class="add">Deseas agregar: </span> &nbsp;
 					<a href="#toppings" class="check_selector" id="check_top"></a>
 					<div class="checkside satisfy"> &nbsp; Toppings </div> + $2 por persona
@@ -128,11 +128,11 @@
 				<p>Deseas que tu nieve sea endulzada con:</p>
 
 				<div class="form-group">
-					{!! Form::input('hidden', 'splenda_price', 3, ['id'=>'splenda_price']) !!}
+					{!! Form::input('hidden', 'splenda_price', 3, ['id'=>'splenda_price', 'data-checked'=>'No']) !!}
 					<a href="#splenda" class="check_selector" id="check_spl"></a>
 					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
 				</div>
-				{!! Form::input('hidden', 'num_people', null, []) !!}
+
 				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required', 'maxlength'=>'50']) !!}</div>
 				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email', 'maxlength'=>'70']) !!}</div>
 				<div class="alert alert-danger hidden">
@@ -141,7 +141,7 @@
 				<p class="text-center white">*Al cotizar NO se está resrvando tu evento. A la brevedad nos pondremos en contacto contigo para ponernos a tus órdenes sin compromiso.</p>
 				<div class="price text-center verde" id="total_"></div>
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
-				<div class="sent_mail_alert text-center white hidden">¡GRACIAS!<br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
+				<div class="sent_mail_alert white"><b>¡GRACIAS!</b><br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
 			{!! Form::close() !!}
 			<div class="fruits left">
 				<img src="images/fresa.png" alt="frutas, sabor fresa">

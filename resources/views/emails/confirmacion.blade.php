@@ -18,14 +18,19 @@
                                                 <tr>
                                                     <td width='10'></td>
                                                     <td style='text-align:left'>
-                                                        <p>A quien corresponda:</p>
-                                                        <p><b>Email:</b>  {{ Input::get('email') }} </p>
-                                                        <p><b>Nombre:</b>  {{ Input::get('nombre') }} </p>
+                                                        <p>Hola {{ Input::get('nombre') }}:</p>
+                                                        <p>Recibiste este correo por que acabas de solicitar un presupuesto en LE GARRAF:</p>
+                                                        <p>Los datos que recibimos fueron los siguientes:</p>
                                                         <p><b>Num. Personas:</b>  {{ Input::get('num_people') }} </p>
                                                         <p><b>Toppings:</b>  {{ Input::get('toppings') }} </p>
                                                         <p><b>Splenda:</b>  {{ Input::get('splenda') }} </p>
                                                         <p><b>Fecha:</b>  {{ Input::get('fecha') }} </p>
                                                         <p><b>Precio total estimado:</b>  ${{ Input::get('total') }} </p>
+
+                                                        <p>
+                                                            En breve nos pondremos en contacto contigo.<br>
+                                                            <b>Que tengas un excelente día.</b>
+                                                        </p>
                                                         <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.com' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
                                                     </td>
                                                     <td width='10'></td>

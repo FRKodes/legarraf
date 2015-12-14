@@ -39,13 +39,19 @@ class PagesController extends Controller {
 		return view('pages.eventos');	
 	}
 	
-	public function sendmail2(){
-		
-		// return $_ENV['MAIL_DRIVER']. ' // ' .$_ENV['MANDRILL_KEY']. ' // ' .$_ENV['APP_ENV'];
-		// return 'okok';
+	public function sendmail2(Request $request){
 
+		$email = $request->input('email');
 		Mail::send('emails.cotizacion', [], function($message){
 			$message->to('frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
+		});
+		
+		/*
+		CONFIRMATION EMAIL
+		 */
+		$data = array( 'email' => $email );
+		Mail::later(5, 'emails.confirmacion', $data, function ($message) use ($data) {
+			$message->to($data['email'])->subject('Cotización para evento LE GARRAF');
 		});
 
 	}
