@@ -3,7 +3,7 @@
 return [
 
 	'mandrill' => [
-		'secret' => env('MANDRILL_KEY')
+		'secret' => getenv('MANDRILL_KEY')
 	]
 
 ];

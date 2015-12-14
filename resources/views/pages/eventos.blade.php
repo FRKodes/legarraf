@@ -31,10 +31,10 @@
 				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
 				
 				<div class="form-group date">
-					{!! Form::input('text', 'date', null, ['class'=>'form-control', 'id'=>'datepicker', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
+					{!! Form::input('text', 'date', null, ['class'=>'form-control', 'id'=>'datepicker', 'data-validate'=>'required', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
 				</div>
 
-				<div class="form-group people">
+				{{-- <div class="form-group people">
 					<p class="people_click">Nº de personas</p>
 					<button class="icon-arrow text-center blanco"></button>
 					{!! Form::input('hidden', 'num_people', null, ['id'=>'num_people', 'data-validate' => 'required']) !!}
@@ -44,7 +44,13 @@
 					<li><a href="#" data-balls="Hasta 3 sabores de nieve." data-number="100" data-value="Hasta 100 personas">Hasta 100 personas</a></li>
 					<li><a href="#" data-balls="Hasta 6 sabores de nieve." data-number="200" data-value="Hasta 200 personas">Hasta 200 personas</a></li>
 					<li><a href="#" data-balls="Hasta 9 sabores de nieve." data-number="300" data-value="Hasta 300 personas">Hasta 300 personas</a></li>
-				</ul>
+				</ul> --}}
+				
+				<div class="form-group">
+					{!! Form::input('text', 'num_people', '', ['class'=>'form-control', 'id'=>'num_people', 'data-validate'=>'required|min[90]','placeholder'=>'Introduce el número de personas en tu evento' ]) !!}
+					<small>*El mínimo de psersonas para un evento son 90.</small>
+				</div>
+
 				<div class="disclaimer text-center">
 					<p>Selecciona un número aproximado de personas, el número de sabores a elegir depende del número de personas en tu evento.</p>
 					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
@@ -130,12 +136,12 @@
 				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required', 'maxlength'=>'50']) !!}</div>
 				<div class="form-group">{!! Form::input('text', 'email', null, ['class' => 'form-control', 'placeholder' => 'Correo', 'data-validate' => 'required|email', 'maxlength'=>'70']) !!}</div>
 				<div class="alert alert-danger hidden">
-					Por favor proporciona tu nombre y un correo electrónico válido.
+					Por favor verifica que seleccionaste una fecha para la cotización de tu evento, el número de personas y proporciona tu nombre y un correo electrónico válido.
 				</div>
 				<p class="text-center white">*Al cotizar NO se está resrvando tu evento. A la brevedad nos pondremos en contacto contigo para ponernos a tus órdenes sin compromiso.</p>
 				<div class="price text-center verde" id="total_"></div>
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
-				<div class="sent_mail_alert text-center white hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+				<div class="sent_mail_alert text-center white hidden">¡GRACIAS!<br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
 			{!! Form::close() !!}
 			<div class="fruits left">
 				<img src="images/fresa.png" alt="frutas, sabor fresa">

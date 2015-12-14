@@ -179,21 +179,43 @@ $(document).ready(function(){
 		autoplaySpeed: 3000,
 		dots: true
 	});
-	$('.quotation button, .quotation p.people_click').on('click', function (e){
-		e.preventDefault();
-		$('.people-population').toggleClass('visible');
-	});
-	$('.people-population a').on('click', function (e){
-		e.preventDefault();
-		var num_people = $(this).attr('data-value');
-		var number = $(this).attr('data-number');
-		var balls = $(this).attr('data-balls');
-		$('.people-population').removeClass('visible');
-		$('.people p').html(num_people);
-		$('#num_people').val(number);
-		$('.disclaimer p').html(balls);
+	
+	// $('.quotation button, .quotation p.people_click').on('click', function (e){
+	// 	e.preventDefault();
+	// 	$('.people-population').toggleClass('visible');
+	// });
+
+	// $('.people-population a').on('click', function (e){
+	// 	e.preventDefault();
+	// 	var num_people = $(this).attr('data-value');
+	// 	var number = $(this).attr('data-number');
+	// 	var balls = $(this).attr('data-balls');
+	// 	$('.people-population').removeClass('visible');
+	// 	$('.people p').html(num_people);
+	// 	$('#num_people').val(number);
+	// 	$('.disclaimer p').html(balls);
+	// 	$('span.balls').removeClass('visible');
+	// 	$('._' + number).addClass('visible');
+	// 	reference();
+	// });
+	
+	$('#num_people').blur(function (){
+
+		var num_people = parseInt($(this).val());
+		var balls = [];
+
+		if (num_people >= 90 && num_people <100) { balls.number = 90; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>2</b> sabores de nieve.'; };
+		if (num_people >= 100 && num_people <200) { balls.number = 100; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>3</b> sabores de nieve.'; };
+		if (num_people >= 200 && num_people <300) { balls.number = 200; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>6</b> sabores de nieve.'; };
+		if (num_people >= 300) { balls.number = 300; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>9</b> sabores de nieve.'; };
+
+		$('.disclaimer p').html(balls.disclaimer);
 		$('span.balls').removeClass('visible');
-		$('._' + number).addClass('visible');
+		$('._' + balls.number).addClass('visible');
+
+		// console.log('Num personas: ' + num_people + ' // Balls: ' + balls.number);
+
+
 		reference();
 	});
 	
@@ -227,10 +249,11 @@ $(document).ready(function(){
 
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
+	var litros = parseInt($('#num_people').val()/9);
 	parseInt(total);
-    console.log('' + 'Total: ' + total);
+    console.log('->' + 'Total: ' + total + ' // Num personas: ' + $('#num_people').val() + ' // Litros: ' + litros);
     $('#total_price').val(total);
-    $('#total_').html(total);
+    $('#total_').html(total + ' ( ' + litros + ' litros )' );
     return thename; //return the function itself to reference
 }());
 

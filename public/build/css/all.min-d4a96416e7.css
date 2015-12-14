@@ -711,6 +711,7 @@ body .quotation .disclaimer {
   padding: 15px 0px;
   line-height: 1.4em;
   color: #fff;
+  font-size: 1.2em;
 }
 body .quotation .disclaimer .icon-ice-cream.balls {
   display: none;
@@ -719,6 +720,9 @@ body .quotation .disclaimer .icon-ice-cream.balls {
 body .quotation .disclaimer .icon-ice-cream.balls.visible {
   display: inline-block;
   transition: all 2.5s ease;
+}
+body .quotation .disclaimer b {
+  color: #82cec1;
 }
 body .quotation p.satisfy.title {
   margin-bottom: 15px;
@@ -764,6 +768,7 @@ body .quotation .form-control {
   border-bottom: 1px solid #fff;
   border-radius: 0;
   color: #fff;
+  font-size: 1.2em;
 }
 body .quotation .form-control:focus,
 body .quotation .form-control:active {
