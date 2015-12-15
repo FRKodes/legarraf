@@ -11,6 +11,7 @@
 	@include('partials.nav')
 	@yield('content')
 	@include('partials.footer')
+	@include('partials.analytics')
 	@include('partials.scripts')
 	
 </body>
