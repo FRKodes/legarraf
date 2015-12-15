@@ -40,7 +40,8 @@
 				<div class="title oswald cafe"><span class="icon-garrafa"></span>TOSCANA</div>
 				<div class="info">
 					<p>
-						Próximamente.<br><br>
+						Avenida Santa Margarita #3849.
+						Plaza la Toscana<br><br>
 						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>

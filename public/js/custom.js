@@ -256,7 +256,9 @@ $(document).ready(function(){
 
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
-	var litros = parseInt($('#num_people').val()/9);
+	var litros = $('#num_people').val()/9;
+	litros = litros.toFixed(1);
+
 	parseInt(total);
     // console.log('->' + 'Total: ' + total + ' // Num personas: ' + $('#num_people').val() + ' // Litros: ' + litros);
     $('#total_price').val(total);
