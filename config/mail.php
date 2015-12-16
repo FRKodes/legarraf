@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => 'eventos@legarraf.com', 'name' => 'LE GARRAF'],
+	'from' => ['address' => 'eventos@legarraf.mx', 'name' => 'LE GARRAF'],
 
 	/*
 	|--------------------------------------------------------------------------

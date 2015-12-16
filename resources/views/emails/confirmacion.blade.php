@@ -31,7 +31,7 @@
                                                             En breve nos pondremos en contacto contigo.<br>
                                                             <b>Que tengas un excelente día.</b>
                                                         </p>
-                                                        <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.com' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
+                                                        <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.mx' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
                                                     </td>
                                                     <td width='10'></td>
                                                 </tr>
