@@ -47,8 +47,8 @@
 				</ul> --}}
 				
 				<div class="form-group">
-					{!! Form::input('text', 'num_people', '', ['class'=>'form-control', 'id'=>'num_people', 'data-validate'=>'required|min[90]','placeholder'=>'Introduce el número de personas en tu evento' ]) !!}
-					<small>*El mínimo de psersonas para un evento son 90.</small>
+					{!! Form::input('text', 'num_people', '', ['class'=>'form-control', 'id'=>'num_people', 'data-validate'=>'required|min[100]','placeholder'=>'Introduce el número de personas en tu evento' ]) !!}
+					<small>*El mínimo de psersonas para un evento son 100.</small>
 				</div>
 
 				<div class="disclaimer text-center">
@@ -165,13 +165,13 @@
 		<p class="question"></p>
 		<p class="answer"></p>
 		<p class="question">¿Cuál es el mínimo de personas?</p>
-		<p class="answer">90 personas</p>
+		<p class="answer">100 personas</p>
 		<p class="question">¿Cuál es el costo por persona?</p>
 		<p class="answer">El costo por persona es de $12</p>
 		<p class="question">¿Cuántos sabores?</p>
-		<p class="answer">Por cada 90 personas puedes agregar 3 sabores.</p>
-		<p class="question">¿Cuátos litros llevan para 90 personas?</p>
-		<p class="answer">Para 90 personas son 10 litros de nieve.</p>
+		<p class="answer">Por cada 100 personas puedes agregar 3 sabores.</p>
+		<p class="question">¿Cuátos litros llevan para 100 personas?</p>
+		<p class="answer">Para 100 personas son 10 litros de nieve.</p>
 		<p class="question">¿Cuánto tiempo se quedan en el evento?</p>
 		<p class="answer">En el evento la personas se queda 2 horas.</p>
 		<p class="question">¿Puede ir una persona a servirme el evento?</p>
