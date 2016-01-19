@@ -14,5 +14,9 @@
 	@include('partials.analytics')
 	@include('partials.scripts')
 	
+	@if(Route::getCurrentRoute()->getPath() == "sucursales")
+		<script src="js/maps.google.js"></script>
+	@endif
+	
 </body>
 </html>

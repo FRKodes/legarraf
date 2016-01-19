@@ -109,43 +109,6 @@ $( window ).scroll(function() {
 	};
 });
 
-var myLatlng = new google.maps.LatLng(20.699776,-103.417528);
-var neruda = new google.maps.LatLng(20.697196,-103.390865);
-var chapalita = new google.maps.LatLng(20.708532,-103.411972);
-var andares = new google.maps.LatLng(20.665309,-103.408640);
-var toscana = new google.maps.LatLng(20.729280,-103.435140);
-var mapOptions = {
-  zoom: 12,
-  center: myLatlng
-}
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-var marker = new google.maps.Marker({
-    position: neruda,
-    title:"LE GARRAF Pablo Neruda"
-});
-
-var marker_chapalita = new google.maps.Marker({
-    position: chapalita,
-    title:"LE GARRAF Chapalita"
-});
-
-var marker_andares = new google.maps.Marker({
-    position: andares,
-    title:"LE GARRAF Andares"
-});
-
-var marker_toscana = new google.maps.Marker({
-    position: toscana,
-    title:"LE GARRAF Toscana"
-});
-
-// To add the marker to the map, call setMap();
-marker_toscana.setMap(map);
-marker_andares.setMap(map);
-marker_chapalita.setMap(map);
-marker.setMap(map);
-
 $('.navbar-toggle').on('click', function (){
 	$('.navbar-default').toggleClass('active_');
 });
@@ -206,7 +169,7 @@ $(document).ready(function(){
 		var balls = [];
 
 		if (num_people >= 90 && num_people <100) { balls.number = 90; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>2</b> sabores de nieve.'; };
-		if (num_people >= 100 && num_people <200) { balls.number = 100; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>3</b> sabores de nieve.'; };
+		if (num_people >= 100 && num_people <200) { balls.number = 100; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>4</b> sabores de nieve.'; };
 		if (num_people >= 200 && num_people <300) { balls.number = 200; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>6</b> sabores de nieve.'; };
 		if (num_people >= 300) { balls.number = 300; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>9</b> sabores de nieve.'; };
 
@@ -215,7 +178,6 @@ $(document).ready(function(){
 		$('._' + balls.number).addClass('visible');
 
 		// console.log('Num personas: ' + num_people + ' // Balls: ' + balls.number);
-
 
 		reference();
 	});
@@ -254,7 +216,7 @@ $(document).ready(function(){
 
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
-	var litros = $('#num_people').val()/9;
+	var litros = $('#num_people').val()/100*15;
 	litros = litros.toFixed(1);
 
 	parseInt(total);

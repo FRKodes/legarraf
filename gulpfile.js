@@ -19,6 +19,7 @@ elixir(function(mix) {
 			'public/js/bootstrap.min.js',
 			'public/js/slick.js',
 			'public/js/jquery-ui.min.js',
+			// 'public/js/maps.google.js',
 			'public/js/custom.js'
 		],'public/js/custom-scripts.min.js', 'public/js')
 		.version(['public/css/all.min.css', 'public/js/custom-scripts.min.js']);

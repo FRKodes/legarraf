@@ -56,7 +56,7 @@
 					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
 					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
 					<span class="icon-ice-cream balls _100 _200 _300"></span>
-					<span class="icon-ice-cream balls _200 _300"></span>
+					<span class="icon-ice-cream balls _100 _200 _300"></span>
 					<span class="icon-ice-cream balls _200 _300"></span>
 					<span class="icon-ice-cream balls _200 _300"></span>
 					<span class="icon-ice-cream balls _300"></span>
