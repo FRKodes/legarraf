@@ -168,8 +168,8 @@ $(document).ready(function(){
 		var num_people = parseInt($(this).val());
 		var balls = [];
 
-		if (num_people >= 90 && num_people <100) { balls.number = 90; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>2</b> sabores de nieve.'; };
-		if (num_people >= 100 && num_people <200) { balls.number = 100; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>4</b> sabores de nieve.'; };
+		if (num_people >= 90 && num_people <100) { balls.number = 0; balls.disclaimer = 'El <b>mínimo</b> de personas para un evento es 100. '; };
+		if (num_people >= 100 && num_people <200) { balls.number = 100; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>3</b> sabores de nieve.'; };
 		if (num_people >= 200 && num_people <300) { balls.number = 200; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>6</b> sabores de nieve.'; };
 		if (num_people >= 300) { balls.number = 300; balls.disclaimer = 'Con <b>' + num_people + '</b> personas en tu evento puedes seleccionar hasta <b>9</b> sabores de nieve.'; };
 

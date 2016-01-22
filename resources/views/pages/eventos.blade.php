@@ -18,6 +18,8 @@
 		<div class="helados-mobile eventos">
 			<img class="img-productos" src="/images/eventos-productos-le-garraf.png" alt="eventos productos le garraf">
 		</div>
+
+		<p class="text-center eventos-cel">EVENTOS CEL : 333 5842942 y 333 1280908</p>
 	</div>
 
 	<div class="row all-long top">
@@ -56,7 +58,7 @@
 					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
 					<span class="icon-ice-cream balls _90 _100 _200 _300"></span>
 					<span class="icon-ice-cream balls _100 _200 _300"></span>
-					<span class="icon-ice-cream balls _100 _200 _300"></span>
+					<span class="icon-ice-cream balls _200 _300"></span>
 					<span class="icon-ice-cream balls _200 _300"></span>
 					<span class="icon-ice-cream balls _200 _300"></span>
 					<span class="icon-ice-cream balls _300"></span>
@@ -171,7 +173,7 @@
 		<p class="question">¿Cuántos sabores?</p>
 		<p class="answer">Por cada 100 personas puedes agregar 3 sabores.</p>
 		<p class="question">¿Cuátos litros llevan para 100 personas?</p>
-		<p class="answer">Para 100 personas son 10 litros de nieve.</p>
+		<p class="answer">Para 100 personas son 15 litros de nieve.</p>
 		<p class="question">¿Cuánto tiempo se quedan en el evento?</p>
 		<p class="answer">En el evento la personas se queda 2 horas.</p>
 		<p class="question">¿Puede ir una persona a servirme el evento?</p>
