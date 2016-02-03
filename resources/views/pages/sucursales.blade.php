@@ -24,7 +24,7 @@
 				<a class="cafe" href="https://www.google.com.mx/maps/place/Le+Garraf/@20.6973157,-103.3905785,19z/data=!4m2!3m1!1s0x0000000000000000:0x7f3e51e76414fd2d?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/sucursal.jpg" alt="sucursal le garraf"></figure>
+				<figure><img src="/images/legarrag-pablo-neruda.jpg" alt="sucursal le garraf Pablo Neruda"></figure>
 			</div>
 		</div>
 
@@ -36,7 +36,7 @@
 				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.6653762,-103.4085075/@20.6652946,-103.4091365,19z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/fachada-chapalita.jpg" alt="fachada le garraf sucursal chapalita"></figure>
+				<figure><img src="/images/legarraf-chapalita.jpg" alt="fachada le garraf sucursal chapalita"></figure>
 			</div>
 		</div>
 
