@@ -39,6 +39,19 @@ class PagesController extends Controller {
 		return view('pages.eventos');	
 	}
 	
+	public function bolsaDeTrabajo(){
+		return view('pages.bolsa-de-trabajo');	
+	}
+
+	public function sendmail_unete(){
+		
+		Mail::send('emails.unete', [], function($message){
+			$message->to('frkalderon@gmail.com')->subject('Interesado en vacante LE GARRAF');
+			$message->attach($pathToFile);
+		});		
+
+	}
+	
 	public function sendmail2(Request $request){
 
 		$email = $request->input('email');
