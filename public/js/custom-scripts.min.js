@@ -344,23 +344,23 @@ $(function(){
 
 			var form    	= $('#unete'),
 				nombre   	= form.find( "input[name='nombre']" ).val(),
-				// email   	= form.find( "input[name='email']" ).val(),
-				// telefono	= form.find( "input[name='telefono']" ).val(),
-				// celular		= form.find( "input[name='celular']" ).val(),
-				// sucursal	= form.find( "select[name='sucursal']" ).val(),
-				// turno		= form.find( "select[name='turno']" ).val(),
-				// mensaje		= form.find( "textarea[name='mensaje']" ).val(),
+				email		= form.find( "input[name='email']" ).val(),
+				telefono	= form.find( "input[name='telefono']" ).val(),
+				celular		= form.find( "input[name='celular']" ).val(),
+				sucursal	= form.find( "select[name='sucursal']" ).val(),
+				turno		= form.find( "select[name='turno']" ).val(),
+				mensaje		= form.find( "textarea[name='mensaje']" ).val(),
 				_token   	= form.find( "input[name='_token']" ).val(),
 				action  	= form.attr( "action"),
 				url     	= action;
 			var posting = $.post( 
 				url, { 	nombre: nombre, 
-						// email: email, 
-						// telefono: telefono, 
-						// celular: celular, 
-						// sucursal: sucursal, 
-						// turno: turno, 
-						// mensaje: mensaje, 
+						email: email, 
+						telefono: telefono, 
+						celular: celular, 
+						sucursal: sucursal, 
+						turno: turno, 
+						mensaje: mensaje, 
 						_token: _token
 					}
 				);
@@ -368,7 +368,7 @@ $(function(){
 				console.log(data);
 				console.log('email sent!');
 				$('#unete')[0].reset();
-				// $('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+				$('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
 			});
 
 		},
@@ -376,6 +376,42 @@ $(function(){
 		autoDetect : true, debug : true
 	};
 	var $validate = $('#unete').validate(formSettings).data('validate');
+});
+
+$(function(){
+	var formSettings = {
+		singleError : function($field, rules){ $field.closest('.form-group').removeClass('valid').addClass('error'); $('.alert.alert-danger').removeClass('hidden');},
+		singleSuccess : function($field, rules){ $field.closest('.form-group').removeClass('error').addClass('valid'); $('.alert.alert-danger').addClass('hidden');},
+		overallSuccess : function(){
+
+			var form    	= $('#contacto'),
+				nombre   	= form.find( "input[name='nombre']" ).val(),
+				email		= form.find( "input[name='email']" ).val(),
+				telefono	= form.find( "input[name='telefono']" ).val(),
+				mensaje		= form.find( "textarea[name='mensaje']" ).val(),
+				_token   	= form.find( "input[name='_token']" ).val(),
+				action  	= form.attr( "action"),
+				url     	= action;
+			var posting = $.post( 
+				url, { 	nombre: nombre, 
+						email: email, 
+						telefono: telefono, 
+						mensaje: mensaje, 
+						_token: _token
+					}
+				);
+			posting.done(function( data ) {
+				console.log(data);
+				console.log('email sent!');
+				$('#contacto')[0].reset();
+				$('.sent_mail_alert').fadeIn().delay(2000).fadeOut();
+			});
+
+		},
+		overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },
+		autoDetect : true, debug : true
+	};
+	var $validate = $('#contacto').validate(formSettings).data('validate');
 });
 
 //# sourceMappingURL=custom-scripts.min.js.map

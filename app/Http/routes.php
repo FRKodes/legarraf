@@ -17,7 +17,9 @@ Route::get('garrafon', 'PagesController@garrafon');
 Route::get('nosotros', 'PagesController@acercade');
 Route::get('productos', 'PagesController@productos');
 Route::get('sucursales', 'PagesController@sucursales');
+Route::get('contacto', 'PagesController@contacto');
 Route::get('bolsa-de-trabajo', 'PagesController@bolsaDeTrabajo');
+Route::post('sendmail-contacto', 'PagesController@contacto');
 Route::post('sendmail-unete', 'PagesController@sendmail_unete');
 Route::post('sendmail2', 'PagesController@sendmail2');
 

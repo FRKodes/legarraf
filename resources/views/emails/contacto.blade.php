@@ -22,9 +22,6 @@
                                                         <p><b>Nombre:</b>  {{ Input::get('nombre') }} </p>
                                                         <p><b>Email:</b>  {{ Input::get('email') }} </p>
                                                         <p><b>Teléfono:</b>  {{ Input::get('telefono') }} </p>
-                                                        <p><b>Celular:</b>  {{ Input::get('celular') }} </p>
-                                                        <p><b>Sucursal:</b>  {{ Input::get('sucursal') }} </p>
-                                                        <p><b>Turno:</b>  {{ Input::get('turno') }} </p>
                                                         <p><b>Mensaje:</b>  {{ Input::get('mensaje') }} </p>
                                                         <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.mx' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
                                                     </td>

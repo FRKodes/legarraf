@@ -232,6 +232,16 @@ body .helados-mobile img.img-productos {
   display: inline-block;
   position: relative;
 }
+body .helados-mobile img.img-bolsa {
+  width: 260px;
+  position: relative;
+  margin: 0 auto;
+}
+body .helados-mobile img.img-contacto {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
 body .helados-mobile img.img-mapa {
   width: 300px;
 }
@@ -244,6 +254,10 @@ body .helados-mobile.map-branches {
 body .helados-mobile.eventos {
   margin-top: -140px;
   height: 190px;
+}
+body .helados-mobile.bolsa {
+  margin-top: -150px;
+  height: 215px;
 }
 body .slick-slider.helados-mobile {
   margin-bottom: 60px;
@@ -906,6 +920,9 @@ body .faq .question {
 body .faq .answer {
   padding-bottom: 10px;
 }
+body .bolsa form {
+  position: relative;
+}
 body .bolsa .form-group.error .form-control {
   background-color: rgba(255,0,0,0.5);
 }
@@ -960,6 +977,10 @@ body .bolsa .styled-select select {
   appearance: none;
   z-index: 999999;
   color: #918f90;
+}
+body .bolsa .sent_mail_alert.white.unete {
+  bottom: 300px;
+  z-index: 100;
 }
 body .bolsa .js .inputfile {
   width: 0.1px;
@@ -1141,6 +1162,13 @@ body footer .logo {
   body .helados-mobile img.img-productos {
     width: 400px;
   }
+  body .helados-mobile img.img-bolsa {
+    width: 360px;
+  }
+  body .helados-mobile img.img-contacto {
+    width: 250px;
+    margin-top: 30px;
+  }
   body .helados-mobile img.img-mapa {
     width: 420px;
   }
@@ -1150,6 +1178,9 @@ body footer .logo {
   body .helados-mobile.eventos {
     margin-top: -173px;
     height: 290px;
+  }
+  body .helados-mobile.bolsa {
+    height: 295px;
   }
   body .slick-slider.helados-mobile {
     margin-bottom: 100px;
@@ -1387,6 +1418,13 @@ body footer .logo {
   body .helados-mobile img.img-productos {
     width: 550px;
   }
+  body .helados-mobile img.img-bolsa {
+    width: 450px;
+  }
+  body .helados-mobile img.img-contacto {
+    width: 350px;
+    margin-top: 30px;
+  }
   body .helados-mobile img.img-mapa {
     width: 580px;
   }
@@ -1396,6 +1434,10 @@ body footer .logo {
   body .helados-mobile.eventos {
     margin-top: -375px;
     height: 400px;
+  }
+  body .helados-mobile.bolsa {
+    margin-top: -345px;
+    height: 375px;
   }
   body .helados-mobile.map-branches {
     margin-top: -330px;

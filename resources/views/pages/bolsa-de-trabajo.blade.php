@@ -16,8 +16,8 @@
 	</div>
 	
 	<div class="container productos">
-		<div class="helados-mobile eventos">
-			<img class="img-productos" src="/images/eventos-productos-le-garraf.png" alt="eventos productos le garraf">
+		<div class="helados-mobile bolsa">
+			<img class="img-bolsa" src="/images/bolsa_de_trabajo.png" alt="bolsa de trabajo le garraf">
 		</div>
 	</div>
 	
@@ -40,6 +40,7 @@
 		</div>
 		<div class="form-group">{!! Form::textarea('mensaje', null, ['class'=>'form-control', 'placeholder'=>'Déjanos un mensaje']) !!}</div>
 		<div class="form-group">{!! Form::submit('ENVIAR', ['class'=>'btn btn-primary send-cv']) !!}</div>
+		<div class="sent_mail_alert white unete"><b>¡GRACIAS!</b><br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
 		{!! Form::close() !!}
 	</div>
 			

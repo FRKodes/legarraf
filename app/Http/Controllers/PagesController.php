@@ -39,6 +39,10 @@ class PagesController extends Controller {
 		return view('pages.eventos');	
 	}
 	
+	public function contacto(){
+		return view('pages.contacto');	
+	}
+	
 	public function bolsaDeTrabajo(){
 		return view('pages.bolsa-de-trabajo');	
 	}
@@ -46,9 +50,16 @@ class PagesController extends Controller {
 	public function sendmail_unete(){
 		
 		Mail::send('emails.unete', [], function($message){
-			$message->to('frkalderon@gmail.com')->subject('Interesado en vacante LE GARRAF');
-			$message->attach($pathToFile);
-		});		
+			$message->to('legarraf@outlook.com')->subject('Interesado en vacante LE GARRAF');
+		});	
+
+	}
+	
+	public function sendmail_contacto(){
+		
+		Mail::send('emails.contacto', [], function($message){
+			$message->to('frkalderon@gmail.com')->subject('Correo de Contacto desde LE GARRAF');
+		});	
 
 	}
 	
