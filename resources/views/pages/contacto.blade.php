@@ -21,7 +21,7 @@
 	
 	<div class="container needyou">
 		<h1 class="text-center cafe oswald">¡QUEREMOS ESCUCHARTE!</h1>
-		<h2 class="text-center satisfy cafe">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+		<h2 class="text-center satisfy cafe">Para nosotros tu opinión es lo más importante.</h2>
 	</div>	
 	
 	<div class="container bolsa">

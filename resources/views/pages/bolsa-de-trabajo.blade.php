@@ -23,7 +23,7 @@
 	
 	<div class="container needyou">
 		<h1 class="text-center cafe oswald">¡LE GARRAF TE NECESITA!</h1>
-		<h2 class="text-center satisfy cafe">¡únete a nuestro equipo!</h2>
+		<h2 class="text-center satisfy cafe">¡Únete a nuestro equipo!</h2>
 	</div>	
 	
 	<div class="container bolsa">
