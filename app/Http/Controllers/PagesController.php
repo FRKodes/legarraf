@@ -58,7 +58,7 @@ class PagesController extends Controller {
 	public function sendmail_contacto(){
 		
 		Mail::send('emails.contacto', [], function($message){
-			$message->to('frkalderon@gmail.com')->subject('Correo de Contacto desde LE GARRAF');
+			$message->to('legarraf@outlook.com')->subject('Correo de Contacto desde LE GARRAF');
 		});	
 
 	}
