@@ -34,5 +34,7 @@
 		<div class="sent_mail_alert white unete"><b>¡GRACIAS!</b><br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
 		{!! Form::close() !!}
 	</div>
+
+	<div class="container"><h3 class="text-center">"No tenemos franquicias"</h3></div>
 			
 @stop
