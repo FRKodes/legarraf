@@ -14,13 +14,13 @@
 			<ul class="nav navbar-nav">
 				<li @if(Route::getCurrentRoute()->getPath() == "/") class="active" @endif><a href="/">Inicio</a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "nosotros") class="active" @endif><a href="nosotros">Nosotros</a></li>
-				<li @if(Route::getCurrentRoute()->getPath() == "bolsa-de-trabajo") class="active" @endif><a href="bolsa-de-trabajo">Bolsa de trabajo</a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "productos") class="active" @endif><a href="productos">Productos</a></li>
-				<li class="icon hidden-xs"><a href="/" class="icon-garrafa"></a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "garrafon") class="active" @endif><a href="garrafon">Garrafón</a></li>
-				<li @if(Route::getCurrentRoute()->getPath() == "eventos") class="active" @endif><a href="eventos">Eventos</a></li>
+				<li class="icon hidden-xs"><a href="/" class="icon-garrafa"></a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "sucursales") class="active" @endif><a href="sucursales">Sucursales</a></li>
+				<li @if(Route::getCurrentRoute()->getPath() == "eventos") class="active" @endif><a href="eventos">Eventos</a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "contacto") class="active" @endif><a href="contacto">Contacto</a></li>
+				<li @if(Route::getCurrentRoute()->getPath() == "bolsa-de-trabajo") class="active" @endif><a href="bolsa-de-trabajo">Bolsa de trabajo</a></li>
 			</ul>
 		</div>
 	</div>

@@ -35,6 +35,6 @@
 		{!! Form::close() !!}
 	</div>
 
-	<div class="container"><h3 class="text-center">"No tenemos franquicias"</h3></div>
+	<div class="container"><h3 class="text-center">"LO SENTIMOS, POR EL MOMENTO NO TENEMOS FRANQUICIAS."</h3></div>
 			
 @stop
