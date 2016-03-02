@@ -96,10 +96,10 @@
 				<div class="text-center">*No es necesario que elijas los sabores en este momento.</div>
 				
 				<div class="form-group">
-					{!! Form::input('hidden', 'toppings_price', 2, ['id'=>'toppings_price', 'data-checked'=>'No']) !!}
+					{!! Form::input('hidden', 'toppings_price', 3, ['id'=>'toppings_price', 'data-checked'=>'No']) !!}
 					<span class="add">Deseas agregar: </span> &nbsp;
 					<a href="#toppings" class="check_selector" id="check_top"></a>
-					<div class="checkside satisfy"> &nbsp; Toppings </div> + $2 por persona
+					<div class="checkside satisfy"> &nbsp; Toppings </div> + $3 por persona
 				</div>
 
 				<p>Aquí están algunos de los toppings que puedes agregar:</p>
