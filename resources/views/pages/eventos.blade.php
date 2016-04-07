@@ -169,7 +169,7 @@
 		<p class="question">¿Cuál es el mínimo de personas?</p>
 		<p class="answer">100 personas</p>
 		<p class="question">¿Cuál es el costo por persona?</p>
-		<p class="answer">El costo por persona es de $12</p>
+		<p class="answer">El costo por persona es de $14</p>
 		<p class="question">¿Cuántos sabores?</p>
 		<p class="answer">Por cada 100 personas puedes agregar 3 sabores.</p>
 		<p class="question">¿Cuátos litros llevan para 100 personas?</p>
