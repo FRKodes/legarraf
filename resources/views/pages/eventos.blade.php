@@ -29,7 +29,7 @@
 		<div class="quotation">
 			<h1 class="text-center eventos blanco oswald">¡SIMULA UNA COTIZACIÓN DE TU EVENTO!</h1>
 			{!! Form::open(['url'=>'sendmail2', 'id'=>'eventForm']) !!}
-				{!! Form::input('hidden', 'price_per_head', 12, ['id'=>'price_per_head']) !!}
+				{!! Form::input('hidden', 'price_per_head', 14, ['id'=>'price_per_head']) !!}
 				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
 				
 				<div class="form-group date">
