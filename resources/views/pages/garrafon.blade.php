@@ -36,7 +36,7 @@
 					<span class="satisfy">mix</span>
 				</p>
 				<p>
-					El topping mix es una mezcla personalizada de papas, frutas y toppings se mezclan con 3 tipos de salsas: salsa negra, salsa clamato, salsa negra y salsa pelon pelo rico y se le agrega una banderilla. <br>
+					El topping mix es una mezcla personalizada de papas, frutas y toppings se mezclan con 3 tipos de salsas: salsa negra, salsa clamato, salsa pelon pelo rico y se le agrega una banderilla. <br>
 					Tenemos 3 tamaños : chico, mediano y grande.
 				</p>
 			</div>

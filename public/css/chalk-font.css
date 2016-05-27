@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'chalk_it';
+    src: url('/fonts/djb_chalk_it_up-webfont.eot');
+    src: url('/fonts/djb_chalk_it_up-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/djb_chalk_it_up-webfont.woff2') format('woff2'),
+         url('/fonts/djb_chalk_it_up-webfont.woff') format('woff'),
+         url('/fonts/djb_chalk_it_up-webfont.ttf') format('truetype'),
+         url('/fonts/djb_chalk_it_up-webfont.svg#djb_chalk_it_upregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

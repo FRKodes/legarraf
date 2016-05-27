@@ -7,6 +7,7 @@ elixir(function(mix) {
 		.styles([
 			'public/css/bootstrap.min.css',
 			'public/css/icons-font.css',
+			'public/css/chalk-font.css',
 			'public/css/magic.min.css',
 			'public/css/slick.css',
 			'public/css/jquery-ui.min.css',
