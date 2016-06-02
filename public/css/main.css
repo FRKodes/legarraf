@@ -7,6 +7,9 @@
 .chalk_it {
   font-family: 'chalk_it', sans-serif;
 }
+.mayus {
+  text-transform: uppercase;
+}
 .cafe {
   color: #572f0b;
 }
@@ -24,6 +27,49 @@
 .needyou {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+span.icon {
+  background: transparent url("../../images/sprite_sabores_mini.png") no-repeat 5px top;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 35px;
+  height: 30px;
+}
+span.icon.fresa {
+  background-position: -29px top;
+}
+span.icon.naranja {
+  background-position: -60px top;
+}
+span.icon.mandarina {
+  background-position: -90px top;
+}
+span.icon.guanabana {
+  background-position: -125px top;
+}
+span.icon.mango {
+  background-position: -155px top;
+}
+span.icon.ciruela {
+  background-position: -190px top;
+  width: 45px;
+}
+span.icon.lima {
+  background-position: -236px top;
+}
+span.icon.limon_chia {
+  background-position: -266px top;
+}
+span.icon.pulparindo {
+  background-position: -296px top;
+  width: 55px;
+}
+span.icon.maracuya {
+  background-position: -353px top;
+}
+span.icon.clamato {
+  background-position: -390px top;
+  width: 20px;
 }
 body {
   background-color: #fff;
@@ -573,6 +619,12 @@ body .quotation {
   margin: 100px auto 0 auto;
 /* SQUARED TWO */
 }
+body .quotation .chalk_it.title.mayus {
+  text-align: center;
+}
+body .quotation .chalk_it.title.mayus span {
+  border-bottom: 3px dotted #fff;
+}
 body .quotation p {
   color: #fff;
   margin-bottom: 30px;
@@ -672,7 +724,7 @@ body .quotation .flavors li {
   margin-bottom: 10px;
 }
 body .quotation .flavors li:after {
-  content: ' · ';
+  content: '  ';
 }
 body .quotation .form-group {
   vertical-align: middle;
@@ -1563,6 +1615,13 @@ body footer .logo {
   body .faq {
     width: 600px;
   }
+  body .quotation .chalk_it.title.mayus {
+    text-align: left;
+    font-size: 2em;
+  }
+  body .quotation .chalk_it.title.mayus span {
+    border-bottom: 3px dotted #fff;
+  }
   body .quotation p.satisfy.title,
   body .quotation .flavors {
     text-align: left;
@@ -1570,6 +1629,7 @@ body footer .logo {
   body .quotation p.satisfy.title li,
   body .quotation .flavors li {
     display: block;
+    font-size: 1.3em;
   }
   body .quotation p.satisfy.title li:after,
   body .quotation .flavors li:after {

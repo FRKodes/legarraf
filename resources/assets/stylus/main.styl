@@ -4,7 +4,8 @@
 	font-family 'Oswald', sans-serif
 .chalk_it
 	font-family 'chalk_it', sans-serif
-	
+.mayus
+	text-transform uppercase
 cafe = #572F0B
 blanco = #fff
 gris = #F1F1F1
@@ -25,6 +26,38 @@ verde2 = #538982
 .needyou
 	margin-top 20px
 	margin-bottom 30px
+span.icon
+	background transparent url(../../images/sprite_sabores_mini.png) no-repeat 5px top
+	display inline-block
+	vertical-align bottom
+	width 35px
+	height 30px
+	&.fresa
+		background-position -29px top
+	&.naranja
+		background-position -60px top
+	&.mandarina
+		background-position -90px top
+	&.guanabana
+		background-position -125px top
+	&.mango
+		background-position -155px top
+	&.ciruela
+		background-position -190px top
+		width 45px
+	&.lima
+		background-position -236px top
+	&.limon_chia
+		background-position -266px top
+	&.pulparindo
+		background-position -296px top
+		width 55px
+	&.maracuya
+		background-position -353px top
+	&.clamato
+		background-position -390px top
+		width 20px
+		
 body
 	background-color white
 	font-family 'Lato', sans-serif
@@ -454,6 +487,10 @@ body
 		position relative
 		width 80%
 		margin 100px auto 0 auto
+		.chalk_it.title.mayus
+			text-align center
+			span
+				border-bottom 3px dotted white
 		p
 			color white
 			margin-bottom 30px
@@ -535,7 +572,7 @@ body
 				color white
 				margin-bottom 10px
 				&:after
-					content ' · '
+					content '  '
 		.form-group
 			vertical-align middle
 			color white
@@ -1301,11 +1338,17 @@ body
 		.faq
 			width 600px
 		.quotation
+			.chalk_it.title.mayus
+				text-align left
+				font-size 2em
+				span
+					border-bottom 3px dotted white
 			p.satisfy.title
 			.flavors
 				text-align left
 				li
 					display block
+					font-size 1.3em
 					&:after
 						content ''
 			.people-population

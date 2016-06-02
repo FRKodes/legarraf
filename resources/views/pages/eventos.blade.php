@@ -50,7 +50,7 @@
 				
 				<div class="form-group">
 					{!! Form::input('text', 'num_people', '', ['class'=>'form-control', 'id'=>'num_people', 'data-validate'=>'required|min[100]','placeholder'=>'Introduce el número de personas en tu evento' ]) !!}
-					<small>*El mínimo de psersonas para un evento son 100.</small>
+					<small>*El mínimo de personas para un evento son 100.</small>
 				</div>
 
 				<div class="disclaimer text-center">
@@ -66,30 +66,56 @@
 					<span class="icon-ice-cream balls _300"></span>
 				</div>
 				
-				<div class="col-xs-12 col-sm-6">
-					<p class="satisfy title">agua</p>
-					<ul class="flavors">
-						<li>Limón</li>
-						<li>Limón con chía</li>
-						<li>Ciruela</li>
-						<li>Fresa</li>
-						<li>Guanabana</li>
-						<li>Mandarina</li>
-						<li>Mango</li>
-						<li>Pulparindo</li>
+				<div class="col-xs-12 col-sm-4">
+					<p class="chalk_it title mayus"><span>agua</span></p>
+					<ul class="flavors chalk_it mayus">
+						<li>Limón <span class="icon limon"></span></li>
+						<li>Fresa <span class="icon fresa"></span></li>
+						<li>Naranja <span class="icon naranja"></span></li>
+						<li>Mandarina <span class="icon mandarina"></span></li>
+						<li>Guanabana <span class="icon guanabana"></span></li>
+						<li>Mango <span class="icon mango"></span></li>
+						<li>Ciruela <span class="icon ciruela"></span></li>
+						<li>Lima <span class="icon lima"></span></li>
+						<li>Limón con chía <span class="icon limon_chia"></span></li>
+						<li>Pulparindo <span class="icon pulparindo"></span></li>
+						<li>Maracuyá <span class="icon maracuya"></span></li>
+						<li>Clamato <span class="icon clamato"></span></li>
 					</ul>
 				</div>
 
-				<div class="col-xs-12 col-sm-6">
-					<p class="satisfy title">crema</p>
-					<ul class="flavors">
-						<li>Cajeta</li>
+				<div class="col-xs-12 col-sm-4">
+					<p class="chalk_it title mayus"><span>crema</span></p>
+					<ul class="flavors chalk_it mayus">
+						<li>Vainilla</li>
+						<li>Plátano</li>
 						<li>Chocolate</li>
 						<li>Coco</li>
 						<li>Mamey</li>
 						<li>Nuez</li>
-						<li>Plátano</li>
-						<li>Vainilla</li>
+						<li>Cajeta</li>
+						<li>nutella</li>
+						<li>berries</li>
+						<li>mazapan</li>
+						<li>danonino</li>
+						<li>baileys</li>
+						<li>chongos</li>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-4">
+					<p class="chalk_it title mayus"><span>splenda</span></p>
+					<ul class="flavors chalk_it mayus">
+						<li>limón</li>
+						<li>jamaica</li>
+						<li>ciruela</li>
+						<li>fresa</li>
+						<li>mango</li>
+						<li>vainilla</li>
+						<li>mamey</li>
+						<li>coco</li>
+						<li>nuez</li>
+						<li>limón con chía</li>
 					</ul>
 				</div>
 				
@@ -106,7 +132,7 @@
 
 				<div class="col-xs-12 col-sm-6">
 					<p class="satisfy title">para nieves de agua:</p>
-					<ul class="flavors">
+					<ul class="flavors chalk_it mayus">
 						<li>Pica piñas</li>
 						<li>Pulparindo</li>
 						<li>Mango con chile</li>
@@ -117,7 +143,7 @@
 
 				<div class="col-xs-12 col-sm-6">
 					<p class="satisfy title">para nieves de crema:</p>
-					<ul class="flavors">
+					<ul class="flavors chalk_it mayus">
 						<li>Granola</li>
 						<li>Coco tostado</li>
 						<li>Lunetas</li>
@@ -133,6 +159,45 @@
 					{!! Form::input('hidden', 'splenda_price', 3, ['id'=>'splenda_price', 'data-checked'=>'No']) !!}
 					<a href="#splenda" class="check_selector" id="check_spl"></a>
 					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
+				</div>
+				
+				<h2 class="chalk_it mayus blanco text-center">aguas frescas</h2>
+				<div class="col-xs-12 col-sm-6">
+					<p class="chalk_it title mayus text-center"><span>normal</span></p>
+					<ul class="flavors chalk_it mayus">
+						<li>Lima</li>
+						<li>Ciruela amarilla</li>
+						<li>mango</li>
+						<li>Maracuyá</li>
+						<li>Coco</li>
+						<li>Coco Natural</li>
+						<li>Mamey</li>
+						<li>Guanabana</li>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+					<p class="chalk_it title mayus text-center"><span>splenda</span></p>
+					<ul class="flavors chalk_it mayus">
+						<li>Hierbabuena con Limón</li>
+						<li>Limón con chía</li>
+						<li>alfalfa con limón</li>
+						<li>Horchata de fresa</li>
+						<li>Pepino con limón</li>
+					</ul>
+				</div>
+
+				<div class="form-group">
+					{!! Form::input('text', 'num_garrafones', '', ['class'=>'form-control', 'id'=>'num_garrafones','placeholder'=>'Escribe el número de garrafones' ]) !!}
+					<small>*Cada garrafón contiene 19 Litros, no hay medios garrafones.</small>
+				</div>
+
+				<p>Deseas que tu Garrafón sea endulzado con Splenda?:</p>
+
+				<div class="form-group">
+					{!! Form::input('hidden', 'splenda_price_agua', 100, ['id'=>'splenda_price_agua', 'data-checked'=>'No']) !!}
+					<a href="#splenda" class="check_selector" id="check_spl_agua"></a>
+					<div class="checkside satisfy"> &nbsp; Splenda </div> + $100 por garrafón
 				</div>
 
 				<div class="form-group">{!! Form::input('text', 'nombre', null, ['class' => 'form-control', 'placeholder' => 'Nombre', 'data-validate' => 'required', 'maxlength'=>'50']) !!}</div>
