@@ -25,7 +25,12 @@
                                                         <p><b>Toppings:</b>  {{ Input::get('toppings') }} </p>
                                                         <p><b>Splenda:</b>  {{ Input::get('splenda') }} </p>
                                                         <p><b>Fecha:</b>  {{ Input::get('fecha') }} </p>
-                                                        <p><b>Precio total estimado:</b>  ${{ Input::get('total') }} </p>
+                                                        <p><b>Precio total estimado para nieves:</b>  ${{ Input::get('total') }} </p>
+                                                        <p>&nbsp;</p>
+                                                        <p><b>Num. Garrafones:</b>  {{ Input::get('num_garrafones') }} </p>
+                                                        <p><b>Splenda Agua:</b>  {{ Input::get('splenda_agua') }} </p>
+                                                        <p><b>Precio total para aguas:</b>  ${{ Input::get('total_agua') }} </p>
+
                                                         <p><a style='color:#3a6f8f;text-decoration:none;' href='http://www.legarraf.mx' target='_blank'><span style='text-transform:uppercase;'></span><br>LE GARRAF</a></p>
                                                     </td>
                                                     <td width='10'></td>

@@ -68,6 +68,7 @@ class PagesController extends Controller {
 		$email = $request->input('email');
 		Mail::send('emails.cotizacion', [], function($message){
 			$message->to('legarraf@outlook.com', 'frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
+			// $message->to('frkalderon@gmail.com')->subject('Cotización para evento LE GARRAF');
 		});
 		
 		/*

@@ -182,6 +182,11 @@ $(document).ready(function(){
 		reference();
 	});
 	
+	$('#num_garrafones').blur(function (){
+		var num_garrafones = parseInt($(this).val());
+		reference();
+	});
+	
 	$('#check_top').on('click', function(){
 		$(this).toggleClass('checked');
 		var price_per_head = parseInt($('#price_per_head').val());
@@ -212,17 +217,35 @@ $(document).ready(function(){
 		reference();
 	});
 	
+	$('#check_spl_agua').on('click', function(){
+		$(this).toggleClass('checked');
+		var price_garrafon = parseInt($('#price_garrafon').val());
+		var splenda_agua = parseInt($('#splenda_price_agua').val());
+
+		if ($(this).hasClass('checked')) {
+			$('#price_garrafon').val(price_garrafon + splenda_agua);
+			$('#splenda_price_agua').attr('data-checked', 'Si');
+		}else{
+			$('#price_garrafon').val(price_garrafon - splenda_agua);
+			$('#splenda_price_agua').attr('data-checked', 'No');
+		};
+		reference();
+	});
+	
 });
 
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
+	var total_agua = $('#price_garrafon').val() * $('#num_garrafones').val();
 	var litros = $('#num_people').val()/100*15;
+	var litros_agua = $('#num_garrafones').val() * 19;
 	litros = litros.toFixed(1);
 
 	parseInt(total);
-    // console.log('->' + 'Total: ' + total + ' // Num personas: ' + $('#num_people').val() + ' // Litros: ' + litros);
+    parseInt(total_agua);
     $('#total_price').val(total);
-    $('#total_').html(total + ' ( ' + litros + ' litros )' );
+    $('#total_price_agua').val(total_agua);
+    $('#total_').html(total + ' ( ' + litros + ' litros de nieve)' + ' <br> $' + total_agua + ' ( ' + litros_agua + ' litros de agua )');
     return thename; //return the function itself to reference
 }());
 
@@ -234,19 +257,33 @@ $(function(){
 		overallSuccess : function(){
 
 			var form    	= $('#eventForm'),
-				nombre   	= form.find( "input[name='nombre']" ).val(),
-				email   	= form.find( "input[name='email']" ).val(),
-				num_people	= form.find( "input[name='num_people']" ).val(),
-				toppings	= form.find( "input[name='toppings_price']" ).attr('data-checked'),
-				splenda		= form.find( "input[name='splenda_price']" ).attr('data-checked'),
-				num_people	= form.find( "input[name='num_people']" ).val(),
-				total		= form.find( "input[name='total_price']" ).val(),
-				fecha		= form.find( "input[name='datepicker']" ).val(),
-				_token   	= form.find( "input[name='_token']" ).val(),
-				action  	= form.attr( "action"),
-				url     	= action;
+				nombre   		= form.find( "input[name='nombre']" ).val(),
+				email   		= form.find( "input[name='email']" ).val(),
+				num_people		= form.find( "input[name='num_people']" ).val(),
+				toppings		= form.find( "input[name='toppings_price']" ).attr('data-checked'),
+				splenda			= form.find( "input[name='splenda_price']" ).attr('data-checked'),
+				num_garrafones	= form.find( "input[name='num_garrafones']" ).val(),
+				splenda_agua	= form.find( "input[name='splenda_price_agua']" ).attr('data-checked'),
+				total_agua		= form.find( "input[name='total_price_agua']" ).val(),
+				total			= form.find( "input[name='total_price']" ).val(),
+				fecha			= form.find( "input[name='datepicker']" ).val(),
+				_token   		= form.find( "input[name='_token']" ).val(),
+				action  		= form.attr( "action"),
+				url     		= action;
 			var posting = $.post( 
-				url, { nombre: nombre, email: email, num_people: num_people, total: total, fecha: fecha, toppings: toppings, splenda: splenda, _token: _token }
+				url, { 
+					nombre: nombre,
+					email: email,
+					num_people: num_people,
+					total: total,
+					fecha: fecha,
+					toppings: toppings,
+					splenda: splenda,
+					num_garrafones: num_garrafones,
+					total_agua: total_agua,
+					splenda_agua: splenda_agua,
+					_token: _token 
+				}
 				);
 			posting.done(function( data ) {
 				console.log(data);

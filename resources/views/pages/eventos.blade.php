@@ -15,11 +15,13 @@
 	
 	<div class="container productos">
 
-		<div class="helados-mobile eventos">
-			<img class="img-productos" src="/images/eventos-productos-le-garraf.png" alt="eventos productos le garraf">
+		<div class="helados-mobile home">
+			<div class="item"><img class="slide" src="/images/eventos-productos-le-garraf.png" width="600" height="488" alt="eventos productos le garraf"></div>
+			<div class="item"><img class="slide" src="/images/evento-agua.png" width="600" height="488" alt="Así servimos las aguas en tu evento"></div>
+			<div class="item"><img class="slide" src="/images/evento-nieves.png" width="600" height="488" alt="Así servimos las nieves en tu evento"></div>
 		</div>
 
-		<p class="text-center eventos-cel">EVENTOS CEL : 333 5842942 y 333 1280908</p>
+		<p class="text-center eventos-cel"><img src="/images/whatsapp.jpg" class="wats-logo" alt="whatsapp logo teléfono de contacto">EVENTOS CEL : 333 5842942 y 333 1280908</p>
 	</div>
 
 	<div class="row all-long top">
@@ -30,7 +32,9 @@
 			<h1 class="text-center eventos blanco oswald">¡SIMULA UNA COTIZACIÓN DE TU EVENTO!</h1>
 			{!! Form::open(['url'=>'sendmail2', 'id'=>'eventForm']) !!}
 				{!! Form::input('hidden', 'price_per_head', 14, ['id'=>'price_per_head']) !!}
+				{!! Form::input('hidden', 'price_garrafon', 600, ['id'=>'price_garrafon']) !!}
 				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
+				{!! Form::input('hidden', 'total_price_agua', null, ['id'=>'total_price_agua']) !!}
 				
 				<div class="form-group date">
 					{!! Form::input('text', 'datepicker', null, ['class'=>'form-control', 'id'=>'datepicker', 'data-validate'=>'required', 'placeholder'=>'Selecciona la fecha de tu evento']) !!}
@@ -87,35 +91,35 @@
 				<div class="col-xs-12 col-sm-4">
 					<p class="chalk_it title mayus"><span>crema</span></p>
 					<ul class="flavors chalk_it mayus">
-						<li>Vainilla</li>
-						<li>Plátano</li>
-						<li>Chocolate</li>
-						<li>Coco</li>
-						<li>Mamey</li>
-						<li>Nuez</li>
-						<li>Cajeta</li>
-						<li>nutella</li>
-						<li>berries</li>
-						<li>mazapan</li>
-						<li>danonino</li>
-						<li>baileys</li>
-						<li>chongos</li>
+						<li>Vainilla <span class="icon vainilla"></span></li>
+						<li>Plátano <span class="icon platano"></span></li>
+						<li>Chocolate <span class="icon choco"></span></li>
+						<li>Coco <span class="icon coco"></span></li>
+						<li>Mamey <span class="icon mamey"></span></li>
+						<li>Nuez <span class="icon nuez"></span></li>
+						<li>Cajeta <span class="icon cajeta"></span></li>
+						<li>nutella <span class="icon nutella"></span></li>
+						<li>berries <span class="icon berries"></span></li>
+						<li>mazapan <span class="icon mazapan"></span></li>
+						<li>danonino <span class="icon danonino"></span></li>
+						<li>baileys <span class="icon baileys"></span></li>
+						<li>chongos <span class="icon chongos"></span></li>
 					</ul>
 				</div>
 
 				<div class="col-xs-12 col-sm-4">
 					<p class="chalk_it title mayus"><span>splenda</span></p>
 					<ul class="flavors chalk_it mayus">
-						<li>limón</li>
-						<li>jamaica</li>
-						<li>ciruela</li>
-						<li>fresa</li>
-						<li>mango</li>
-						<li>vainilla</li>
-						<li>mamey</li>
-						<li>coco</li>
-						<li>nuez</li>
-						<li>limón con chía</li>
+						<li>limón <span class="icon limon"></span></li>
+						<li>jamaica <span class="icon jamaica"></span></li>
+						<li>ciruela <span class="icon ciruela"></span></li>
+						<li>fresa <span class="icon fresa"></span></li>
+						<li>mango <span class="icon mango"></span></li>
+						<li>vainilla <span class="icon vainilla"></span></li>
+						<li>mamey <span class="icon mamey"></span></li>
+						<li>coco <span class="icon coco"></span></li>
+						<li>nuez <span class="icon nuez"></span></li>
+						<li>limón con chía <span class="icon limon_chia"></span></li>
 					</ul>
 				</div>
 				
@@ -161,34 +165,34 @@
 					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
 				</div>
 				
-				<h2 class="chalk_it mayus blanco text-center">aguas frescas</h2>
+				<h2 class="chalk_it mayus blanco text-center"><img src="/images/aguas-icon.png" id="aguas-icon-top" alt="aguas icon">aguas frescas</h2>
 				<div class="col-xs-12 col-sm-6">
 					<p class="chalk_it title mayus text-center"><span>normal</span></p>
 					<ul class="flavors chalk_it mayus">
-						<li>Lima</li>
-						<li>Ciruela amarilla</li>
-						<li>mango</li>
-						<li>Maracuyá</li>
-						<li>Coco</li>
-						<li>Coco Natural</li>
-						<li>Mamey</li>
-						<li>Guanabana</li>
+						<li>Lima <span class="icon lima"></span></li>
+						<li>Ciruela amarilla <span class="icon ciruela"></span></li>
+						<li>mango <span class="icon mango"></span></li>
+						<li>Maracuyá <span class="icon maracuya"></span></li>
+						<li>Coco <span class="icon coco"></span></li>
+						<li>Coco Natural <span class="icon coco"></span></li>
+						<li>Mamey <span class="icon mamey"></span></li>
+						<li>Guanabana <span class="icon guanabana"></span></li>
 					</ul>
 				</div>
 
 				<div class="col-xs-12 col-sm-6">
 					<p class="chalk_it title mayus text-center"><span>splenda</span></p>
 					<ul class="flavors chalk_it mayus">
-						<li>Hierbabuena con Limón</li>
-						<li>Limón con chía</li>
-						<li>alfalfa con limón</li>
-						<li>Horchata de fresa</li>
-						<li>Pepino con limón</li>
+						<li>Hierbabuena con Limón <span class="icon hierbabuena"></span></li>
+						<li>Limón con chía <span class="icon limon_chia"></span></li>
+						<li>alfalfa con limón <span class="icon alfalfa"></span></li>
+						<li>Horchata de fresa <span class="icon horchata"></span></li>
+						<li>Pepino con limón <span class="icon pepino"></span></li>
 					</ul>
 				</div>
 
 				<div class="form-group">
-					{!! Form::input('text', 'num_garrafones', '', ['class'=>'form-control', 'id'=>'num_garrafones','placeholder'=>'Escribe el número de garrafones' ]) !!}
+					{!! Form::input('text', 'num_garrafones', '', ['class'=>'form-control', 'id'=>'num_garrafones', 'maxlength'=>'2', 'placeholder'=>'Escribe el número de garrafones' ]) !!}
 					<small>*Cada garrafón contiene 19 Litros, no hay medios garrafones.</small>
 				</div>
 
@@ -210,16 +214,6 @@
 				<div class="submit"> {!! Form::submit('ENVIAR', ['class'=>'btn btn-primary']) !!} </div>
 				<div class="sent_mail_alert white"><b>¡GRACIAS!</b><br>Nos pondremos en contacto a la brevedad para atender tu solicitud.</div>
 			{!! Form::close() !!}
-			<div class="fruits left">
-				<img src="images/fresa.png" alt="frutas, sabor fresa">
-				<img src="images/limon.png" alt="frutas, sabor limon">
-				<img src="images/mango.png" alt="frutas, sabor mango">
-			</div>
-			<div class="fruits right">
-				<img src="images/chocolate.png" alt="sabor chocolate">
-				<img src="images/platano.png" alt="sabor platano">
-				<img src="images/vainilla.png" alt="sabor vainilla">
-			</div>
 		</div>
 
 
@@ -231,8 +225,10 @@
 	<div class="faq">
 		<p class="question"></p>
 		<p class="answer"></p>
-		<p class="question">¿Cuál es el mínimo de personas?</p>
+		<p class="question">¿Cuál es el mínimo de personas para nieves?</p>
 		<p class="answer">100 personas</p>
+		<p class="question">¿Cuál es el mínimo si quiero contratar aguas?</p>
+		<p class="answer">Si ya contrataste nieve 1 garrafón, si no 3 garrafones.</p>
 		<p class="question">¿Cuál es el costo por persona?</p>
 		<p class="answer">El costo por persona es de $14</p>
 		<p class="question">¿Cuántos sabores?</p>
@@ -246,7 +242,7 @@
 		<p class="question">¿Que llevan para servir? ¿Tengo que poner algo?</p>
 		<p class="answer">La persona lleva todo lo necesario para servir el evento, llevamos una mesa con mantel, una estructura de garrafas. </p>
 		<p class="question">¿En que lo sirven?</p>
-		<p class="answer">La nieve se sirve en vasitos de le garraf y en conos.</p>
+		<p class="answer">La nieve se sirve en vasitos de le garraf y en conos. En vasos de medio litro en caso de agua.</p>
 		<p class="question">¿Cuántas bolas le dan a cada persona?</p>
 		<p class="answer">Aproximadamente se sirven 2 bolas por vasito.</p>
 		<p class="question">Si quiero toppings, ¿Cuánto me incrementa?</p>
@@ -255,6 +251,10 @@
 		<p class="answer">Las personas van uniformadas de LE GARRAF.</p>
 		<p class="question">¿Si me sobra nieve?</p>
 		<p class="answer">Si te sobra nieve se te envasa en medios y litros, pero no te preocupes seguro no te va a sobrar.</p>
+		<p class="question">¿Cuánto rinde un garrafón?</p>
+		<p class="answer">Cada garrafón rinde 19 litros y rinde 38 vasos de medio litro.</p>
+		<p class="question">¿Cuánto cuesta 1 garrafón?</p>
+		<p class="answer">$600 normal y endulzado con splenda $700</p>
 	</div>
 			
 @stop

@@ -27,6 +27,11 @@
                                                         <p><b>Fecha:</b>  {{ Input::get('fecha') }} </p>
                                                         <p><b>Precio total estimado:</b>  ${{ Input::get('total') }} </p>
 
+                                                        <p>&nbsp;</p>
+                                                        <p><b>Num. Garrafones:</b>  {{ Input::get('num_garrafones') }} </p>
+                                                        <p><b>Splenda Agua:</b>  {{ Input::get('splenda_agua') }} </p>
+                                                        <p><b>Precio total para aguas:</b>  ${{ Input::get('total_agua') }} </p>
+
                                                         <p>
                                                             En breve nos pondremos en contacto contigo.<br>
                                                             <b>Que tengas un excelente día.</b>
