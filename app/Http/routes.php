@@ -18,6 +18,7 @@ Route::get('nosotros', 'PagesController@acercade');
 Route::get('productos', 'PagesController@productos');
 Route::get('sucursales', 'PagesController@sucursales');
 Route::get('contacto', 'PagesController@contacto');
+Route::get('prensa', 'PagesController@prensa');
 Route::get('bolsa-de-trabajo', 'PagesController@bolsaDeTrabajo');
 Route::post('sendmail-contacto', 'PagesController@contacto');
 Route::post('sendmail-unete', 'PagesController@sendmail_unete');

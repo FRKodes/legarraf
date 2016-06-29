@@ -31,6 +31,10 @@ class PagesController extends Controller {
 		return view('pages.productos');	
 	}
 
+	public function prensa(){
+		return view('pages.prensa');	
+	}
+
 	public function garrafon(){
 		return view('pages.garrafon');	
 	}

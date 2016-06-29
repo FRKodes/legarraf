@@ -136,6 +136,9 @@ body
 			&.active
 				color white
 				transition all 1.5s ease
+		&.navbar-fixed-top
+			.navbar-collapse
+				max-height 100%
 	.row.wood
 		background transparent url(../../images/madera-vertical-mobile.jpg) repeat-x center -40px
 		text-align center
@@ -222,6 +225,11 @@ body
 		&.bolsa
 			margin-top -150px
 			height 215px
+		&.prensa
+			overflow show
+			margin-top -165px
+			img
+				transform rotate(-15deg)
 	.slick-slider.helados-mobile
 		margin-bottom 60px
 		overflow visible
@@ -948,7 +956,11 @@ body
 			padding-top 10px
 			padding-bottom 10px
 			font-size 1.2em
-		
+	.item-prensa
+		margin-bottom 10px
+		.extract
+			margin-bottom 15px
+			margin-top -15px
 	footer
 		padding-bottom 40px
 		.container
@@ -1136,13 +1148,13 @@ body
 					li
 						display inline-block
 						float none
-						font-size .75em
+						font-size .7em
 						position relative
 						vertical-align middle
 						&.icon
 							width 40px
-							margin 0 10px 0 15px
-							text-left left
+							margin 0 0 0 5px
+							text-align left
 							padding-left 0
 							a
 								color transparent
@@ -1159,6 +1171,8 @@ body
 									&:after
 										content ''
 										background-color transparent
+						&.firstones
+							margin 0
 						&.active
 							a
 								background-color transparent
@@ -1181,7 +1195,7 @@ body
 		.logo-top.icon-garraf
 			font-size 4em
 			&:before
-				margin-left -50px		
+				margin-left 50px
 		.row.wood
 			background-image url(../../images/wood.jpg)
 			background-position center -40px
@@ -1234,6 +1248,9 @@ body
 				height 375px
 			&.map-branches
 				margin-top -330px
+			&.prensa
+				overflow show
+				margin-top -350px
 		.slick-slider.helados-mobile
 			margin-bottom 100px
 			margin-left auto
@@ -1447,6 +1464,13 @@ body
 				text-align center
 				font-size 8em 
 				line-height .9em
+		.item-prensa
+			margin-bottom 25px
+			img
+				width 90%
+			.extract
+				height 40px
+				margin-top -5px
 @media screen and (min-width:992px)
 	body
 		.especialidad
@@ -1458,6 +1482,12 @@ body
 					width 45%
 				&.tresleches
 					width 50%
+		.item-prensa
+			margin-bottom 35px
+			img
+				width 80%
+			.extract
+				padding 0 10px
 @media screen and (min-width:1000px)
 	#aguas-icon-top
 		width 60px
@@ -1558,15 +1588,15 @@ body
 						font-size .9em
 						margin 0 7px
 						&.icon
-							width 70px
-							margin 0 0 0 20px
+							width 60px
+							margin 0 0 0 23px
 							&.active
 								a
 									padding-left 0
 									padding-top 0
 									padding-bottom 20px
 		.logo-top.icon-garraf:before
-			margin-left -80px
+			margin-left -5px
 		.logo-top.icon-garraf
 			font-size 6em
 			margin-left 26px
@@ -1637,15 +1667,15 @@ body
 						font-size 1em
 						margin 0 10px
 						&.icon
-							width 90px
-							margin 0 0 0 25px
+							width 70px
+							margin 0 0 0 30px
 							&.active
 								a
 									padding-left 0
 									padding-top 0
 									padding-bottom 20px
 		.logo-top.icon-garraf:before
-			margin-left -90px
+			margin-left -25px
 		.logo-top.icon-garraf
 			font-size 8em
 		.home-prod
