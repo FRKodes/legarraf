@@ -191,6 +191,9 @@
 					</ul>
 				</div>
 
+
+				<div class="col-xs-12"><p>&nbsp;</p></div>
+
 				<div class="form-group">
 					{!! Form::input('text', 'num_garrafones', '', ['class'=>'form-control', 'id'=>'num_garrafones', 'maxlength'=>'2', 'placeholder'=>'Escribe el número de garrafones' ]) !!}
 					<small>*Cada garrafón contiene 19 Litros, no hay medios garrafones.</small>
