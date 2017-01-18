@@ -65,14 +65,26 @@
 		</div>
 
 		<div class="sucursal col-xs-12 col-sm-6">
-			<h2 class="title cafe oswald"><span class="icon-garrafoncito"></span> GARRAFÓN PROVIDENCIA</h2>
+			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> GALERÍAS</h2>
 			<p class="address">
-				Av. Pablo Neruda 3158 <br>
-				Col. Providencia <br>
-				<a class="cafe" href="https://www.google.com.mx/maps/dir//20.6970416,-103.3915761/@20.6974921,-103.3918268,17.9z?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
+				Plaza Galerías Guadalajara<br>
+				Zona Food Court<br>
+				<a class="cafe" href="https://www.google.com.mx/maps/place/Galer%C3%ADas+Guadalajara/@20.676924,-103.4320144,19.69z/data=!4m5!3m4!1s0x8428aebe75ab8329:0x8d5f001385206f13!8m2!3d20.676715!4d-103.431727?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/sucursal-garrafon.jpg" alt="GARRAFÓN pablo neruda"></figure>
+				<figure><img src="/images/le-garraf-galerias-guadalajra.jpg" alt="Le Garraf sucursal Galerías Guadalajara"></figure>
+			</div>
+		</div>
+
+		<div class="sucursal col-xs-12 col-sm-6">
+			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> PUERTO VALLARTA</h2>
+			<p class="address">
+				Plaza La Isla <br>
+				Puerto Vallarta<br>
+				<a class="cafe" href="https://goo.gl/maps/nTEdJHyccEK2" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
+			</p>
+			<div class="images">
+				<figure><img src="/images/le-garraf-puerto-vallarta-plaza-la-isla.jpg" alt="Le Garraf sucursal Puerto Vallarta"></figure>
 			</div>
 		</div>
 

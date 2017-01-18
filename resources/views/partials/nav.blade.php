@@ -7,16 +7,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand icon-garrafa" href="/"></a>
+			<a class="navbar-brand icon-garrafa hidden-sm hidden-md hidden-lg" href="/"></a>
 		</div>
 
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="@if(Route::getCurrentRoute()->getPath() == "/") active @endif firstones"><a href="/">Inicio</a></li>
-				<li class="@if(Route::getCurrentRoute()->getPath() == "nosotros") active @endif firstones"><a href="nosotros">Nosotros</a></li>
-				<li class="@if(Route::getCurrentRoute()->getPath() == "productos") active @endif firstones"><a href="productos">Productos</a></li>
-				<li class="@if(Route::getCurrentRoute()->getPath() == "garrafon") active @endif firstones"><a href="garrafon">Garrafón</a></li>
-				<li class="@if(Route::getCurrentRoute()->getPath() == "sucursales") active @endif firstones"><a href="sucursales">Sucursales</a></li>
+				<li class="@if(Route::getCurrentRoute()->getPath() == "/") active @endif"><a href="/">Inicio</a></li>
+				<li class="@if(Route::getCurrentRoute()->getPath() == "nosotros") active @endif"><a href="nosotros">Nosotros</a></li>
+				<li class="@if(Route::getCurrentRoute()->getPath() == "productos") active @endif"><a href="productos">Productos</a></li>
+				<li class="@if(Route::getCurrentRoute()->getPath() == "sucursales") active @endif"><a href="sucursales">Sucursales</a></li>
 				<li class="icon hidden-xs"><a href="/" class="icon-garrafa"></a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "eventos") class="active" @endif><a href="eventos">Eventos</a></li>
 				<li @if(Route::getCurrentRoute()->getPath() == "contacto") class="active" @endif><a href="contacto">Contacto</a></li>
