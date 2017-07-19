@@ -7,7 +7,8 @@ var galerias = new google.maps.LatLng(20.676751,-103.431826);
 var ptovallarta = new google.maps.LatLng(20.644326,-105.238158);
 
 var mapOptions = {
-  zoom: 2,
+  zoom: 10,
+  scrollwheel: false,
   center: myLatlng
 }
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);

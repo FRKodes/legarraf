@@ -45,8 +45,8 @@
 				<span class="satisfy">y algo más</span>
 			</p>
 			<div class="images alternativa">
-				<img id="vaso" src="/images/garrafon.png" width="350" height="471" alt="garrafon" class="fresh-img m-top-55 m-top0"> <br>
-				<img id="vaso-shadow" src="/images/shadow.png" width="220" height="47" alt="ice cream shadow" class="shadow-img">
+				<img id="vaso" src="/images/papas-cuerdas.png" width="350" height="471" alt="papas cuerdas" class="fresh-img m-top-55 m-top0"> <br>
+				<img id="vaso-shadow" src="/images/shadow.png" width="220" height="47" alt="papas cuerdas shadow" class="shadow-img">
 			</div>
 			<div class="info">
 				<p class="oswald cafe hidden-xs">

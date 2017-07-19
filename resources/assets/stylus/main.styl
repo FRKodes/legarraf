@@ -38,6 +38,14 @@ span.icon
 	vertical-align bottom
 	width 35px
 	height 30px
+	&.hierbabuena_plain
+		background-position -1120px top
+	&.pitaya
+		background-position -1008px top
+		width 25px
+	&.sandia-chile
+		background-position -1031px top
+		width 27px
 	&.fresa
 		background-position -29px top
 	&.naranja
@@ -63,6 +71,11 @@ span.icon
 	&.clamato
 		background-position -390px top
 		width 20px
+	&.matcha
+		background-position -1057px 5px
+	&.taro
+		background-position -1089px 2px
+		width 34px
 	&.vainilla
 		background-position -416px top
 	&.platano
@@ -318,6 +331,10 @@ body
 		&.magictime
 			opacity 1
 			transition all 1s ease
+	#nieve-splenda-shadow
+		margin-top -45px
+	#vaso-shadow
+		margin-top -30px
 	.bricks
 		background transparent url(../../images/brick_wall_mobile.jpg) repeat-x center top
 		height 360px
@@ -379,10 +396,10 @@ body
 		img
 			opacity 1
 	.branches
-		background transparent url(../../images/paper_texture.jpg) repeat-x center top
+		background transparent url(../../images/paper_texture_more.jpg) repeat-x center top
 		height auto
 		display block
-		padding 30px 0
+		padding 50px 0
 		overflow hidden
 		.container
 			width 90%
@@ -1062,7 +1079,7 @@ body
 			line-height .9em
 		/*480px*/
 		.branches
-			padding 100px 0
+			padding 160px 0
 			text-align center
 			h2.title
 				width 60%
@@ -1361,7 +1378,6 @@ body
 			overflow hidden
 		/*768px*/
 		.branches
-			padding 100px 0
 			text-align center
 			h2.title
 				width 60%
@@ -1399,6 +1415,7 @@ body
 				vertical-align middle
 				display inline-block
 				&.scone
+					width 53%
 				&.papas
 					width 45%
 		.row.all-long
@@ -1497,6 +1514,20 @@ body
 		background transparent url(../../images/sprite_sabores.png) no-repeat left top
 		width 50px
 		height 50px
+		&.hierbabuena_plain
+			background-position -2242px top
+		&.pitaya
+			background-position -2018px top
+			width 55px
+		&.sandia-chile
+			background-position -2072px top
+			width 55px
+		&.matcha
+			background-position -2120px 6px
+			width 55px
+		&.taro
+			background-position -2182px 3px
+			width 55px
 		&.fresa
 			background-position -59px top
 			width 60px
@@ -1605,10 +1636,11 @@ body
 			&.alternativa
 				margin-left 40px
 		.branches
-			padding 120px 0
+			padding 100px 0
 			.address
 				margin-top 15px
-				width 24.5%
+				width 32%
+				margin-bottom 70px
 				.title
 					font-size 1.6em
 					.icon-garrafa
@@ -1640,7 +1672,7 @@ body
 				&.flanke
 					width 70%
 				&.scone
-					width 50%
+					width 57%
 				&.papas
 					width 55%
 				&.tresleches
@@ -1695,12 +1727,10 @@ body
 		.fresh-img.m-top-55
 			width 400px
 		.branches
+			.container
+				width 65%
 			h2.title
 				width 450px
-			.address
-				width 20%
-				&:first-of-type
-					margin-left 10%
 		.fruits
 			display block
 		.row.all-long

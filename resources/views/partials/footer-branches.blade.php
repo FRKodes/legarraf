@@ -40,8 +40,30 @@
 				<div class="title oswald cafe"><span class="icon-garrafa"></span>TOSCANA</div>
 				<div class="info">
 					<p>
-						Avenida Santa Margarita #3849.
+						Avenida Santa Margarita #3849<br>
 						Plaza la Toscana<br><br>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="address">
+				<div class="title oswald cafe"><span class="icon-garrafa"></span>GALERÍAS</div>
+				<div class="info">
+					<p>
+						Plaza Galerías<br>
+						Guadalajara<br><br>
+						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="address">
+				<div class="title oswald cafe"><span class="icon-garrafa"></span>PUERTO VALLARTA</div>
+				<div class="info">
+					<p>
+						Plaza La Isla<br>
+						Pto. Vallarta<br><br>
 						<a href="sucursales" class="cafe">VER MÁS <span class="icon-arrow"></span></a>
 					</p>
 				</div>

@@ -16,12 +16,13 @@
 	<div class="container productos">
 
 		<div class="helados-mobile home">
-			<div class="item"><img class="slide" src="/images/eventos-productos-le-garraf.png" width="600" height="488" alt="eventos productos le garraf"></div>
+			<div class="item"><img class="slide" src="/images/evento-nieves-le-garraf-carrito.png" width="600" height="488" alt="eventos productos le garraf"></div>
 			<div class="item"><img class="slide" src="/images/evento-agua.png" width="600" height="488" alt="Así servimos las aguas en tu evento"></div>
-			<div class="item"><img class="slide" src="/images/evento-nieves.png" width="600" height="488" alt="Así servimos las nieves en tu evento"></div>
+			<div class="item"><img class="slide" src="/images/evento-nieves-le-garraf.png" width="600" height="488" alt="Así servimos las aguas en tu evento"></div>
+			<div class="item"><img class="slide" src="/images/eventos-productos-le-garraf-new.png" width="600" height="488" alt="Así servimos las nieves en tu evento"></div>
 		</div>
 
-		<p class="text-center eventos-cel"><img src="/images/whatsapp.jpg" class="wats-logo" alt="whatsapp logo teléfono de contacto">EVENTOS CEL : 333 5842942 y 333 1280908</p>
+		<p class="text-center eventos-cel"><img src="/images/whatsapp.jpg" class="wats-logo" alt="whatsapp logo teléfono de contacto">EVENTOS CEL : 333 5842942</p>
 	</div>
 
 	<div class="row all-long top">
@@ -73,14 +74,16 @@
 				<div class="col-xs-12 col-sm-4">
 					<p class="chalk_it title mayus"><span>agua</span></p>
 					<ul class="flavors chalk_it mayus">
+						<li>Pitaya <span class="icon pitaya"></span></li>
+						<li>Sandía c / chile <span class="icon sandia-chile"></span></li>
+						<li>Naranja <span class="icon naranja"></span></li>
+						<li>Lima <span class="icon lima"></span></li>
 						<li>Limón <span class="icon limon"></span></li>
 						<li>Fresa <span class="icon fresa"></span></li>
-						<li>Naranja <span class="icon naranja"></span></li>
 						<li>Mandarina <span class="icon mandarina"></span></li>
 						<li>Guanabana <span class="icon guanabana"></span></li>
 						<li>Mango <span class="icon mango"></span></li>
 						<li>Ciruela <span class="icon ciruela"></span></li>
-						<li>Lima <span class="icon lima"></span></li>
 						<li>Limón con chía <span class="icon limon_chia"></span></li>
 						<li>Pulparindo <span class="icon pulparindo"></span></li>
 						<li>Maracuyá <span class="icon maracuya"></span></li>
@@ -91,6 +94,8 @@
 				<div class="col-xs-12 col-sm-4">
 					<p class="chalk_it title mayus"><span>crema</span></p>
 					<ul class="flavors chalk_it mayus">
+						<li>matcha <span class="icon matcha"></span></li>
+						<li>taro <span class="icon taro"></span></li>
 						<li>Vainilla <span class="icon vainilla"></span></li>
 						<li>Plátano <span class="icon platano"></span></li>
 						<li>Chocolate <span class="icon choco"></span></li>
@@ -99,7 +104,6 @@
 						<li>Nuez <span class="icon nuez"></span></li>
 						<li>Cajeta <span class="icon cajeta"></span></li>
 						<li>nutella <span class="icon nutella"></span></li>
-						<li>berries <span class="icon berries"></span></li>
 						<li>mazapan <span class="icon mazapan"></span></li>
 						<li>danonino <span class="icon danonino"></span></li>
 						<li>baileys <span class="icon baileys"></span></li>
@@ -110,6 +114,7 @@
 				<div class="col-xs-12 col-sm-4">
 					<p class="chalk_it title mayus"><span>splenda</span></p>
 					<ul class="flavors chalk_it mayus">
+						<li>Hierbabuena <span class="icon hierbabuena_plain"></span></li>
 						<li>limón <span class="icon limon"></span></li>
 						<li>jamaica <span class="icon jamaica"></span></li>
 						<li>ciruela <span class="icon ciruela"></span></li>

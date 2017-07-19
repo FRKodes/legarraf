@@ -15,7 +15,7 @@
 		
 		<div class="container productos">
 			<div class="helados-mobile">
-				<img class="img-productos" src="/images/productos-le-garraf.png" width="550" height="392" alt="productos le garraf">
+				<img class="img-productos" src="/images/productos-le-garraf-new.png" width="550" height="392" alt="productos le garraf papas cuerdas, bolis, nieves de garrafa">
 			</div>
 			
 		</div>
@@ -23,17 +23,17 @@
 		<div class="container cafe">
 			<h2 class="oswald text-center m-top0">ESTAS SON NUESTRAS<br><span class="satisfy">especialidades</span></h2>
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cazuelita chamoy</p><img src="/images/cazuelita.jpg" width="320" height="320" alt="czuelita de chamoy LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">pastel de 3 leches</p><img class="tresleches" src="/images/pastel.jpg" width="320" height="422" alt="pastel de tres leches LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">flanke</p><img class="flanke" src="/images/flanke.jpg" width="320" height="320" alt="flanke LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich.jpg" width="320" height="358" alt="coockie sandwich LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial.jpg" width="320" height="487" alt="scone especial LE GARRAF"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="papas" src="/images/papas-cuerdas.jpg" width="320" height="467" alt="papas cuerdas garrafón"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial-new.png" width="320" height="487" alt="scone especial LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich_new.png" width="320" height="358" alt="coockie sandwich LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="" src="/images/papas-cuerdas.png" width="320" height="467" alt="papas cuerdas"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">mochis</p><img class="flanke" src="/images/le-garraf-mochis-productos.png" width="320" height="320" alt="mochis LE GARRAF"></div>
+			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">bolis</p><img class="tresleches" src="/images/le-garraf-bolis-productos.png" width="320" height="422" alt="bolis LE GARRAF"></div>
 		</div>
 
 		<div class="container">
 			<h2 class="cafe satisfy text-center litros col-xs-12">1 litro y 1/2 litro</h2>
 			<p class="text-center">
-				<img class="litro-img" src="images/litro.jpg" alt="litro y medio litro nieve LE GARRAF">
+				<img class="litro-img" src="images/litros-y-medios-litros.png" alt="litro y medio litro nieve LE GARRAF">
 			</p>
 		</div>
 
@@ -53,14 +53,20 @@
 				
 				<div class="container">
 					
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">lima</p><img class="lima" src="/images/lima-agua.png" width="120" height="120" alt="sabor lima"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">naranja</p><img class="naranja" src="/images/naranja-agua.png" width="120" height="120" alt="sabor naranja"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">pitaya</p><img class="pitaya" src="/images/pitaya.png" width="120" height="120" alt="sabor pitaya"></div>
+					<div class="col-xs-3 col-sm-2 flavors splenda hidden"><p class="satisfy text-center blanco">hierbabuena</p><img src="/images/hierbabuena.png" width="120" height="120" alt="sabor hierbabuena"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">ciruela</p><img src="/images/ciruela.png" width="120" height="120" alt="sabor ciruela"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">fresa</p><img src="/images/fresa.png" width="120" height="120" alt="sabor fresa"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">guanabana</p><img class="guanabana" src="/images/guanabana.png" width="120" height="120" alt="sabor guanabana"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">limón</p><img class="limon" src="/images/limon.png" width="120" height="120" alt="sabor limon"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">mandarina</p><img src="/images/mandarina.png" width="120" height="120" alt="sabor mandarina"></div>
 					<div class="col-xs-3 col-sm-2 flavors agua splenda"><p class="satisfy text-center blanco">mango</p><img class="mango" src="/images/mango.png" width="120" height="120" alt="sabor mango"></div>
+					<div class="col-xs-3 col-sm-2 flavors agua"><p class="satisfy text-center blanco">sandía c/ chile</p><img class="sandía con chile" src="/images/sandia-chile.png" width="120" height="120" alt="sabor sandía con chile"></div>
 					
-					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">berries</p><img src="/images/berries.png" width="120" height="120" alt="sabor berries"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">taro</p><img src="/images/taro.png" width="120" height="120" alt="sabor taro"></div>
+					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">matcha</p><img src="/images/matcha.png" width="120" height="120" alt="sabor matcha"></div>
 					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">cajeta</p><img src="/images/cajeta.png" width="120" height="120" alt="sabor cajeta"></div>
 					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">chocolate</p><img src="/images/chocolate.png" width="120" height="120" alt="sabor chocolate"></div>
 					<div class="col-xs-3 col-sm-2 flavors crema hidden"><p class="satisfy text-center blanco">chongos</p><img src="/images/chongos.png" width="120" height="120" alt="sabor chongos"></div>
