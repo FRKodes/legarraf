@@ -237,7 +237,7 @@ $(document).ready(function(){
 var reference = (function thename(){
 	var total = $('#price_per_head').val() * $('#num_people').val();
 	var total_agua = $('#price_garrafon').val() * $('#num_garrafones').val();
-	var litros = $('#num_people').val()/100*15;
+	var litros = $('#num_people').val()/100*17; /*Antes $15 nieve*/
 	var litros_agua = $('#num_garrafones').val() * 19;
 	litros = litros.toFixed(1);
 

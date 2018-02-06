@@ -4,6 +4,7 @@
 	@include('partials.metas')
 	@include('partials.styles')
 </head>
+<script> fbq('track', 'ViewContent'); </script>
 <body class="@yield('body_page')">
 	
 	@include('partials.social-stuff')

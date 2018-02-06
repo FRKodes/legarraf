@@ -32,7 +32,7 @@
 		<div class="quotation">
 			<h1 class="text-center eventos blanco oswald">¡SIMULA UNA COTIZACIÓN DE TU EVENTO!</h1>
 			{!! Form::open(['url'=>'sendmail2', 'id'=>'eventForm']) !!}
-				{!! Form::input('hidden', 'price_per_head', 14, ['id'=>'price_per_head']) !!}
+				{!! Form::input('hidden', 'price_per_head', 17, ['id'=>'price_per_head']) !!}
 				{!! Form::input('hidden', 'price_garrafon', 600, ['id'=>'price_garrafon']) !!}
 				{!! Form::input('hidden', 'total_price', null, ['id'=>'total_price']) !!}
 				{!! Form::input('hidden', 'total_price_agua', null, ['id'=>'total_price_agua']) !!}
@@ -131,10 +131,10 @@
 				<div class="text-center">*No es necesario que elijas los sabores en este momento.</div>
 				
 				<div class="form-group">
-					{!! Form::input('hidden', 'toppings_price', 3, ['id'=>'toppings_price', 'data-checked'=>'No']) !!}
+					{!! Form::input('hidden', 'toppings_price', 5, ['id'=>'toppings_price', 'data-checked'=>'No']) !!}
 					<span class="add">Deseas agregar: </span> &nbsp;
 					<a href="#toppings" class="check_selector" id="check_top"></a>
-					<div class="checkside satisfy"> &nbsp; Toppings </div> + $3 por persona
+					<div class="checkside satisfy"> &nbsp; Toppings </div> + $5 por persona
 				</div>
 
 				<p>Aquí están algunos de los toppings que puedes agregar:</p>
@@ -165,9 +165,9 @@
 				<p>Deseas que tu nieve sea endulzada con:</p>
 
 				<div class="form-group">
-					{!! Form::input('hidden', 'splenda_price', 3, ['id'=>'splenda_price', 'data-checked'=>'No']) !!}
+					{!! Form::input('hidden', 'splenda_price', 2, ['id'=>'splenda_price', 'data-checked'=>'No']) !!}
 					<a href="#splenda" class="check_selector" id="check_spl"></a>
-					<div class="checkside satisfy"> &nbsp; Splenda </div> + $3 por persona
+					<div class="checkside satisfy"> &nbsp; Splenda </div> + $2 por persona
 				</div>
 				
 				<h2 class="chalk_it mayus blanco text-center"><img src="/images/aguas-icon.png" id="aguas-icon-top" alt="aguas icon">aguas frescas</h2>
@@ -238,7 +238,7 @@
 		<p class="question">¿Cuál es el mínimo si quiero contratar aguas?</p>
 		<p class="answer">Si ya contrataste nieve 1 garrafón, si no 3 garrafones.</p>
 		<p class="question">¿Cuál es el costo por persona?</p>
-		<p class="answer">El costo por persona es de $14</p>
+		<p class="answer">El costo por persona es de $17</p>
 		<p class="question">¿Cuántos sabores?</p>
 		<p class="answer">Por cada 100 personas puedes agregar 3 sabores.</p>
 		<p class="question">¿Cuátos litros llevan para 100 personas?</p>
@@ -254,7 +254,7 @@
 		<p class="question">¿Cuántas bolas le dan a cada persona?</p>
 		<p class="answer">Aproximadamente se sirven 2 bolas por vasito.</p>
 		<p class="question">Si quiero toppings, ¿Cuánto me incrementa?</p>
-		<p class="answer">Si quieres toppings en tu evento te incrementa $3 por persona</p>
+		<p class="answer">Si quieres toppings en tu evento te incrementa $2 por persona</p>
 		<p class="question">¿Cómo van vestidos las personas que sirven el evento?</p>
 		<p class="answer">Las personas van uniformadas de LE GARRAF.</p>
 		<p class="question">¿Si me sobra nieve?</p>

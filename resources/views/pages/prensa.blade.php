@@ -114,8 +114,19 @@
 				<div class="extract">"El plan perfecto para esta época de calor"</div>
 				<div class="link"><a href="http://www.gentebien.com.mx/entretenimiento/restaurantes/top-5-neverias-en-guadalajara-5497" title="Ver artículo de Le Garraf en Gente bien" target="_blank">VER ARTÍCULO</a></div>
 			</div>
-			
-		</div>
 
+			<div class="item-prensa col-sm-4">
+				<div class="logo"><img src="/images/logos-prensa/mural.jpg" alt="logo mural"></div>
+				<div class="extract">"Buena mesa"</div>
+				<div class="link"><a href="/pdf/mural-buena-mesa-le-garraf.pdf" title="Buena mesa periódico mural" target="_blank">VER ARTÍCULO</a></div>
+			</div>
+
+			<div class="item-prensa col-sm-4">
+				<div class="logo"><img src="/images/logos-prensa/mural.jpg" alt="logo mural"></div>
+				<div class="extract">"Primera fila"</div>
+				<div class="link"><a href="/pdf/mural-primera-fila-le-garraf.pdf" title="Primera fila periódico mural" target="_blank">VER ARTÍCULO</a></div>
+			</div>
+
+		</div>
 	</div>
 @stop
