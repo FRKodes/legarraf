@@ -26,7 +26,6 @@
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">scone especial</p><img class="scone" src="/images/scone-especial-new.png" width="320" height="487" alt="scone especial LE GARRAF"></div>
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">cookie sandwich</p><img src="/images/cookie_sandwich_new.png" width="320" height="358" alt="coockie sandwich LE GARRAF"></div>
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">papas cuerdas</p><img class="" src="/images/papas-cuerdas.png" width="320" height="467" alt="papas cuerdas"></div>
-			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">mochis</p><img class="flanke" src="/images/le-garraf-mochis-productos.png" width="320" height="320" alt="mochis LE GARRAF"></div>
 			<div class="especialidad col-xs-6 col-md-4"><p class="satisfy text-center">bolis</p><img class="tresleches" src="/images/le-garraf-bolis-productos.png" width="320" height="422" alt="bolis LE GARRAF"></div>
 		</div>
 

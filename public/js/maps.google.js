@@ -3,7 +3,7 @@ var neruda = new google.maps.LatLng(20.697196,-103.390865);
 var chapalita = new google.maps.LatLng(20.708532,-103.411972);
 var andares = new google.maps.LatLng(20.665309,-103.408640);
 var toscana = new google.maps.LatLng(20.729280,-103.435140);
-var galerias = new google.maps.LatLng(20.676751,-103.431826);
+var centro_gdl = new google.maps.LatLng(20.675826, -103.347009);
 var ptovallarta = new google.maps.LatLng(20.644326,-105.238158);
 
 var mapOptions = {
@@ -33,9 +33,9 @@ var marker_toscana = new google.maps.Marker({
     title:"LE GARRAF Toscana"
 });
 
-var marker_galerias = new google.maps.Marker({
-    position: galerias,
-    title:"LE GARRAF Galerías GDL"
+var marker_centro_gdl = new google.maps.Marker({
+    position: centro_gdl,
+    title:"LE GARRAF Centro GDL"
 });
 
 var marker_ptovallarta = new google.maps.Marker({
@@ -47,6 +47,6 @@ var marker_ptovallarta = new google.maps.Marker({
 marker_toscana.setMap(map);
 marker_andares.setMap(map);
 marker_chapalita.setMap(map);
-marker_galerias.setMap(map);
+marker_centro_gdl.setMap(map);
 marker_ptovallarta.setMap(map);
 marker.setMap(map);

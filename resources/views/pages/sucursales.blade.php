@@ -65,18 +65,6 @@
 		</div>
 
 		<div class="sucursal col-xs-12 col-sm-6">
-			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> GALERÍAS</h2>
-			<p class="address">
-				Plaza Galerías Guadalajara<br>
-				Zona Food Court<br>
-				<a class="cafe" href="https://www.google.com.mx/maps/place/Galer%C3%ADas+Guadalajara/@20.676924,-103.4320144,19.69z/data=!4m5!3m4!1s0x8428aebe75ab8329:0x8d5f001385206f13!8m2!3d20.676715!4d-103.431727?hl=es-419" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
-			</p>
-			<div class="images">
-				<figure><img src="/images/le-garraf-galerias-guadalajra.jpg" alt="Le Garraf sucursal Galerías Guadalajara"></figure>
-			</div>
-		</div>
-
-		<div class="sucursal col-xs-12 col-sm-6">
 			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> PUERTO VALLARTA</h2>
 			<p class="address">
 				Plaza La Isla <br>
@@ -87,6 +75,18 @@
 				<figure><img src="/images/le-garraf-puerto-vallarta-plaza-la-isla.jpg" alt="Le Garraf sucursal Puerto Vallarta"></figure>
 			</div>
 		</div>
+
+		{{-- <div class="sucursal col-xs-12 col-sm-6">
+			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> CENTRO GUADALAJARA</h2>
+			<p class="address">
+				Plaza de armas <br>
+				Centro Histórico de Guadalajara<br>
+				<a class="cafe" href="https://goo.gl/maps/r6ymVjjoV7C2" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
+			</p>
+			<div class="images">
+				<figure><img src="/images/le-garraf-centro-guadalajara.jpg" alt="Le Garraf sucursal Centro de Guadalajara"></figure>
+			</div>
+		</div> --}}
 
 	</div>
 
