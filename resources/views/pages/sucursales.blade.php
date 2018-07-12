@@ -76,7 +76,7 @@
 			</div>
 		</div>
 
-		{{-- <div class="sucursal col-xs-12 col-sm-6">
+		<div class="sucursal col-xs-12 col-sm-6">
 			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> CENTRO GUADALAJARA</h2>
 			<p class="address">
 				Plaza de armas <br>
@@ -84,9 +84,21 @@
 				<a class="cafe" href="https://goo.gl/maps/r6ymVjjoV7C2" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
 			</p>
 			<div class="images">
-				<figure><img src="/images/le-garraf-centro-guadalajara.jpg" alt="Le Garraf sucursal Centro de Guadalajara"></figure>
+				<figure><img src="/images/le-garraf-sucursal-centro-guadalajara.jpg" alt="Le Garraf sucursal Centro de Guadalajara"></figure>
 			</div>
-		</div> --}}
+		</div>
+
+		<div class="sucursal col-xs-12 col-sm-6">
+			<h2 class="title cafe oswald"><span class="icon-garrafa"></span> PLAZA PATRIA</h2>
+			<p class="address">
+				Interior Plaza Patria <br>
+				Guadalajara<br>
+				<a class="cafe" href="https://goo.gl/maps/AcZbP7vfQ6m" target="_blank">VER MAPA <span class="icon-arrow"></span></a>
+			</p>
+			<div class="images">
+				<figure><img src="/images/le-garraf-plaza-patria-guadalajara.jpg" alt="Le Garraf sucursal Plaza Patria Guadalajara"></figure>
+			</div>
+		</div>
 
 	</div>
 

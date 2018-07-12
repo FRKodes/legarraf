@@ -5,6 +5,7 @@ var andares = new google.maps.LatLng(20.665309,-103.408640);
 var toscana = new google.maps.LatLng(20.729280,-103.435140);
 var centro_gdl = new google.maps.LatLng(20.675826, -103.347009);
 var ptovallarta = new google.maps.LatLng(20.644326,-105.238158);
+var patria = new google.maps.LatLng(20.712389,-103.378389);
 
 var mapOptions = {
   zoom: 10,
@@ -43,10 +44,16 @@ var marker_ptovallarta = new google.maps.Marker({
     title:"LE GARRAF Pto. Vallarta"
 });
 
+var marker_patria = new google.maps.Marker({
+    position: patria,
+    title:"LE GARRAF Plaza Patria"
+});
+
 // To add the marker to the map, call setMap();
 marker_toscana.setMap(map);
 marker_andares.setMap(map);
 marker_chapalita.setMap(map);
 marker_centro_gdl.setMap(map);
 marker_ptovallarta.setMap(map);
+marker_patria.setMap(map);
 marker.setMap(map);
